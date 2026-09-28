@@ -1,51 +1,57 @@
-﻿# Property Management
+﻿# Property Management Analytics
+
+A property-portfolio analytics model covering occupancy, leasing, maintenance, marketing, and financial performance.
 
 ## Project Overview
-This project is a property-operations and portfolio analytics solution built as a Power BI model and report. It consolidates property, lease, occupancy, financial, maintenance, lead, and marketing data into a portfolio-level operational view.
-
-## Project Nature
-Self-initiated analytics project using local source data for a property-management scenario.
+This project combines multiple operational data domains in a single Power BI model to support portfolio monitoring across properties, leases, vacancy, financials, maintenance, and activity KPIs.
 
 ## Business Context
-The project models a property portfolio with multiple operational data domains. It is designed to support monitoring of occupancy, leasing, marketing activity, maintenance, and financial performance across the portfolio.
+This is a self-initiated analytics project built around a local property-management scenario. The data is modeled for learning and portfolio demonstration rather than for a live property-operating system.
 
-## Data
-- Source type: CSV-based operational data files
-- Scope: property, occupancy, finance, lease, maintenance, marketing, and call data
-- Data nature: local project dataset for analytical modeling
+## Problem
+The project needed a single analytical view of property operations to compare occupancy, servicing activity, lead conversion, and financial health across the portfolio.
 
 ## Solution
-The project uses Power BI and a star-schema-oriented model to consolidate operational data and provide portfolio reporting across property performance dimensions.
+The repository contains a PBIP project with a semantic model and report pages covering executive summary, sales pipeline, property operations, financial overview, AI receptionist activity, and marketing performance.
 
-## Architecture / Workflow
-1. Import operational CSV files.
-2. Build a semantic model with relationships across property and event data.
-3. Create measures and report pages for operational KPIs.
-4. Present portfolio-level and property-level views for decision-making.
+## Data
+- Source type: CSV files
+- Data nature: local simulated property portfolio dataset
+- Key tables: Properties, DailyOccupancy, FinancialData, LeadsPipeline, LeaseData, MaintenanceTickets, MarketingCampaigns, AIReceptionistCalls
 
-## Key Features
-- property portfolio overview
-- occupancy monitoring
-- financial performance reporting
-- lease pipeline analysis
-- maintenance tracking
-- marketing and lead analysis
+## Technical Approach
+- load operational CSV datasets
+- build relationships across property, financial, and activity tables
+- develop portfolio and property-level measures in the semantic model
+- produce report pages for KPI review and trend tracking
 
-## Project Status
-This project demonstrates a complete local project structure and Power BI implementation, with the surrounding model and report assets preserved in the workspace.
+## Key Analytical Areas
+- occupancy and utilization analysis
+- lease and lead pipeline review
+- maintenance and property operations monitoring
+- marketing performance tracking
+- financial overview and portfolio-level trends
+
+## Evidence / Scope
+The repository contains the Power BI project, semantic model, report assets, and source CSV files. The evidence supports a local analytical model built for portfolio reporting rather than a production property system.
 
 ## Limitations
-- Data is project-local and not connected to a live operational system.
-- This represents a self-contained analytical workspace rather than a production deployment.
+- local synthetic/project dataset
+- no live operational system integration evidence
+- educational or demonstration scope
 
 ## Repository Structure
-- project source CSV files
-- Power BI PBIP / PBIX assets
-- semantic model files
-- report definition files
+- Property.pbip — Power BI project file
+- Property.Report — report definition
+- Property.SemanticModel — semantic model definition
+- *.csv files — operational source data
+- PROJECT_AUDIT.md — evidence summary
 
-## Technologies
+## Tools & Technologies
 - Power BI
-- CSV data import
-- semantic model design
-- DAX and report authoring
+- CSV data inputs
+- DAX measures
+- PBIP/PBIR semantic model
+
+## Project Status
+Self-initiated property analytics project with verified local project artifacts. No production deployment claims are made.
