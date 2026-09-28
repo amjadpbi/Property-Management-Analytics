@@ -1,0 +1,117 @@
+table MarketingCampaigns
+	lineageTag: 9bf439d8-046e-4372-907c-e65a51689633
+
+	column Month
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d2b59289-0a8d-41a2-8531-8a1eb3b1734d
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CampaignName
+		dataType: string
+		lineageTag: f430e596-a634-48e5-b41d-c3280e59a79c
+		summarizeBy: none
+		sourceColumn: CampaignName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Channel
+		dataType: string
+		lineageTag: 72abc408-4b72-484f-b85c-71a7a4ef5123
+		summarizeBy: none
+		sourceColumn: Channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column Budget
+		dataType: int64
+		formatString: 0
+		lineageTag: 8683b534-332a-48c1-a78b-ce3dc185d110
+		summarizeBy: sum
+		sourceColumn: Budget
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualSpend
+		dataType: double
+		lineageTag: 3620c7cf-7ea8-477a-b2d8-072082c93282
+		summarizeBy: sum
+		sourceColumn: ActualSpend
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Impressions
+		dataType: int64
+		formatString: 0
+		lineageTag: e9d7bee6-64ef-4fef-a696-e60e84c8f549
+		summarizeBy: sum
+		sourceColumn: Impressions
+
+		annotation SummarizationSetBy = Automatic
+
+	column Clicks
+		dataType: int64
+		formatString: 0
+		lineageTag: ae59cac3-3e6c-4f9d-a0fb-db8a94d974b6
+		summarizeBy: sum
+		sourceColumn: Clicks
+
+		annotation SummarizationSetBy = Automatic
+
+	column Leads
+		dataType: int64
+		formatString: 0
+		lineageTag: fa47f17b-41f8-42f4-b8e7-441a650d072f
+		summarizeBy: sum
+		sourceColumn: Leads
+
+		annotation SummarizationSetBy = Automatic
+
+	column Conversions
+		dataType: int64
+		formatString: 0
+		lineageTag: 70e73869-c5f4-4b68-ab00-239aa37181ad
+		summarizeBy: sum
+		sourceColumn: Conversions
+
+		annotation SummarizationSetBy = Automatic
+
+	column CPL
+		dataType: double
+		lineageTag: b2cdf38d-d5b6-47ef-b80c-46f136829175
+		summarizeBy: sum
+		sourceColumn: CPL
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ConversionRate
+		dataType: double
+		lineageTag: 07cd3d01-0bcf-42c2-a284-2c24b7b40d09
+		summarizeBy: sum
+		sourceColumn: ConversionRate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition MarketingCampaigns = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\MarketingCampaigns.csv"),[Delimiter=",", Columns=11, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Month", type date}, {"CampaignName", type text}, {"Channel", type text}, {"Budget", Int64.Type}, {"ActualSpend", type number}, {"Impressions", Int64.Type}, {"Clicks", Int64.Type}, {"Leads", Int64.Type}, {"Conversions", Int64.Type}, {"CPL", type number}, {"ConversionRate", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,53 @@
+table 'Expense Breakdown Table'
+	lineageTag: 05311943-85bc-43b7-aaef-4b6971d1c0f8
+
+	column Category
+		lineageTag: 904e81c9-b7f2-4586-8dec-127f248aa9d6
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Category]
+		sortByColumn: Order
+
+		annotation SummarizationSetBy = Automatic
+
+	column Order
+		formatString: 0
+		lineageTag: f0d0755a-4837-414c-af87-bd48ccac5cbd
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Order]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Type
+		lineageTag: 58dda25c-bd86-4dde-a500-a11d3df0970c
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Type]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Expense Breakdown Table' = calculated
+		mode: import
+		source = ```
+				
+				DATATABLE(
+				    "Category", STRING,
+				    "Order", INTEGER,
+				    "Type", STRING,
+				    {
+				        {"Revenue", 1, "Positive"},
+				        {"Maintenance", 2, "Negative"},
+				        {"Utilities", 3, "Negative"},
+				        {"Staff", 4, "Negative"},
+				        {"Marketing", 5, "Negative"},
+				        {"Other", 6, "Negative"},
+				        {"NOI", 7, "Positive"}
+				    }
+				)
+				
+				
+				```
+
+	annotation PBI_Id = 6d871ccc125245f6b7e90b1a307c7642
+

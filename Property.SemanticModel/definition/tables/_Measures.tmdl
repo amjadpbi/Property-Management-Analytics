@@ -1,0 +1,1129 @@
+table _Measures
+	lineageTag: 8c266cf4-3520-4584-b299-0f4e73d77be0
+
+	measure 'Total Revenue' =
+			
+			SUM(FinancialData[CollectedRevenue])
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: REVENUE METRICS
+		lineageTag: aa2a6ad9-ac55-4b15-bfa3-1d0b8548d300
+
+	measure 'Potential Revenue' =
+			
+			SUM(FinancialData[PotentialRevenue])
+		formatString: 0
+		displayFolder: REVENUE METRICS
+		lineageTag: e0dfd62b-787f-4df9-91bd-a24e93a30e5e
+
+	measure 'Revenue Target' =
+			
+			SUM(FinancialData[RevenueTarget])
+		displayFolder: REVENUE METRICS
+		lineageTag: 4cdc723a-a6f0-4132-80a3-b8162b8c0f4c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue vs Target' =
+			
+			[Total Revenue] - [Revenue Target]
+		displayFolder: REVENUE METRICS
+		lineageTag: 2f28c819-f89a-4f3d-85fe-1b5b498b682e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue vs Target %' =
+			
+			DIVIDE(
+			    [Total Revenue] - [Revenue Target],
+			    [Revenue Target],
+			    0
+			)
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: REVENUE METRICS
+		lineageTag: 6aec8a40-b2da-4b81-9e41-99029bb29326
+
+	measure 'Avg Monthly Revenue' =
+			
+			AVERAGEX(
+			    VALUES(DateTable[YearMonth]),
+			    [Total Revenue]
+			)
+		displayFolder: REVENUE METRICS
+		lineageTag: b30e969c-9cdb-4763-81ec-f194c97abaa6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Portfolio Occupancy Rate' =
+			
+			DIVIDE(
+			    SUM(DailyOccupancy[OccupiedUnits]),
+			    SUM(DailyOccupancy[TotalUnits]),
+			    0
+			)
+		formatString: 0%;-0%;0%
+		displayFolder: OCCUPANCY METRICS
+		lineageTag: c1a975eb-b803-44d4-944b-5ff225e72fdd
+
+	measure 'Total Units' = SUM('Properties'[TotalUnits])
+		formatString: 0
+		displayFolder: REVENUE METRICS
+		lineageTag: 8462ce53-4efb-4231-9d23-ab5a4d416050
+
+	measure 'Revenue per Unit' =
+			
+			DIVIDE(
+			    [Total Revenue],
+			    [Total Units],
+			    0
+			)
+		displayFolder: REVENUE METRICS
+		lineageTag: 0cfa1489-13e5-4d5a-a162-8d8fcdf44067
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Avg Occupancy Rate' =
+			
+			AVERAGEX(
+			    DailyOccupancy,
+			    DailyOccupancy[OccupancyRate]
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: OCCUPANCY METRICS
+		lineageTag: baef06ac-e204-4890-bbef-44a8c3223ea3
+
+	measure 'Occupied Units' =
+			
+			SUM(DailyOccupancy[OccupiedUnits])
+		formatString: 0
+		displayFolder: OCCUPANCY METRICS
+		lineageTag: 69c2d313-e02e-49b8-9440-836d85650520
+
+	measure 'Vacant Units' =
+			
+			SUM(DailyOccupancy[VacantUnits])
+		formatString: 0
+		displayFolder: OCCUPANCY METRICS
+		lineageTag: 08282d68-96f4-4f17-88d9-2633fdf4ec1a
+
+	measure 'Properties Below 90%' =
+			
+			COUNTROWS(
+			    FILTER(
+			        SUMMARIZE(
+			            DailyOccupancy,
+			            DailyOccupancy[PropertyID],
+			            "PropertyOccupancy", [Portfolio Occupancy Rate]
+			        ),
+			        [PropertyOccupancy] < 0.90
+			    )
+			)
+		formatString: 0
+		displayFolder: OCCUPANCY METRICS
+		lineageTag: 211e2a0f-95f9-42c6-9fa8-b4ede7da362a
+
+	measure 'Occupancy Trend' =
+			
+			VAR MinDate = MIN(DateTable[Date])
+			VAR MaxDate = MAX(DateTable[Date])
+			RETURN
+			CONCATENATEX(
+			    FILTER(
+			        ADDCOLUMNS(
+			            SUMMARIZE(DateTable, DateTable[Date]),
+			            "Occupancy", [Portfolio Occupancy Rate]
+			        ),
+			        DateTable[Date] >= MinDate && DateTable[Date] <= MaxDate
+			    ),
+			    FORMAT([Occupancy], "0.00%"),
+			    ",",
+			    DateTable[Date],
+			    ASC
+			)
+		displayFolder: OCCUPANCY METRICS
+		lineageTag: 9142e1ef-0041-4fa0-912e-5571a5529ff3
+
+	measure 'Total Leads' =
+			
+			COUNTROWS(LeadsPipeline)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: f262cc52-b17b-438e-a62f-a127e6d3d4ac
+
+	measure '1 - New Leads' =
+			
+			CALCULATE(
+			    COUNTROWS(LeadsPipeline),
+			    LeadsPipeline[Status] IN {"New", "Contacted", "Qualified", "Toured", "Application", "Lease Signed"}
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 8d52f66a-55b2-4a55-858e-e08742584c92
+
+	measure '3 - Qualified' =
+			
+			CALCULATE(
+			    COUNTROWS(LeadsPipeline),
+			    LeadsPipeline[Status] IN {"Qualified", "Toured", "Application", "Lease Signed"}
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: e1843f0c-8abf-48ef-9050-cf85d2e0bb83
+
+	measure 'Converted Leads' =
+			
+			CALCULATE(
+			    [Total Leads],
+			    LeadsPipeline[Status] = "Lease Signed"
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 38cf2921-b33c-4c76-8d9e-12197dfb31b2
+
+	measure 'Lead Conversion Rate' =
+			
+			DIVIDE(
+			    [Converted Leads],
+			    [Total Leads],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: ccb69036-5f66-461e-a415-23f2b6993cbe
+
+	measure 'Qualification Rate' =
+			
+			DIVIDE(
+			    [3 - Qualified],
+			    [Total Leads],
+			    0
+			)
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 389d43e7-8f0f-4368-b622-24dd3de8f819
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Lead to Tour Conversion' =
+			
+			VAR TouredLeads = CALCULATE([Total Leads], LeadsPipeline[Status] IN {"Toured", "Application", "Lease Signed"})
+			RETURN
+			    DIVIDE(TouredLeads, [Total Leads], 0)
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 31d9af75-6179-4f47-b99d-e84b8d1ad9ba
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Tour to Lease Conversion' =
+			
+			VAR TouredLeads = CALCULATE([Total Leads], LeadsPipeline[Status] IN {"Toured", "Application", "Lease Signed"})
+			VAR ConvertedLeads = [Converted Leads]
+			RETURN
+			    DIVIDE(ConvertedLeads, TouredLeads, 0)
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: eeea2f1a-16db-4e96-9816-aed1dd550e28
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Avg Days to Convert' =
+			
+			AVERAGEX(
+			    FILTER(
+			        LeadsPipeline,
+			        NOT ISBLANK(LeadsPipeline[ConversionDate])
+			    ),
+			    DATEDIFF(
+			        LeadsPipeline[LeadDate],
+			        LeadsPipeline[ConversionDate],
+			        DAY
+			    )
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 310d67bf-a610-4f7e-b704-4a1814a12079
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Lead Value' =
+			
+			SUMX(
+			    FILTER(
+			        LeadsPipeline,
+			        LeadsPipeline[Status] = "Lease Signed"
+			    ),
+			    LeadsPipeline[EstimatedMonthlyRent] * 12
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 9ab6f27f-e4d4-4a00-8152-d9b5da6ace8e
+
+	measure 'Avg Lead Score' =
+			
+			AVERAGE(LeadsPipeline[LeadScore])
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 87431f18-7fff-4005-9770-479bb61cd7d9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Weighted Pipeline Value' =
+			
+			SUMX(
+			    LeadsPipeline,
+			    LeadsPipeline[EstimatedMonthlyRent] * 12 *
+			    SWITCH(
+			        LeadsPipeline[Status],
+			        "Qualified", 0.25,
+			        "Toured", 0.50,
+			        "Application", 0.75,
+			        "Lease Signed", 1.00,
+			        0
+			    )
+			)
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 17d71096-e938-4ac0-80e1-68d2bfd0d305
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Pipeline Value' =
+			
+			SUMX(
+			    FILTER(
+			        LeadsPipeline,
+			        LeadsPipeline[Status] IN {"Qualified", "Toured", "Application"}
+			    ),
+			    LeadsPipeline[EstimatedMonthlyRent] * 12
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: d42c3bbc-986f-4952-8400-79b97cc49fb2
+
+	measure 'Total Expenses' =
+			
+			SUM(FinancialData[TotalExpenses])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: FINANCIAL METRICS
+		lineageTag: da65b8a5-04e8-4503-999d-e7f1c5c96c88
+
+	measure NOI =
+			
+			SUM(FinancialData[NetOperatingIncome])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: FINANCIAL METRICS
+		lineageTag: c2dbbada-8544-4f53-bb45-db47a9bc4a73
+
+	measure 'NOI Margin' =
+			
+			DIVIDE(
+			    [NOI],
+			    [Total Revenue],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: FINANCIAL METRICS
+		lineageTag: cbb9f358-4440-446c-9d20-a2882b51d721
+
+	measure 'Collection Rate' =
+			
+			DIVIDE(
+			    SUM(FinancialData[CollectedRevenue]),
+			    SUM(FinancialData[ActualRevenue]),
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: FINANCIAL METRICS
+		lineageTag: ae25e902-77b5-4292-856b-83f9fe870aa6
+
+	measure 'Delinquency Amount' =
+			
+			SUM(FinancialData[ActualRevenue]) - SUM(FinancialData[CollectedRevenue])
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 5eb75652-8ab3-4eb9-b3b6-8a414dcc0125
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Delinquency Rate' =
+			
+			1 - [Collection Rate]
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 0a449527-d818-488c-ae5f-e0bfa5e5b55b
+
+	measure 'Operating Expense Ratio' =
+			
+			DIVIDE(
+			    [Total Expenses],
+			    [Total Revenue],
+			    0
+			)
+		displayFolder: FINANCIAL METRICS
+		lineageTag: fd859782-ed3f-47f8-8647-2177836bc77c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Maintenance Cost per Unit' =
+			
+			DIVIDE(
+			    SUM(FinancialData[MaintenanceCost]),
+			    [Total Units],
+			    0
+			)
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 8d14d052-4484-42ab-86b9-9a993954596f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue per Sq Ft' =
+			
+			DIVIDE(
+			    [Total Revenue],
+			    [Total Units] * 950, -- Assuming avg 950 sq ft per unit
+			    0
+			)
+		displayFolder: FINANCIAL METRICS
+		lineageTag: a04102da-fa72-4d27-b163-a6a5af13efe0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Break-even Occupancy' =
+			
+			DIVIDE(
+			    [Total Expenses],
+			    [Potential Revenue],
+			    0
+			)
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 8542990d-cf86-4e72-86c4-7059ed270a7b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Tickets' =
+			
+			COUNTROWS(MaintenanceTickets)
+		formatString: 0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: f59e52df-f38f-4970-956d-ec8ee5400f96
+
+	measure 'Open Tickets' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    MaintenanceTickets[Status] <> "Closed"
+			)
+		formatString: 0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 6b4d5b7b-bc84-4c31-81dc-ca812ff4ebe9
+
+	measure 'Closed Tickets' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    MaintenanceTickets[Status] = "Closed"
+			)
+		formatString: 0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 33b0ef75-1525-481b-9fbe-c99673fb89f8
+
+	measure 'Avg Resolution Time' =
+			
+			AVERAGEX(
+			    FILTER(
+			        MaintenanceTickets,
+			        MaintenanceTickets[Status] = "Closed"
+			    ),
+			    MaintenanceTickets[DaysToResolve]
+			)
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: a159afc0-90f4-4338-a836-e6e03cce4154
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Tickets This Month' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    DATESMTD(DateTable[Date])
+			)
+		formatString: 0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 3c642114-dd48-46a5-b2df-a2b8863980d1
+
+	measure 'Emergency Tickets' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    MaintenanceTickets[Priority] = "Emergency"
+			)
+		formatString: 0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 1798a912-8fbe-49a8-8d3e-649c10a2164b
+
+	measure 'Tickets by Priority' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    ALLEXCEPT(MaintenanceTickets, MaintenanceTickets[Priority])
+			)
+		formatString: 0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: f43676a3-07b4-4577-a771-c751ce733717
+
+	measure 'Avg Ticket Cost' =
+			
+			AVERAGE(MaintenanceTickets[Cost])
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 05c28046-d967-4075-8b60-830f8ddf85d1
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Maintenance Cost' =
+			
+			SUM(MaintenanceTickets[Cost])
+		formatString: \$#,0.0;(\$#,0.0);\$#,0.0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 9cf8e63f-3b73-4705-a58b-86a7d9c81726
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'SLA Compliance Rate' = ```
+			
+			VAR ClosedTickets = [Closed Tickets]
+			VAR OnTimeTickets = 
+			    CALCULATE(
+			        [Total Tickets],
+			        MaintenanceTickets[Status] = "Closed",
+			        MaintenanceTickets[DaysToResolve] <= 
+			            SWITCH(
+			                MaintenanceTickets[Priority],
+			                "Emergency", 1,
+			                "High", 3,
+			                "Medium", 7,
+			                "Low", 14,
+			                14
+			            )
+			    )
+			RETURN
+			    DIVIDE(OnTimeTickets, ClosedTickets, 0)
+			```
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 2e6ded2c-7f09-4bc4-9cc1-f617fa715b8e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Aging Tickets' =
+			
+			CALCULATE(
+			    [Total Tickets],
+			    MaintenanceTickets[Status] <> "Closed",
+			    MaintenanceTickets[DaysToResolve] > 7
+			)
+		formatString: 0
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: 2844fe0e-a367-4511-b7d0-1b8cdb81ad24
+
+	measure 'Work Order Completion Rate' =
+			
+			DIVIDE(
+			    [Closed Tickets],
+			    [Total Tickets],
+			    0
+			)
+		displayFolder: MAINTENANCE METRICS
+		lineageTag: cf9312a3-69c1-4fa2-bb04-4f702187a623
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Calls' =
+			
+			COUNTROWS(AIReceptionistCalls)
+		formatString: 0
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 3099ac15-dda4-40a7-bf70-d43559d52f7b
+
+	measure 'Calls Today' =
+			
+			CALCULATE(
+			    [Total Calls],
+			    AIReceptionistCalls[CallDate] = Max(AIReceptionistCalls[CallDate])
+			)
+		formatString: 0
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 6cfb4022-06f4-4195-82f1-cd9756ad7027
+
+	measure 'Qualified Lead Calls' =
+			
+			CALCULATE(
+			    [Total Calls],
+			    AIReceptionistCalls[IsQualifiedLead] = TRUE
+			)
+		formatString: 0
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: f77d5fe5-8904-4837-b5aa-5b2c6c97e87e
+
+	measure 'Lead Qualification Rate' =
+			
+			VAR NewLeadCalls = CALCULATE([Total Calls], AIReceptionistCalls[CallType] = "New Lead Inquiry")
+			VAR QualifiedCalls = [Qualified Lead Calls]
+			RETURN
+			    DIVIDE(QualifiedCalls, NewLeadCalls, 0)
+		formatString: 0%;-0%;0%
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 9fa3f4fc-d5c1-4dc9-b6f9-17fe8792c9ff
+
+	measure 'Appointments Booked' =
+			
+			CALCULATE(
+			    [Total Calls],
+			    AIReceptionistCalls[AppointmentBooked] = TRUE
+			)
+		formatString: 0
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: c7dabaee-7ca5-4c21-97fc-afffe80bc339
+
+	measure 'Appointment Booking Rate' = ```
+			
+			VAR EligibleCalls = 
+			    CALCULATE(
+			        [Total Calls],
+			        AIReceptionistCalls[CallType] IN {"New Lead Inquiry", "Showing Request"}
+			    )
+			VAR BookedCalls = [Appointments Booked]
+			RETURN
+			    DIVIDE(BookedCalls, EligibleCalls, 0)
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 7b3dde05-c642-4cff-8a02-bb5ca51d1c1d
+
+	measure 'Avg Call Duration' =
+			
+			AVERAGE(AIReceptionistCalls[DurationSeconds]) / 60
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: bab30bdd-660f-461b-b5e8-23c91a5181b0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Call Minutes' =
+			
+			SUM(AIReceptionistCalls[DurationSeconds]) / 60
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 870eb00c-c285-4630-a0dd-49d768192fdb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Call Resolution Rate' =
+			
+			CALCULATE(
+			    [Total Calls],
+			    AIReceptionistCalls[Resolved] = TRUE
+			) / [Total Calls]
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 541650b7-387c-4c70-932a-7435b4d23e60
+
+	measure 'Avg Sentiment Score' =
+			
+			AVERAGE(AIReceptionistCalls[SentimentScore])
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: ebbe31bb-ef05-46a1-b64c-e8349666b9dc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Peak Call Hour' = ```
+			
+			VAR CallsByHour = 
+			    ADDCOLUMNS(
+			        VALUES(AIReceptionistCalls[CallHour]),
+			        "CallCount", [Total Calls]
+			    )
+			VAR MaxCalls = MAXX(CallsByHour, [CallCount])
+			VAR PeakHour = 
+			    MINX(
+			        FILTER(CallsByHour, [CallCount] = MaxCalls),
+			        AIReceptionistCalls[CallHour]
+			    )
+			RETURN PeakHour
+			```
+		formatString: 0
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 57c13767-1f2c-4e7a-a38d-52ac35b0054e
+
+	measure 'AI Call to Lead Conversion' =
+			
+			VAR AILeadCalls = CALCULATE([Total Calls], AIReceptionistCalls[CallType] = "New Lead Inquiry")
+			VAR AISourceLeads = CALCULATE([Total Leads], LeadsPipeline[Source] = "AI Receptionist")
+			RETURN
+			    DIVIDE(AISourceLeads, AILeadCalls, 0)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 56975624-e042-419c-9341-e2d49e9cebd0
+
+	measure 'Business Hours Calls' =
+			
+			CALCULATE(
+			    [Total Calls],
+			    AIReceptionistCalls[IsBusinessHours] = TRUE
+			)
+		formatString: 0
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 8ee1c133-b128-4021-91f8-cef784c54ac5
+
+	measure 'After Hours Calls' =
+			
+			CALCULATE(
+			    [Total Calls],
+			    AIReceptionistCalls[IsBusinessHours] = FALSE
+			)
+		formatString: 0
+		displayFolder: AI RECEPTIONIST METRICS
+		lineageTag: 806bec30-bf65-4153-b20e-51703e093525
+
+	measure 'Total Marketing Spend' =
+			
+			SUM(MarketingCampaigns[ActualSpend])
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: MARKETING METRICS
+		lineageTag: 5f36a2ad-c670-4eee-8782-412ffe588c2e
+
+	measure 'Marketing Budget' =
+			
+			SUM(MarketingCampaigns[Budget])
+		formatString: 0
+		displayFolder: MARKETING METRICS
+		lineageTag: 57c3e5ce-3ebc-4430-8bcd-b7195bb6d5ab
+
+	measure 'Budget Utilization' =
+			
+			DIVIDE(
+			    [Total Marketing Spend],
+			    [Marketing Budget],
+			    0
+			)
+		displayFolder: MARKETING METRICS
+		lineageTag: 81efcc98-d282-454c-86c9-90d481813845
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Marketing Leads' =
+			
+			SUM(MarketingCampaigns[Leads])
+		formatString: 0
+		displayFolder: MARKETING METRICS
+		lineageTag: d57d0da0-5865-448e-b876-bb35f8b219af
+
+	measure 'Total Marketing Conversions' =
+			
+			SUM(MarketingCampaigns[Conversions])
+		formatString: 0
+		displayFolder: MARKETING METRICS
+		lineageTag: f475b915-c561-4d66-beb3-f35e324ba715
+
+	measure 'Cost Per Lead' =
+			
+			DIVIDE(
+			    [Total Marketing Spend],
+			    [Total Marketing Leads],
+			    0
+			)
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: MARKETING METRICS
+		lineageTag: b0994496-67a4-4900-a407-9fea7976dd2c
+
+	measure 'Cost Per Acquisition' =
+			
+			DIVIDE(
+			    [Total Marketing Spend],
+			    [Total Marketing Conversions],
+			    0
+			)
+		displayFolder: MARKETING METRICS
+		lineageTag: cf5109f2-4472-4104-9a96-517f851c7e5b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Marketing ROI' = ```
+			
+			VAR RevenueFromMarketing = 
+			    SUMX(
+			        FILTER(
+			            LeadsPipeline,
+			            LeadsPipeline[Status] = "Lease Signed" &&
+			            LeadsPipeline[Source] IN {"Google Ads", "Facebook Ads", "Website Organic", "Property Portals", "Email Campaign"}
+			        ),
+			        LeadsPipeline[EstimatedMonthlyRent] * 12
+			    )
+			VAR MarketingSpend = [Total Marketing Spend]
+			RETURN
+			    DIVIDE(RevenueFromMarketing - MarketingSpend, MarketingSpend, 0)
+			```
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: MARKETING METRICS
+		lineageTag: 5972c35e-4386-4b34-acb5-fb8519c8e852
+
+	measure 'Channel Conversion Rate' =
+			
+			DIVIDE(
+			    SUM(MarketingCampaigns[Conversions]),
+			    SUM(MarketingCampaigns[Leads]),
+			    0
+			)
+		formatString: 0%;-0%;0%
+		displayFolder: MARKETING METRICS
+		lineageTag: a7f7ba50-2de5-4eeb-8604-751dab76a9c2
+
+	measure CTR =
+			
+			DIVIDE(
+			    SUM(MarketingCampaigns[Clicks]),
+			    SUM(MarketingCampaigns[Impressions]),
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: MARKETING METRICS
+		lineageTag: cbdda772-697a-49bc-975a-6467dfde8a14
+
+	measure 'Lead to Customer Rate' =
+			
+			VAR Leads = [Total Marketing Leads]
+			VAR Customers = [Total Marketing Conversions]
+			RETURN
+			    DIVIDE(Customers, Leads, 0)
+		displayFolder: MARKETING METRICS
+		lineageTag: 06393ca0-e1c6-4202-8e65-0f2fa0259411
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Campaign Performance Score' =
+			
+			AVERAGEX(
+			    MarketingCampaigns,
+			    (MarketingCampaigns[Conversions] / MarketingCampaigns[Leads]) * 100 +
+			    (1 / MarketingCampaigns[CPL]) * 1000
+			)
+		displayFolder: MARKETING METRICS
+		lineageTag: 826c3e36-cfc6-4885-8043-70094b60b40b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue MTD' =
+			
+			CALCULATE(
+			    [Total Revenue],
+			    DATESMTD(FinancialData[Month])
+			)
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: d792cbff-6903-409c-84f8-057713152661
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue 3M MA' =
+			
+			CALCULATE(
+			    [Total Revenue],
+			    DATESINPERIOD(
+			        FinancialData[Month],
+			        LASTDATE(FinancialData[Month]),
+			        -3,
+			        MONTH
+			    )
+			) / 3
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: 6170c407-f0c2-4b70-8931-249894f1d9bb
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure '4 - Toured' =
+			
+			CALCULATE(
+			    COUNTROWS(LeadsPipeline),
+			    LeadsPipeline[Status] IN {"Toured", "Application", "Lease Signed"}
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 1728fe69-8f40-47b4-a8a0-e14bc6306a98
+
+	measure '5 - Application' =
+			
+			CALCULATE(
+			    COUNTROWS(LeadsPipeline),
+			    LeadsPipeline[Status] IN {"Application", "Lease Signed"}
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 564279c5-3a87-4a0f-b632-e81254da3c11
+
+	measure '6 - Lease Signed' =
+			
+			CALCULATE(
+			    COUNTROWS(LeadsPipeline),
+			    LeadsPipeline[Status] = "Lease Signed"
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: e87242da-9648-4a5f-9fae-8cf290f74c75
+
+	measure '2 - Contacted' =
+			
+			CALCULATE(
+			    COUNTROWS(LeadsPipeline),
+			    LeadsPipeline[Status] IN {"Contacted", "Qualified", "Toured", "Application", "Lease Signed"}
+			)
+		formatString: 0
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 9f5186b8-312a-4c0f-95ff-4398c810475f
+
+	measure 'Total Revenue PM' =
+			
+			VAR CurrentMonth = MAX(FinancialData[Month])
+			VAR PreviousMonthStart = EOMONTH(CurrentMonth, -2) + 1
+			VAR PreviousMonthEnd = EOMONTH(CurrentMonth, -1)
+			RETURN
+			CALCULATE(
+			    [Total Revenue],
+			    DATESBETWEEN(DateTable[Date], PreviousMonthStart, PreviousMonthEnd),
+			    ALL(DateTable)
+			)
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: c18f85bb-8593-49be-a6e9-0fdad81f99c3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Revenue Change MoM %' =
+			
+			DIVIDE(
+			    [Revenue MTD] - [Total Revenue PM],
+			    [Total Revenue PM],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: d8db4da0-4dec-4974-8d6f-880d8b071bbd
+
+	measure 'MTD Occupancy' = CALCULATE([Portfolio Occupancy Rate], DATESMTD(DailyOccupancy[Date]))
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: 45b5ae02-8eb9-480b-be0b-70496e58fe41
+
+	measure 'Occupance Rate PM' = ```
+			
+			CALCULATE(
+			    [Portfolio Occupancy Rate],
+			    DATEADD('DateTable'[Date], -1, MONTH)
+			)
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: af5a1928-270b-439f-8eb8-34a0d6e92162
+
+	measure 'Occupance Change MoM %' =
+			
+			DIVIDE(
+			    [MTD Occupancy] - [Occupance Rate PM],
+			    [Occupance Rate PM],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: 29547d71-06dc-4fe9-9bfb-3cda71973eee
+
+	measure 'MTD Leads' = CALCULATE([Total Leads], DATESMTD(LeadsPipeline[LeadDate]))
+		formatString: 0
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: 3a477f81-0051-49ec-b1a7-a2c5d355d57e
+
+	measure 'Leads PM' = ```
+			
+			VAR CurrentMonth = MAX('LeadsPipeline'[LeadDate])
+			VAR PrevMonthStart = DATE(YEAR(CurrentMonth), MONTH(CurrentMonth)-1, 1)
+			VAR PrevMonthEnd = EOMONTH(CurrentMonth, -1)
+			RETURN
+			CALCULATE(
+			    [Total Leads],
+			    FILTER(
+			        ALL('LeadsPipeline'[LeadDate]),  // Remove all date filters
+			        'LeadsPipeline'[LeadDate] >= PrevMonthStart &&
+			        'LeadsPipeline'[LeadDate] <= PrevMonthEnd
+			    )
+			)
+			
+			```
+		formatString: 0
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: c22d0a4c-c06a-4a4e-b636-5e71a6fd600b
+
+	measure 'Lead Change MoM %' =
+			
+			DIVIDE(
+			    [MTD Leads] - [Leads PM],
+			    [Leads PM],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: d5bf8922-9463-4852-9d9a-64d82d58f7c2
+
+	measure 'MTD Conv. Rate' = CALCULATE([Lead Conversion Rate], DATESMTD(LeadsPipeline[LeadDate]))
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: 86725d04-c979-4b51-94d4-906035b640a9
+
+	measure 'Conv.Rate PM' = ```
+			
+			VAR CurrentMonth = MAX('LeadsPipeline'[LeadDate])
+			VAR PrevMonthStart = DATE(YEAR(CurrentMonth), MONTH(CurrentMonth)-1, 1)
+			VAR PrevMonthEnd = EOMONTH(CurrentMonth, -1)
+			RETURN
+			CALCULATE(
+			    [Lead Conversion Rate],
+			    FILTER(
+			        ALL('LeadsPipeline'),  // Ignore all filters on the table
+			        'LeadsPipeline'[LeadDate] >= PrevMonthStart &&
+			        'LeadsPipeline'[LeadDate] <= PrevMonthEnd
+			    )
+			)
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: bfc7a6ad-2c04-4d64-8bcb-423292f0b443
+
+	measure 'Conv. Rate Change MoM %' =
+			
+			DIVIDE(
+			    [MTD Conv. Rate] - [Conv.Rate PM],
+			    [Conv.Rate PM],
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: TIME INTELLIGENCE
+		lineageTag: 68023b63-244f-4cef-84e3-e7b967f7712e
+
+	measure 'Revenue by Sales Rep' = ```
+			
+			VAR AnnualRevenue = 
+			    SUMX(
+			        FILTER(LeadsPipeline, LeadsPipeline[Status] = "Lease Signed"),
+			        LeadsPipeline[EstimatedMonthlyRent] * 12
+			    )
+			RETURN
+			    AnnualRevenue
+			```
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		displayFolder: REVENUE METRICS
+		lineageTag: 99d9fe7a-f1dc-4487-9094-43684d9c6a7f
+
+	measure 'Utilities Expenses' =
+			
+			SUM(FinancialData[UtilitiesCost])
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 9cf198a5-4b5b-42a8-a32e-65dc45d89389
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Staff Expenses' =
+			
+			SUM(FinancialData[StaffCost])
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 8d7c6afc-ce3f-4a52-aec6-aa22beea493b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Marketing Expense' =
+			
+			SUM(FinancialData[MarketingCost])
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 63672beb-c955-4734-9f14-9ce5da3ea080
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Other Expense' =
+			
+			SUM(FinancialData[OtherExpenses])
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 7faa0d4a-2511-409f-a6a1-750a4b74741e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Expense Breakdown Value' = ```
+			
+			VAR Cat = SELECTEDVALUE('Expense Breakdown Table'[Category])
+			RETURN
+			SWITCH(
+			    Cat,
+			    "Revenue", [Total Revenue],
+			    "Maintenance", -[Total Maintenance Cost],
+			    "Utilities", -[Utilities Expenses],
+			    "Staff", -[Staff Expenses],
+			    "Marketing", -[Marketing Expense],
+			    "Other", -[Other Expense],
+			    "NOI", [NOI]
+			)
+			
+			
+			```
+		displayFolder: FINANCIAL METRICS
+		lineageTag: 9766294f-9854-469d-ab6c-e745051e544c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Marketing ROI by Channel' = ```
+			
+			VAR CurrentChannel = SELECTEDVALUE(MarketingCampaigns[Channel])
+			VAR RevenueFromChannel = 
+			    SUMX(
+			        FILTER(
+			            LeadsPipeline,
+			            LeadsPipeline[Status] = "Lease Signed" &&
+			            LeadsPipeline[Source] = CurrentChannel
+			        ),
+			        LeadsPipeline[EstimatedMonthlyRent] * 12
+			    )
+			VAR ChannelSpend = SUM(MarketingCampaigns[ActualSpend])
+			RETURN
+			    DIVIDE(RevenueFromChannel - ChannelSpend, ChannelSpend, 0)
+			```
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: MARKETING METRICS
+		lineageTag: e015a3c9-1f7c-4a75-a2fd-d386e2e9b387
+
+	measure 'Lead Quality Score' =
+			
+			VAR ConvRate = [Lead Conversion Rate]
+			VAR QualRate = [Qualification Rate]
+			VAR AvgDays = [Avg Days to Convert]
+			RETURN
+			    (ConvRate * 0.5) + (QualRate * 0.3) + (1 - (AvgDays / 20) * 0.2)
+		displayFolder: LEAD & SALES METRICS
+		lineageTag: 71328eef-d9be-4623-bdcf-368e2af8fb95
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Lead Source ROI' = ```
+			
+			VAR SourceRevenue = 
+			    SUMX(
+			        FILTER(LeadsPipeline, LeadsPipeline[Status] = "Lease Signed"),
+			        LeadsPipeline[EstimatedMonthlyRent] * 12
+			    )
+			VAR SourceSpend = 
+			    CALCULATE(
+			        SUM(MarketingCampaigns[ActualSpend]),
+			        TREATAS(VALUES(LeadsPipeline[Source]), MarketingCampaigns[Channel])
+			    )
+			RETURN
+			    DIVIDE((SourceRevenue - SourceSpend), SourceSpend, 0)
+			```
+		formatString: \$#,0;(\$#,0);\$#,0
+		displayFolder: MARKETING METRICS
+		lineageTag: 116b74c1-44d5-4178-931e-a0c9cbbcab85
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+

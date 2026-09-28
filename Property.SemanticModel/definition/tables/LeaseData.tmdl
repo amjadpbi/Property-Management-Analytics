@@ -1,0 +1,118 @@
+table LeaseData
+	lineageTag: 3a73357f-499d-4c36-9210-b3d905478eec
+
+	column LeaseID
+		dataType: string
+		lineageTag: 35386cc2-9684-485a-8d05-c8938566e5be
+		summarizeBy: none
+		sourceColumn: LeaseID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PropertyID
+		dataType: string
+		lineageTag: 5e880301-4fb6-400d-a6a2-17301c3040ec
+		summarizeBy: none
+		sourceColumn: PropertyID
+
+		annotation SummarizationSetBy = Automatic
+
+	column UnitNumber
+		dataType: int64
+		formatString: 0
+		lineageTag: b4ac236b-59f8-41a0-936a-4b654a11c005
+		summarizeBy: sum
+		sourceColumn: UnitNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column LeaseStartDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 19923f85-b526-41df-a42e-80ea32234969
+		summarizeBy: none
+		sourceColumn: LeaseStartDate
+
+		variation Variation
+			isDefault
+			relationship: a27d5775-b340-4ad3-a287-f1915303f928
+			defaultHierarchy: LocalDateTable_74cde856-9ed3-4750-b359-d6486dcf3bf1.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column LeaseEndDate
+		dataType: dateTime
+		formatString: dd-mmm-yyyy
+		lineageTag: f30194fa-184e-4c29-ac48-65647f4b3f3b
+		summarizeBy: none
+		sourceColumn: LeaseEndDate
+
+		variation Variation
+			isDefault
+			relationship: 827613a3-8659-4bbf-a91f-752402672bb9
+			defaultHierarchy: LocalDateTable_e19e89ee-faea-413d-9ccd-14ebb44895f4.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column MonthlyRent
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 97f7194a-aa78-4748-a81a-b434301078e2
+		summarizeBy: sum
+		sourceColumn: MonthlyRent
+
+		annotation SummarizationSetBy = Automatic
+
+	column LeaseTerm
+		dataType: int64
+		formatString: 0
+		lineageTag: 0d2fef05-9f6d-4eaa-9a88-0bbae11153b4
+		summarizeBy: sum
+		sourceColumn: LeaseTerm
+
+		annotation SummarizationSetBy = Automatic
+
+	column RenewalStatus
+		dataType: string
+		lineageTag: f8a24f44-9b00-4220-b83b-8348184f989a
+		summarizeBy: none
+		sourceColumn: RenewalStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantType
+		dataType: string
+		lineageTag: 288b657d-ff2f-477d-a33c-7f27c092b4df
+		summarizeBy: none
+		sourceColumn: TenantType
+
+		annotation SummarizationSetBy = Automatic
+
+	column LeaseEndDate_Display =
+			
+			FORMAT ( [LeaseEndDate], "MMM DD, YYYY" )
+		lineageTag: fe4226ef-2729-4dc2-89c0-e7406d75ecf2
+		summarizeBy: none
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	partition LeaseData = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\LeaseData.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"LeaseID", type text}, {"PropertyID", type text}, {"UnitNumber", Int64.Type}, {"LeaseStartDate", type date}, {"LeaseEndDate", type date}, {"MonthlyRent", Int64.Type}, {"LeaseTerm", Int64.Type}, {"RenewalStatus", type text}, {"TenantType", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

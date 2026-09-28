@@ -1,0 +1,207 @@
+table DateTable
+	lineageTag: 0b631dae-63b3-42d0-958c-48feede733bd
+
+	column Date
+		formatString: dd/mm/yyyy
+		lineageTag: a1e294cd-dffb-4a05-9e34-256021a5a033
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: c52d3571-6762-48fa-a41c-b3b09cbb20fd
+			defaultHierarchy: LocalDateTable_2e143aa5-9bbc-4196-ba0e-e5d2737a3acb.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column Year
+		formatString: 0
+		lineageTag: a3c1c959-2984-47dc-8b6d-9fec3d9d6443
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Year]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		lineageTag: ad0fb00f-0179-4611-a318-e8d8ada670ba
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Quarter]
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterNumber
+		formatString: 0
+		lineageTag: 92e0c88b-a647-4022-857c-d445893a6dc9
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [QuarterNumber]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		lineageTag: 1c2b8c8f-192b-4046-8de2-e84320cab1aa
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Month]
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthNumber
+		formatString: 0
+		lineageTag: 077e9737-e78e-4232-b610-61f34ad48fd1
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [MonthNumber]
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthShort
+		lineageTag: 49250a4a-cf9e-40e5-8f0a-014b81b8a401
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [MonthShort]
+		sortByColumn: MonthNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearMonth
+		lineageTag: 5ef0ec4e-f74e-43f4-b2a9-27f1018e0dad
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [YearMonth]
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekOfYear
+		formatString: 0
+		lineageTag: 90484352-1e9d-44ac-811c-cb1bd325345c
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [WeekOfYear]
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeek
+		lineageTag: b5239065-440c-4896-804a-0d76e86e2679
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [DayOfWeek]
+		sortByColumn: DayOfWeekNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeekNumber
+		formatString: 0
+		lineageTag: 908f51c5-2c43-45dc-9d53-71c5eedf765b
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [DayOfWeekNumber]
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsWeekend
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: b8201065-e9f8-4ed1-8036-43948ff7619f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [IsWeekend]
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalQuarter
+		lineageTag: 4f49110c-6504-4b82-9792-4479588780ec
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [FiscalQuarter]
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearQuarter
+		lineageTag: d6c8d2bd-43cf-4b11-b323-1ea6dafa8695
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [YearQuarter]
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsToday
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: a2a75058-f7fa-4362-a2c5-3e97ed709b73
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [IsToday]
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsYesterday
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: dcb3e259-4b0c-488c-89d5-607947a93b28
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [IsYesterday]
+
+		annotation SummarizationSetBy = Automatic
+
+	column DaysFromToday
+		formatString: 0
+		lineageTag: b0625d75-456d-47aa-aae9-d01698d655d9
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [DaysFromToday]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Short Weekday' = ```
+			
+			SWITCH(
+			    'DateTable'[DayOfWeek],
+			    "Monday", "Mon",
+			    "Tuesday", "Tue",
+			    "Wednesday", "Wed",
+			    "Thursday", "Thu",
+			    "Friday", "Fri",
+			    "Saturday", "Sat",
+			    "Sunday", "Sun"
+			)
+			
+			
+			```
+		lineageTag: 0ad2304d-9d8c-4d6d-98f5-5e00a01e61d9
+		summarizeBy: none
+		sortByColumn: DayOfWeekNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DateTable = calculated
+		mode: import
+		source =
+				
+				ADDCOLUMNS(
+				    CALENDAR(DATE(2024, 1, 1), DATE(2025, 12, 31)),
+				    "Year", YEAR([Date]),
+				    "Quarter", "Q" & FORMAT(QUARTER([Date]), "0"),
+				    "QuarterNumber", QUARTER([Date]),
+				    "Month", FORMAT([Date], "MMMM"),
+				    "MonthNumber", MONTH([Date]),
+				    "MonthShort", FORMAT([Date], "MMM"),
+				    "YearMonth", FORMAT([Date], "YYYY-MM"),
+				    "WeekOfYear", WEEKNUM([Date], 2),
+				    "DayOfWeek", FORMAT([Date], "dddd"),
+				    "DayOfWeekNumber", WEEKDAY([Date], 2),
+				    "IsWeekend", IF(WEEKDAY([Date], 2) >= 6, TRUE, FALSE),
+				    "FiscalQuarter", "FQ" & FORMAT(QUARTER(DATE(YEAR([Date]), MONTH([Date]) + 3, DAY([Date]))), "0"),
+				    "YearQuarter", FORMAT([Date], "YYYY") & "-Q" & FORMAT(QUARTER([Date]), "0"),
+				    "IsToday", IF([Date] = TODAY(), TRUE, FALSE),
+				    "IsYesterday", IF([Date] = TODAY() - 1, TRUE, FALSE),
+				    "DaysFromToday", DATEDIFF([Date], TODAY(), DAY)
+				)
+
+	annotation PBI_Id = 0321617d06b147d18a8c2ab0ac34b002
+

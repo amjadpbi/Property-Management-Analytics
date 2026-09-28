@@ -1,0 +1,2103 @@
+LeadID,LeadDate,Source,PropertyID,Status,SalesRep,ConversionDate,EstimatedMonthlyRent,LeadScore
+LEAD00001,2024-02-01,Website Organic,PROP018,Contacted,Lisa Thompson,,3051,23
+LEAD00002,2024-02-01,Google Ads,PROP015,Toured,Emily Rodriguez,,1559,87
+LEAD00003,2024-02-01,AI Receptionist,PROP003,Contacted,Sarah Johnson,,2351,83
+LEAD00004,2024-02-01,Facebook Ads,PROP005,Contacted,Mike Chen,,3145,72
+LEAD00005,2024-02-01,Referral,PROP016,Application,David Park,2024-02-12,3219,48
+LEAD00006,2024-02-02,Google Ads,PROP006,Qualified,Lisa Thompson,,2856,48
+LEAD00007,2024-02-02,Property Portals,PROP004,Toured,Mike Chen,,1313,13
+LEAD00008,2024-02-03,Website Organic,PROP001,Lost,Sarah Johnson,,3316,70
+LEAD00009,2024-02-03,AI Receptionist,PROP016,Lease Signed,Lisa Thompson,2024-02-06,3495,62
+LEAD00010,2024-02-03,Google Ads,PROP002,Contacted,Emily Rodriguez,,1779,37
+LEAD00011,2024-02-03,Facebook Ads,PROP011,Lost,Lisa Thompson,,1434,56
+LEAD00012,2024-02-03,AI Receptionist,PROP008,Toured,Mike Chen,,1471,66
+LEAD00013,2024-02-03,Email Campaign,PROP003,Lost,Emily Rodriguez,,2877,38
+LEAD00014,2024-02-03,AI Receptionist,PROP015,Lost,Emily Rodriguez,,1384,5
+LEAD00015,2024-02-04,Walk-in,PROP021,Toured,Emily Rodriguez,,3212,59
+LEAD00016,2024-02-04,Property Portals,PROP024,Contacted,Emily Rodriguez,,1811,96
+LEAD00017,2024-02-04,Property Portals,PROP021,Qualified,Emily Rodriguez,,3465,55
+LEAD00018,2024-02-04,Google Ads,PROP021,Lost,David Park,,2885,8
+LEAD00019,2024-02-04,AI Receptionist,PROP010,Lost,Lisa Thompson,,2887,24
+LEAD00020,2024-02-04,Facebook Ads,PROP019,Lost,Lisa Thompson,,3151,96
+LEAD00021,2024-02-05,AI Receptionist,PROP008,New,David Park,,3198,26
+LEAD00022,2024-02-05,Referral,PROP019,Application,Sarah Johnson,2024-02-11,1314,27
+LEAD00023,2024-02-05,Email Campaign,PROP007,Qualified,David Park,,2559,67
+LEAD00024,2024-02-05,AI Receptionist,PROP018,Lost,Lisa Thompson,,3086,87
+LEAD00025,2024-02-05,Google Ads,PROP024,New,Emily Rodriguez,,2149,4
+LEAD00026,2024-02-06,AI Receptionist,PROP003,Contacted,Mike Chen,,2349,21
+LEAD00027,2024-02-06,Google Ads,PROP023,Contacted,Sarah Johnson,,2243,49
+LEAD00028,2024-02-06,Google Ads,PROP016,Lease Signed,Lisa Thompson,2024-02-24,3190,98
+LEAD00029,2024-02-06,Referral,PROP017,New,David Park,,1770,85
+LEAD00030,2024-02-07,Referral,PROP020,Lost,Emily Rodriguez,,2170,54
+LEAD00031,2024-02-07,Facebook Ads,PROP013,Toured,David Park,,3173,48
+LEAD00032,2024-02-07,Website Organic,PROP006,Lease Signed,David Park,2024-02-22,1359,26
+LEAD00033,2024-02-07,Google Ads,PROP014,Qualified,Emily Rodriguez,,2343,60
+LEAD00034,2024-02-07,Google Ads,PROP010,Lost,Sarah Johnson,,1697,90
+LEAD00035,2024-02-08,Website Organic,PROP004,Lost,Sarah Johnson,,1229,45
+LEAD00036,2024-02-08,Property Portals,PROP013,Qualified,Sarah Johnson,,2453,80
+LEAD00037,2024-02-08,Walk-in,PROP007,Contacted,Lisa Thompson,,1577,47
+LEAD00038,2024-02-08,AI Receptionist,PROP010,Application,Sarah Johnson,2024-02-25,2973,71
+LEAD00039,2024-02-08,Website Organic,PROP021,Qualified,Lisa Thompson,,2524,6
+LEAD00040,2024-02-08,Property Portals,PROP005,Contacted,Emily Rodriguez,,2518,21
+LEAD00041,2024-02-09,Google Ads,PROP022,Lost,Lisa Thompson,,2517,15
+LEAD00042,2024-02-09,Google Ads,PROP018,Lease Signed,Emily Rodriguez,2024-02-23,1966,82
+LEAD00043,2024-02-09,AI Receptionist,PROP017,Lease Signed,Mike Chen,2024-02-27,2725,62
+LEAD00044,2024-02-09,Facebook Ads,PROP013,Lost,Emily Rodriguez,,3237,53
+LEAD00045,2024-02-09,Facebook Ads,PROP013,New,Lisa Thompson,,2024,57
+LEAD00046,2024-02-09,AI Receptionist,PROP020,Lost,Sarah Johnson,,1570,75
+LEAD00047,2024-02-10,AI Receptionist,PROP009,Lease Signed,David Park,2024-02-16,2907,82
+LEAD00048,2024-02-10,Google Ads,PROP005,Lease Signed,David Park,2024-02-22,1730,47
+LEAD00049,2024-02-11,Email Campaign,PROP018,Lost,Lisa Thompson,,3088,42
+LEAD00050,2024-02-11,Facebook Ads,PROP010,Qualified,David Park,,2743,31
+LEAD00051,2024-02-12,Referral,PROP012,Lease Signed,Sarah Johnson,2024-02-18,3361,1
+LEAD00052,2024-02-12,Google Ads,PROP002,Lease Signed,Mike Chen,2024-02-24,2142,81
+LEAD00053,2024-02-12,Facebook Ads,PROP003,Contacted,Emily Rodriguez,,2008,43
+LEAD00054,2024-02-12,Google Ads,PROP018,New,Emily Rodriguez,,2213,68
+LEAD00055,2024-02-12,Facebook Ads,PROP008,Qualified,Mike Chen,,2048,87
+LEAD00056,2024-02-13,Property Portals,PROP021,Contacted,Lisa Thompson,,2232,68
+LEAD00057,2024-02-13,AI Receptionist,PROP022,Lease Signed,Mike Chen,2024-02-20,3123,51
+LEAD00058,2024-02-13,Google Ads,PROP007,Toured,Lisa Thompson,,2842,27
+LEAD00059,2024-02-13,Email Campaign,PROP017,Contacted,Mike Chen,,1832,24
+LEAD00060,2024-02-13,Google Ads,PROP021,Qualified,Sarah Johnson,,1724,3
+LEAD00061,2024-02-13,Referral,PROP019,Lost,Emily Rodriguez,,1372,19
+LEAD00062,2024-02-13,Property Portals,PROP002,Lease Signed,Emily Rodriguez,2024-02-25,3157,77
+LEAD00063,2024-02-14,Website Organic,PROP018,Contacted,Mike Chen,,2161,44
+LEAD00064,2024-02-14,Website Organic,PROP002,Toured,Sarah Johnson,,3276,7
+LEAD00065,2024-02-14,Facebook Ads,PROP005,Contacted,Mike Chen,,3364,24
+LEAD00066,2024-02-15,Facebook Ads,PROP021,Toured,Mike Chen,,2741,21
+LEAD00067,2024-02-15,Website Organic,PROP004,Lease Signed,Mike Chen,2024-03-05,1243,91
+LEAD00068,2024-02-15,Referral,PROP022,Qualified,Lisa Thompson,,1794,77
+LEAD00069,2024-02-16,Google Ads,PROP021,New,David Park,,2294,20
+LEAD00070,2024-02-16,Facebook Ads,PROP023,New,David Park,,2091,13
+LEAD00071,2024-02-16,Email Campaign,PROP018,Contacted,Sarah Johnson,,2825,24
+LEAD00072,2024-02-16,Email Campaign,PROP014,Contacted,Lisa Thompson,,2633,3
+LEAD00073,2024-02-17,Google Ads,PROP004,Lease Signed,Sarah Johnson,2024-03-05,2614,52
+LEAD00074,2024-02-17,AI Receptionist,PROP014,Lease Signed,Mike Chen,2024-03-07,1863,61
+LEAD00075,2024-02-17,Google Ads,PROP022,Contacted,Mike Chen,,2108,50
+LEAD00076,2024-02-17,Website Organic,PROP021,New,Sarah Johnson,,1594,44
+LEAD00077,2024-02-18,Google Ads,PROP010,Toured,Lisa Thompson,,1577,88
+LEAD00078,2024-02-18,Referral,PROP006,Lease Signed,Emily Rodriguez,2024-03-02,2798,64
+LEAD00079,2024-02-18,AI Receptionist,PROP006,Toured,Emily Rodriguez,,2708,73
+LEAD00080,2024-02-18,Facebook Ads,PROP008,Qualified,Sarah Johnson,,2559,63
+LEAD00081,2024-02-18,AI Receptionist,PROP022,Toured,Sarah Johnson,,1531,37
+LEAD00082,2024-02-18,Walk-in,PROP002,Toured,David Park,,3093,76
+LEAD00083,2024-02-18,Google Ads,PROP001,Lease Signed,Emily Rodriguez,2024-02-29,2086,9
+LEAD00084,2024-02-19,AI Receptionist,PROP015,Contacted,Lisa Thompson,,2115,39
+LEAD00085,2024-02-19,Google Ads,PROP018,Contacted,Lisa Thompson,,2370,71
+LEAD00086,2024-02-19,Website Organic,PROP008,Lease Signed,Sarah Johnson,2024-02-25,3156,44
+LEAD00087,2024-02-19,Google Ads,PROP020,Qualified,David Park,,2596,27
+LEAD00088,2024-02-19,Google Ads,PROP001,Lease Signed,Mike Chen,2024-03-05,2765,84
+LEAD00089,2024-02-20,Property Portals,PROP025,New,Sarah Johnson,,3069,73
+LEAD00090,2024-02-20,Google Ads,PROP004,Contacted,Sarah Johnson,,2214,7
+LEAD00091,2024-02-20,Walk-in,PROP004,Lease Signed,Mike Chen,2024-03-07,2807,96
+LEAD00092,2024-02-20,AI Receptionist,PROP010,Toured,Sarah Johnson,,1289,4
+LEAD00093,2024-02-20,Facebook Ads,PROP015,Toured,Emily Rodriguez,,2665,44
+LEAD00094,2024-02-20,Facebook Ads,PROP001,Qualified,David Park,,1716,22
+LEAD00095,2024-02-20,Google Ads,PROP014,Application,Emily Rodriguez,2024-03-02,1373,52
+LEAD00096,2024-02-21,AI Receptionist,PROP012,Lost,Sarah Johnson,,2863,55
+LEAD00097,2024-02-21,Referral,PROP018,Application,Lisa Thompson,2024-03-06,1655,70
+LEAD00098,2024-02-21,Website Organic,PROP025,Lost,David Park,,2326,37
+LEAD00099,2024-02-22,Facebook Ads,PROP007,Contacted,David Park,,2153,18
+LEAD00100,2024-02-22,AI Receptionist,PROP006,Lease Signed,Sarah Johnson,2024-03-08,3177,75
+LEAD00101,2024-02-22,AI Receptionist,PROP002,Lost,Lisa Thompson,,1791,13
+LEAD00102,2024-02-22,Property Portals,PROP020,Lease Signed,Lisa Thompson,2024-03-11,1595,78
+LEAD00103,2024-02-22,Email Campaign,PROP018,New,Mike Chen,,1932,9
+LEAD00104,2024-02-22,Google Ads,PROP009,Lease Signed,Emily Rodriguez,2024-03-10,2811,57
+LEAD00105,2024-02-22,Facebook Ads,PROP003,New,David Park,,2279,23
+LEAD00106,2024-02-23,Google Ads,PROP008,Qualified,Mike Chen,,1277,22
+LEAD00107,2024-02-23,Email Campaign,PROP015,Contacted,Lisa Thompson,,2903,97
+LEAD00108,2024-02-24,Walk-in,PROP003,Toured,Sarah Johnson,,2776,48
+LEAD00109,2024-02-24,Property Portals,PROP012,Lost,Mike Chen,,2374,60
+LEAD00110,2024-02-24,Facebook Ads,PROP015,Toured,Lisa Thompson,,1789,81
+LEAD00111,2024-02-24,Google Ads,PROP024,New,David Park,,1534,56
+LEAD00112,2024-02-24,Facebook Ads,PROP022,Qualified,Sarah Johnson,,2334,94
+LEAD00113,2024-02-24,AI Receptionist,PROP015,Toured,David Park,,2810,74
+LEAD00114,2024-02-25,AI Receptionist,PROP009,Lease Signed,Emily Rodriguez,2024-03-15,3065,66
+LEAD00115,2024-02-25,Google Ads,PROP021,New,Lisa Thompson,,2141,69
+LEAD00116,2024-02-25,Facebook Ads,PROP010,Lost,Sarah Johnson,,3446,20
+LEAD00117,2024-02-25,Website Organic,PROP002,Lost,Emily Rodriguez,,2646,92
+LEAD00118,2024-02-25,Website Organic,PROP017,Qualified,Sarah Johnson,,1241,29
+LEAD00119,2024-02-25,Property Portals,PROP017,Lost,Mike Chen,,2708,61
+LEAD00120,2024-02-26,Google Ads,PROP016,Qualified,Sarah Johnson,,1813,81
+LEAD00121,2024-02-26,Facebook Ads,PROP004,Lost,David Park,,1664,72
+LEAD00122,2024-02-26,Website Organic,PROP002,New,Lisa Thompson,,1220,94
+LEAD00123,2024-02-26,Walk-in,PROP008,Qualified,Mike Chen,,2986,16
+LEAD00124,2024-02-26,Property Portals,PROP023,Contacted,Sarah Johnson,,3244,27
+LEAD00125,2024-02-27,Property Portals,PROP001,Contacted,Lisa Thompson,,2947,30
+LEAD00126,2024-02-27,Property Portals,PROP006,New,Emily Rodriguez,,1545,95
+LEAD00127,2024-02-27,AI Receptionist,PROP014,Lease Signed,Sarah Johnson,2024-03-04,3071,77
+LEAD00128,2024-02-28,AI Receptionist,PROP023,Qualified,Mike Chen,,2601,54
+LEAD00129,2024-02-28,Referral,PROP017,Toured,Lisa Thompson,,1271,91
+LEAD00130,2024-02-28,Google Ads,PROP013,Lost,David Park,,2014,19
+LEAD00131,2024-02-28,Email Campaign,PROP022,Lease Signed,David Park,2024-03-08,1994,7
+LEAD00132,2024-02-28,Google Ads,PROP001,New,David Park,,2174,24
+LEAD00133,2024-02-29,Website Organic,PROP006,Qualified,Emily Rodriguez,,1664,80
+LEAD00134,2024-02-29,Google Ads,PROP020,Qualified,Emily Rodriguez,,3427,97
+LEAD00135,2024-02-29,Website Organic,PROP017,Contacted,Mike Chen,,3363,23
+LEAD00136,2024-02-29,Walk-in,PROP013,Contacted,David Park,,1694,52
+LEAD00137,2024-02-29,Referral,PROP003,Lease Signed,Lisa Thompson,2024-03-19,2445,87
+LEAD00138,2024-02-29,Google Ads,PROP025,Lease Signed,Emily Rodriguez,2024-03-20,2647,92
+LEAD00139,2024-02-29,Google Ads,PROP001,Toured,Emily Rodriguez,,1724,56
+LEAD00140,2024-03-01,Property Portals,PROP006,Qualified,Mike Chen,,3183,56
+LEAD00141,2024-03-01,Walk-in,PROP004,Lease Signed,Mike Chen,2024-03-17,3068,54
+LEAD00142,2024-03-01,Property Portals,PROP005,Toured,David Park,,2343,25
+LEAD00143,2024-03-01,Property Portals,PROP021,Contacted,David Park,,1271,28
+LEAD00144,2024-03-02,Facebook Ads,PROP022,Lost,Sarah Johnson,,2019,93
+LEAD00145,2024-03-02,Walk-in,PROP012,Qualified,Sarah Johnson,,2275,79
+LEAD00146,2024-03-02,Facebook Ads,PROP008,Qualified,Emily Rodriguez,,3192,73
+LEAD00147,2024-03-02,Website Organic,PROP015,Qualified,Mike Chen,,1786,38
+LEAD00148,2024-03-02,AI Receptionist,PROP019,Qualified,Sarah Johnson,,3382,39
+LEAD00149,2024-03-02,Website Organic,PROP019,Lease Signed,Lisa Thompson,2024-03-13,2369,21
+LEAD00150,2024-03-02,Facebook Ads,PROP004,New,Lisa Thompson,,2778,53
+LEAD00151,2024-03-03,AI Receptionist,PROP019,Application,Emily Rodriguez,2024-03-16,2595,51
+LEAD00152,2024-03-03,Facebook Ads,PROP005,Toured,Lisa Thompson,,3204,52
+LEAD00153,2024-03-03,Email Campaign,PROP006,Lost,Lisa Thompson,,1261,87
+LEAD00154,2024-03-03,AI Receptionist,PROP005,Application,Mike Chen,2024-03-20,2354,93
+LEAD00155,2024-03-03,Facebook Ads,PROP022,Qualified,Sarah Johnson,,2474,50
+LEAD00156,2024-03-03,Google Ads,PROP012,Qualified,Emily Rodriguez,,3422,99
+LEAD00157,2024-03-03,AI Receptionist,PROP013,Lease Signed,Sarah Johnson,2024-03-06,2614,44
+LEAD00158,2024-03-04,AI Receptionist,PROP025,Contacted,Lisa Thompson,,1354,13
+LEAD00159,2024-03-04,Property Portals,PROP002,Contacted,Lisa Thompson,,2523,98
+LEAD00160,2024-03-04,Email Campaign,PROP002,Lost,Emily Rodriguez,,1958,81
+LEAD00161,2024-03-04,AI Receptionist,PROP007,Toured,Emily Rodriguez,,3395,99
+LEAD00162,2024-03-04,Email Campaign,PROP005,Contacted,David Park,,3210,42
+LEAD00163,2024-03-04,AI Receptionist,PROP005,New,Emily Rodriguez,,1827,49
+LEAD00164,2024-03-05,Facebook Ads,PROP016,Qualified,Sarah Johnson,,3273,84
+LEAD00165,2024-03-05,AI Receptionist,PROP001,Lease Signed,Emily Rodriguez,2024-03-21,2638,6
+LEAD00166,2024-03-05,Property Portals,PROP012,Lost,David Park,,2624,28
+LEAD00167,2024-03-05,Google Ads,PROP006,Lost,Emily Rodriguez,,2509,70
+LEAD00168,2024-03-05,Google Ads,PROP014,Lease Signed,Mike Chen,2024-03-20,1691,12
+LEAD00169,2024-03-05,Facebook Ads,PROP017,New,Emily Rodriguez,,2961,72
+LEAD00170,2024-03-05,Google Ads,PROP001,Lease Signed,Sarah Johnson,2024-03-24,2581,60
+LEAD00171,2024-03-06,Google Ads,PROP001,Qualified,Lisa Thompson,,2027,13
+LEAD00172,2024-03-06,Google Ads,PROP002,Lease Signed,David Park,2024-03-26,2509,38
+LEAD00173,2024-03-06,AI Receptionist,PROP009,Application,Mike Chen,2024-03-25,1215,88
+LEAD00174,2024-03-06,Google Ads,PROP008,Qualified,David Park,,2416,55
+LEAD00175,2024-03-06,Facebook Ads,PROP014,Qualified,Emily Rodriguez,,2325,26
+LEAD00176,2024-03-06,AI Receptionist,PROP006,Lost,Emily Rodriguez,,1687,33
+LEAD00177,2024-03-06,Google Ads,PROP006,Contacted,David Park,,2517,16
+LEAD00178,2024-03-06,Walk-in,PROP001,Contacted,David Park,,1298,14
+LEAD00179,2024-03-06,Google Ads,PROP004,Toured,Sarah Johnson,,3026,10
+LEAD00180,2024-03-07,Property Portals,PROP021,Application,Lisa Thompson,2024-03-21,3478,73
+LEAD00181,2024-03-07,AI Receptionist,PROP021,New,Mike Chen,,1368,24
+LEAD00182,2024-03-07,Website Organic,PROP024,Contacted,David Park,,1703,59
+LEAD00183,2024-03-07,Walk-in,PROP011,Lease Signed,Mike Chen,2024-03-20,1239,47
+LEAD00184,2024-03-07,Property Portals,PROP007,Contacted,David Park,,2035,24
+LEAD00185,2024-03-07,Google Ads,PROP013,New,David Park,,3338,6
+LEAD00186,2024-03-07,Google Ads,PROP006,Toured,Lisa Thompson,,2261,93
+LEAD00187,2024-03-07,Facebook Ads,PROP011,Qualified,David Park,,2963,45
+LEAD00188,2024-03-08,AI Receptionist,PROP002,Toured,Emily Rodriguez,,2761,43
+LEAD00189,2024-03-08,Google Ads,PROP016,Toured,Mike Chen,,2359,94
+LEAD00190,2024-03-08,AI Receptionist,PROP025,Qualified,Sarah Johnson,,2369,12
+LEAD00191,2024-03-08,Email Campaign,PROP013,Contacted,Mike Chen,,2193,77
+LEAD00192,2024-03-08,Google Ads,PROP006,Lease Signed,Lisa Thompson,2024-03-23,1341,73
+LEAD00193,2024-03-08,Google Ads,PROP008,Lease Signed,Sarah Johnson,2024-03-25,1730,34
+LEAD00194,2024-03-08,Website Organic,PROP015,Toured,Emily Rodriguez,,2533,90
+LEAD00195,2024-03-08,Facebook Ads,PROP019,Qualified,Emily Rodriguez,,1634,7
+LEAD00196,2024-03-08,AI Receptionist,PROP011,Lease Signed,Mike Chen,2024-03-18,3451,42
+LEAD00197,2024-03-08,Referral,PROP018,Lease Signed,Lisa Thompson,2024-03-26,2729,98
+LEAD00198,2024-03-08,Referral,PROP008,Toured,David Park,,1954,54
+LEAD00199,2024-03-09,Referral,PROP015,Qualified,Sarah Johnson,,2790,80
+LEAD00200,2024-03-09,Google Ads,PROP023,Contacted,Lisa Thompson,,2046,39
+LEAD00201,2024-03-09,Facebook Ads,PROP005,Qualified,David Park,,1993,28
+LEAD00202,2024-03-09,Referral,PROP006,New,Lisa Thompson,,3055,30
+LEAD00203,2024-03-09,AI Receptionist,PROP003,Toured,Lisa Thompson,,3076,60
+LEAD00204,2024-03-09,AI Receptionist,PROP015,Contacted,David Park,,3224,18
+LEAD00205,2024-03-09,Referral,PROP005,Lost,David Park,,1970,63
+LEAD00206,2024-03-09,Walk-in,PROP009,Lease Signed,David Park,2024-03-25,2114,62
+LEAD00207,2024-03-09,Google Ads,PROP007,Lease Signed,Mike Chen,2024-03-25,2000,92
+LEAD00208,2024-03-09,Referral,PROP018,Application,Lisa Thompson,2024-03-17,3288,9
+LEAD00209,2024-03-09,Referral,PROP015,Lease Signed,Mike Chen,2024-03-13,2365,38
+LEAD00210,2024-03-10,Facebook Ads,PROP021,Qualified,David Park,,1245,48
+LEAD00211,2024-03-10,Facebook Ads,PROP001,Lost,Mike Chen,,2112,52
+LEAD00212,2024-03-10,Referral,PROP010,Lease Signed,David Park,2024-03-15,2966,94
+LEAD00213,2024-03-10,AI Receptionist,PROP019,Toured,Sarah Johnson,,1925,92
+LEAD00214,2024-03-11,AI Receptionist,PROP004,Contacted,Sarah Johnson,,3117,65
+LEAD00215,2024-03-11,Property Portals,PROP015,Qualified,Lisa Thompson,,2142,63
+LEAD00216,2024-03-11,Facebook Ads,PROP009,Qualified,David Park,,1384,88
+LEAD00217,2024-03-11,Google Ads,PROP020,Lease Signed,Mike Chen,2024-03-17,1463,88
+LEAD00218,2024-03-11,Property Portals,PROP015,Contacted,David Park,,2535,46
+LEAD00219,2024-03-11,Walk-in,PROP015,Lease Signed,Emily Rodriguez,2024-03-22,2510,41
+LEAD00220,2024-03-12,Facebook Ads,PROP001,Qualified,Sarah Johnson,,3391,28
+LEAD00221,2024-03-12,Facebook Ads,PROP022,Lost,Mike Chen,,2218,34
+LEAD00222,2024-03-12,Facebook Ads,PROP010,Qualified,Lisa Thompson,,1891,60
+LEAD00223,2024-03-12,Website Organic,PROP010,Application,Mike Chen,2024-03-28,2601,10
+LEAD00224,2024-03-12,AI Receptionist,PROP014,Qualified,Sarah Johnson,,2911,74
+LEAD00225,2024-03-12,Google Ads,PROP009,Qualified,Sarah Johnson,,3274,88
+LEAD00226,2024-03-13,Google Ads,PROP011,Qualified,David Park,,1499,39
+LEAD00227,2024-03-13,Email Campaign,PROP006,Lost,Sarah Johnson,,3309,8
+LEAD00228,2024-03-13,Google Ads,PROP018,Lost,David Park,,3097,2
+LEAD00229,2024-03-14,Google Ads,PROP016,Lost,David Park,,3046,28
+LEAD00230,2024-03-14,Google Ads,PROP004,Lease Signed,Sarah Johnson,2024-03-17,2934,62
+LEAD00231,2024-03-14,Google Ads,PROP005,Contacted,Emily Rodriguez,,2144,80
+LEAD00232,2024-03-14,Google Ads,PROP015,Toured,Mike Chen,,1377,89
+LEAD00233,2024-03-15,Google Ads,PROP014,Qualified,Mike Chen,,2045,65
+LEAD00234,2024-03-15,Google Ads,PROP020,Toured,Mike Chen,,1644,92
+LEAD00235,2024-03-15,AI Receptionist,PROP001,Lease Signed,Lisa Thompson,2024-03-26,2630,43
+LEAD00236,2024-03-15,AI Receptionist,PROP025,Application,David Park,2024-03-28,3234,17
+LEAD00237,2024-03-15,Google Ads,PROP020,Application,Emily Rodriguez,2024-03-25,1558,41
+LEAD00238,2024-03-15,Website Organic,PROP022,Contacted,David Park,,2892,80
+LEAD00239,2024-03-15,Google Ads,PROP021,Qualified,Lisa Thompson,,2496,46
+LEAD00240,2024-03-15,Google Ads,PROP021,Toured,Sarah Johnson,,2603,71
+LEAD00241,2024-03-15,Walk-in,PROP005,Qualified,Emily Rodriguez,,2984,5
+LEAD00242,2024-03-15,Website Organic,PROP012,Contacted,Lisa Thompson,,1471,20
+LEAD00243,2024-03-16,Website Organic,PROP003,Qualified,Mike Chen,,1705,46
+LEAD00244,2024-03-16,Google Ads,PROP021,Qualified,Sarah Johnson,,2796,64
+LEAD00245,2024-03-16,AI Receptionist,PROP011,Contacted,Mike Chen,,1517,54
+LEAD00246,2024-03-16,Facebook Ads,PROP014,Toured,Lisa Thompson,,1878,98
+LEAD00247,2024-03-17,Facebook Ads,PROP006,Toured,Emily Rodriguez,,1480,35
+LEAD00248,2024-03-17,Facebook Ads,PROP005,Qualified,Emily Rodriguez,,2446,72
+LEAD00249,2024-03-17,AI Receptionist,PROP010,New,David Park,,1731,9
+LEAD00250,2024-03-17,AI Receptionist,PROP006,Contacted,Lisa Thompson,,2773,19
+LEAD00251,2024-03-17,Google Ads,PROP021,Application,Sarah Johnson,2024-04-06,2974,7
+LEAD00252,2024-03-18,AI Receptionist,PROP020,Lease Signed,Emily Rodriguez,2024-04-06,2932,94
+LEAD00253,2024-03-18,Google Ads,PROP016,Lost,Mike Chen,,2526,14
+LEAD00254,2024-03-18,AI Receptionist,PROP009,New,Lisa Thompson,,1903,29
+LEAD00255,2024-03-18,Referral,PROP017,Qualified,Emily Rodriguez,,2501,34
+LEAD00256,2024-03-18,Website Organic,PROP012,Lease Signed,Emily Rodriguez,2024-04-07,1628,96
+LEAD00257,2024-03-18,Referral,PROP016,Toured,Sarah Johnson,,3067,98
+LEAD00258,2024-03-18,Property Portals,PROP021,Application,David Park,2024-03-23,1692,18
+LEAD00259,2024-03-18,Google Ads,PROP020,Contacted,Emily Rodriguez,,1371,51
+LEAD00260,2024-03-19,Walk-in,PROP001,New,Lisa Thompson,,1357,98
+LEAD00261,2024-03-19,Property Portals,PROP022,Qualified,Sarah Johnson,,2049,19
+LEAD00262,2024-03-19,Email Campaign,PROP019,Qualified,David Park,,2851,4
+LEAD00263,2024-03-19,Walk-in,PROP005,Lease Signed,Lisa Thompson,2024-03-26,2877,60
+LEAD00264,2024-03-19,Google Ads,PROP018,Qualified,Mike Chen,,1398,50
+LEAD00265,2024-03-20,Referral,PROP018,Lease Signed,Mike Chen,2024-04-08,1746,23
+LEAD00266,2024-03-20,Website Organic,PROP006,Lease Signed,Emily Rodriguez,2024-03-25,2351,32
+LEAD00267,2024-03-20,Email Campaign,PROP002,Contacted,Mike Chen,,2771,32
+LEAD00268,2024-03-20,Google Ads,PROP021,Contacted,Mike Chen,,1888,2
+LEAD00269,2024-03-21,AI Receptionist,PROP003,Lost,David Park,,1611,96
+LEAD00270,2024-03-21,Google Ads,PROP025,Lost,Emily Rodriguez,,2451,66
+LEAD00271,2024-03-21,Facebook Ads,PROP019,Lost,Emily Rodriguez,,2797,94
+LEAD00272,2024-03-21,Google Ads,PROP018,Toured,Mike Chen,,1669,81
+LEAD00273,2024-03-21,Email Campaign,PROP019,Lost,Mike Chen,,1961,52
+LEAD00274,2024-03-22,Website Organic,PROP004,Qualified,David Park,,3497,94
+LEAD00275,2024-03-22,AI Receptionist,PROP024,Lease Signed,Lisa Thompson,2024-03-29,1826,91
+LEAD00276,2024-03-22,AI Receptionist,PROP015,Lost,Emily Rodriguez,,1876,83
+LEAD00277,2024-03-22,Property Portals,PROP019,Qualified,Emily Rodriguez,,1390,31
+LEAD00278,2024-03-22,Referral,PROP010,Lost,Emily Rodriguez,,2369,25
+LEAD00279,2024-03-22,Google Ads,PROP022,Contacted,Mike Chen,,2477,29
+LEAD00280,2024-03-23,AI Receptionist,PROP004,Qualified,Lisa Thompson,,3300,2
+LEAD00281,2024-03-23,Property Portals,PROP015,Lost,Emily Rodriguez,,2798,65
+LEAD00282,2024-03-23,Google Ads,PROP013,New,Lisa Thompson,,2443,14
+LEAD00283,2024-03-23,Walk-in,PROP012,Toured,Emily Rodriguez,,2412,34
+LEAD00284,2024-03-23,Website Organic,PROP025,Lease Signed,Sarah Johnson,2024-04-09,2700,96
+LEAD00285,2024-03-23,AI Receptionist,PROP018,Lease Signed,Sarah Johnson,2024-03-29,3159,5
+LEAD00286,2024-03-23,Facebook Ads,PROP017,New,Lisa Thompson,,3013,15
+LEAD00287,2024-03-23,Google Ads,PROP018,New,Mike Chen,,1418,32
+LEAD00288,2024-03-23,Facebook Ads,PROP012,New,David Park,,1489,36
+LEAD00289,2024-03-24,Facebook Ads,PROP013,Lost,Lisa Thompson,,2430,46
+LEAD00290,2024-03-24,Website Organic,PROP013,Qualified,Emily Rodriguez,,1730,28
+LEAD00291,2024-03-24,AI Receptionist,PROP017,Toured,Lisa Thompson,,2365,46
+LEAD00292,2024-03-24,Google Ads,PROP015,Toured,Lisa Thompson,,2914,63
+LEAD00293,2024-03-24,Email Campaign,PROP016,Toured,Sarah Johnson,,2741,99
+LEAD00294,2024-03-25,Walk-in,PROP010,Qualified,Emily Rodriguez,,2105,33
+LEAD00295,2024-03-25,Google Ads,PROP005,Contacted,David Park,,2024,96
+LEAD00296,2024-03-25,Email Campaign,PROP013,Toured,David Park,,2283,51
+LEAD00297,2024-03-25,Google Ads,PROP021,Qualified,Mike Chen,,1589,65
+LEAD00298,2024-03-25,AI Receptionist,PROP024,Lost,David Park,,1604,2
+LEAD00299,2024-03-26,Facebook Ads,PROP023,Lost,Sarah Johnson,,1229,78
+LEAD00300,2024-03-26,Google Ads,PROP017,Contacted,Sarah Johnson,,1348,16
+LEAD00301,2024-03-26,Walk-in,PROP012,Contacted,Lisa Thompson,,2618,79
+LEAD00302,2024-03-26,Google Ads,PROP013,New,David Park,,2425,40
+LEAD00303,2024-03-26,Facebook Ads,PROP014,Lease Signed,Mike Chen,2024-04-13,1470,65
+LEAD00304,2024-03-26,AI Receptionist,PROP023,Qualified,Mike Chen,,3491,95
+LEAD00305,2024-03-26,Facebook Ads,PROP016,New,Emily Rodriguez,,2638,73
+LEAD00306,2024-03-26,Walk-in,PROP007,Toured,Emily Rodriguez,,1566,48
+LEAD00307,2024-03-26,AI Receptionist,PROP022,Toured,David Park,,1331,37
+LEAD00308,2024-03-26,Walk-in,PROP006,Toured,Lisa Thompson,,1889,24
+LEAD00309,2024-03-27,Google Ads,PROP013,Toured,Mike Chen,,1629,69
+LEAD00310,2024-03-27,Property Portals,PROP024,Lease Signed,Lisa Thompson,2024-04-14,3011,82
+LEAD00311,2024-03-27,AI Receptionist,PROP021,Contacted,Sarah Johnson,,1375,21
+LEAD00312,2024-03-27,Website Organic,PROP003,Lease Signed,David Park,2024-04-04,1911,55
+LEAD00313,2024-03-28,Email Campaign,PROP023,Toured,Sarah Johnson,,1648,29
+LEAD00314,2024-03-28,Walk-in,PROP003,Lease Signed,Mike Chen,2024-04-10,2863,99
+LEAD00315,2024-03-28,Google Ads,PROP005,Contacted,David Park,,2186,77
+LEAD00316,2024-03-28,AI Receptionist,PROP011,Contacted,Sarah Johnson,,2938,81
+LEAD00317,2024-03-28,Property Portals,PROP007,Qualified,Sarah Johnson,,1706,8
+LEAD00318,2024-03-28,Facebook Ads,PROP019,Qualified,Emily Rodriguez,,2150,30
+LEAD00319,2024-03-28,AI Receptionist,PROP023,Lease Signed,Lisa Thompson,2024-04-04,3369,16
+LEAD00320,2024-03-28,Referral,PROP016,Application,David Park,2024-04-02,3218,7
+LEAD00321,2024-03-28,AI Receptionist,PROP014,Lease Signed,Lisa Thompson,2024-04-05,1487,26
+LEAD00322,2024-03-28,Google Ads,PROP020,Qualified,Emily Rodriguez,,3460,66
+LEAD00323,2024-03-29,Google Ads,PROP018,Lease Signed,Sarah Johnson,2024-04-09,3160,54
+LEAD00324,2024-03-29,Google Ads,PROP004,Lease Signed,Mike Chen,2024-04-08,2466,64
+LEAD00325,2024-03-29,Facebook Ads,PROP025,New,Lisa Thompson,,2639,8
+LEAD00326,2024-03-29,Website Organic,PROP016,Lease Signed,Mike Chen,2024-04-09,2258,52
+LEAD00327,2024-03-29,Website Organic,PROP021,Toured,Sarah Johnson,,3489,31
+LEAD00328,2024-03-29,Google Ads,PROP005,Application,Sarah Johnson,2024-04-03,1501,38
+LEAD00329,2024-03-29,Property Portals,PROP016,Toured,Sarah Johnson,,1889,90
+LEAD00330,2024-03-29,Facebook Ads,PROP018,Qualified,Mike Chen,,1977,76
+LEAD00331,2024-03-29,Facebook Ads,PROP012,Qualified,Emily Rodriguez,,2253,9
+LEAD00332,2024-03-29,Google Ads,PROP022,Contacted,David Park,,2927,79
+LEAD00333,2024-03-30,AI Receptionist,PROP023,Application,Mike Chen,2024-04-16,1433,82
+LEAD00334,2024-03-30,Google Ads,PROP011,Contacted,Sarah Johnson,,2685,48
+LEAD00335,2024-03-30,Facebook Ads,PROP017,Lost,Mike Chen,,2004,26
+LEAD00336,2024-03-30,Google Ads,PROP020,Toured,Lisa Thompson,,2851,82
+LEAD00337,2024-03-30,Google Ads,PROP002,Qualified,Emily Rodriguez,,3305,53
+LEAD00338,2024-03-31,Website Organic,PROP004,Qualified,Mike Chen,,2114,53
+LEAD00339,2024-03-31,Google Ads,PROP013,Toured,David Park,,2438,15
+LEAD00340,2024-03-31,AI Receptionist,PROP023,Qualified,Sarah Johnson,,1494,72
+LEAD00341,2024-04-01,Property Portals,PROP004,Toured,Sarah Johnson,,2520,84
+LEAD00342,2024-04-01,Facebook Ads,PROP004,Application,Sarah Johnson,2024-04-04,3356,24
+LEAD00343,2024-04-01,AI Receptionist,PROP009,Toured,Lisa Thompson,,2558,85
+LEAD00344,2024-04-01,Facebook Ads,PROP014,Toured,Lisa Thompson,,1830,40
+LEAD00345,2024-04-02,Referral,PROP004,Lease Signed,Lisa Thompson,2024-04-13,2848,89
+LEAD00346,2024-04-02,Walk-in,PROP015,Contacted,Lisa Thompson,,2257,39
+LEAD00347,2024-04-02,Website Organic,PROP024,Lost,Sarah Johnson,,3058,79
+LEAD00348,2024-04-03,Google Ads,PROP023,Lease Signed,David Park,2024-04-13,3439,20
+LEAD00349,2024-04-03,Google Ads,PROP012,Lost,David Park,,2312,32
+LEAD00350,2024-04-03,Facebook Ads,PROP017,Contacted,Mike Chen,,3363,67
+LEAD00351,2024-04-03,Google Ads,PROP009,Toured,David Park,,2806,28
+LEAD00352,2024-04-04,Referral,PROP017,Qualified,Lisa Thompson,,3303,95
+LEAD00353,2024-04-04,Property Portals,PROP002,Qualified,Lisa Thompson,,1996,53
+LEAD00354,2024-04-04,AI Receptionist,PROP025,Toured,Mike Chen,,2765,51
+LEAD00355,2024-04-04,Facebook Ads,PROP014,Toured,Sarah Johnson,,2595,15
+LEAD00356,2024-04-04,Facebook Ads,PROP022,New,Sarah Johnson,,2473,39
+LEAD00357,2024-04-04,Walk-in,PROP023,Lost,Emily Rodriguez,,2124,67
+LEAD00358,2024-04-04,Facebook Ads,PROP004,Lost,Mike Chen,,3475,87
+LEAD00359,2024-04-04,Google Ads,PROP016,Toured,Mike Chen,,2601,62
+LEAD00360,2024-04-05,Facebook Ads,PROP024,Toured,David Park,,3001,20
+LEAD00361,2024-04-05,Google Ads,PROP013,Lease Signed,David Park,2024-04-17,2843,39
+LEAD00362,2024-04-05,Referral,PROP024,Lease Signed,Mike Chen,2024-04-14,3433,12
+LEAD00363,2024-04-05,Website Organic,PROP018,New,David Park,,2485,26
+LEAD00364,2024-04-05,Email Campaign,PROP024,Lost,David Park,,1981,55
+LEAD00365,2024-04-05,Referral,PROP005,Lost,Lisa Thompson,,2920,19
+LEAD00366,2024-04-05,Google Ads,PROP022,Lease Signed,Emily Rodriguez,2024-04-17,2662,15
+LEAD00367,2024-04-05,Property Portals,PROP014,Qualified,Emily Rodriguez,,1238,3
+LEAD00368,2024-04-05,Property Portals,PROP025,Qualified,Emily Rodriguez,,1355,58
+LEAD00369,2024-04-05,Facebook Ads,PROP007,Toured,Mike Chen,,1853,63
+LEAD00370,2024-04-06,Referral,PROP008,Lost,Sarah Johnson,,2804,64
+LEAD00371,2024-04-06,AI Receptionist,PROP018,Application,Lisa Thompson,2024-04-14,1215,73
+LEAD00372,2024-04-06,Email Campaign,PROP002,Lost,Sarah Johnson,,2420,86
+LEAD00373,2024-04-06,Google Ads,PROP021,Lost,Mike Chen,,2925,89
+LEAD00374,2024-04-06,Facebook Ads,PROP022,Contacted,Mike Chen,,1798,40
+LEAD00375,2024-04-06,AI Receptionist,PROP025,Lease Signed,Lisa Thompson,2024-04-15,1849,87
+LEAD00376,2024-04-07,Website Organic,PROP004,Qualified,Mike Chen,,1958,75
+LEAD00377,2024-04-07,AI Receptionist,PROP012,Toured,Mike Chen,,2048,1
+LEAD00378,2024-04-07,Email Campaign,PROP022,Lost,Mike Chen,,1822,74
+LEAD00379,2024-04-07,Website Organic,PROP018,Qualified,Lisa Thompson,,1278,80
+LEAD00380,2024-04-08,AI Receptionist,PROP021,Lost,Mike Chen,,2890,15
+LEAD00381,2024-04-08,Facebook Ads,PROP021,Lost,Lisa Thompson,,1813,51
+LEAD00382,2024-04-08,AI Receptionist,PROP017,New,Sarah Johnson,,3452,91
+LEAD00383,2024-04-08,Google Ads,PROP017,Qualified,Emily Rodriguez,,2065,40
+LEAD00384,2024-04-09,Google Ads,PROP002,Qualified,David Park,,1732,93
+LEAD00385,2024-04-09,AI Receptionist,PROP006,Application,David Park,2024-04-18,2633,57
+LEAD00386,2024-04-09,Google Ads,PROP005,Lost,Sarah Johnson,,2182,29
+LEAD00387,2024-04-09,Website Organic,PROP020,Application,Emily Rodriguez,2024-04-23,1312,71
+LEAD00388,2024-04-09,Google Ads,PROP023,Lease Signed,Mike Chen,2024-04-15,2321,34
+LEAD00389,2024-04-09,Property Portals,PROP017,Qualified,Emily Rodriguez,,1916,97
+LEAD00390,2024-04-09,AI Receptionist,PROP002,Contacted,David Park,,3193,52
+LEAD00391,2024-04-09,Referral,PROP021,Application,Sarah Johnson,2024-04-21,1361,84
+LEAD00392,2024-04-09,Website Organic,PROP021,Qualified,David Park,,2339,29
+LEAD00393,2024-04-09,Property Portals,PROP013,Contacted,Emily Rodriguez,,3040,65
+LEAD00394,2024-04-09,Facebook Ads,PROP020,Contacted,Mike Chen,,1503,32
+LEAD00395,2024-04-10,Referral,PROP013,Application,Sarah Johnson,2024-04-13,2881,54
+LEAD00396,2024-04-10,Property Portals,PROP006,Qualified,Emily Rodriguez,,2972,43
+LEAD00397,2024-04-10,Google Ads,PROP007,Toured,Mike Chen,,2548,80
+LEAD00398,2024-04-11,Google Ads,PROP008,Contacted,David Park,,2104,20
+LEAD00399,2024-04-11,AI Receptionist,PROP012,Lost,Sarah Johnson,,1519,30
+LEAD00400,2024-04-11,Walk-in,PROP013,Toured,Emily Rodriguez,,1270,59
+LEAD00401,2024-04-11,Website Organic,PROP012,New,Mike Chen,,3209,68
+LEAD00402,2024-04-12,Google Ads,PROP008,Lost,David Park,,2133,63
+LEAD00403,2024-04-12,Referral,PROP024,Lease Signed,David Park,2024-04-21,1891,8
+LEAD00404,2024-04-12,AI Receptionist,PROP013,Contacted,David Park,,3167,61
+LEAD00405,2024-04-13,AI Receptionist,PROP004,Contacted,Lisa Thompson,,1364,47
+LEAD00406,2024-04-13,Facebook Ads,PROP007,Lost,Mike Chen,,1741,18
+LEAD00407,2024-04-13,Website Organic,PROP018,Qualified,Mike Chen,,1718,69
+LEAD00408,2024-04-13,AI Receptionist,PROP018,Lease Signed,Sarah Johnson,2024-04-25,2837,79
+LEAD00409,2024-04-13,AI Receptionist,PROP016,Toured,Emily Rodriguez,,1677,63
+LEAD00410,2024-04-13,Email Campaign,PROP016,Lost,David Park,,2817,13
+LEAD00411,2024-04-14,Referral,PROP011,Toured,Lisa Thompson,,1456,89
+LEAD00412,2024-04-14,AI Receptionist,PROP013,Lost,Emily Rodriguez,,2483,88
+LEAD00413,2024-04-14,Google Ads,PROP002,Toured,Emily Rodriguez,,3016,23
+LEAD00414,2024-04-14,Email Campaign,PROP001,Contacted,Mike Chen,,3433,41
+LEAD00415,2024-04-14,Google Ads,PROP013,New,Sarah Johnson,,1360,33
+LEAD00416,2024-04-14,Email Campaign,PROP001,Qualified,Lisa Thompson,,2823,79
+LEAD00417,2024-04-14,Website Organic,PROP025,Contacted,David Park,,1330,68
+LEAD00418,2024-04-14,Property Portals,PROP007,Lease Signed,Lisa Thompson,2024-04-26,1980,44
+LEAD00419,2024-04-14,Website Organic,PROP019,Toured,Lisa Thompson,,1575,30
+LEAD00420,2024-04-14,Website Organic,PROP021,Lost,Mike Chen,,1985,59
+LEAD00421,2024-04-15,Email Campaign,PROP012,Toured,Lisa Thompson,,2248,62
+LEAD00422,2024-04-15,Email Campaign,PROP013,New,Mike Chen,,1234,89
+LEAD00423,2024-04-15,Referral,PROP024,Qualified,Emily Rodriguez,,2548,90
+LEAD00424,2024-04-15,Website Organic,PROP010,New,Emily Rodriguez,,1680,52
+LEAD00425,2024-04-15,Facebook Ads,PROP009,Contacted,David Park,,2839,86
+LEAD00426,2024-04-15,Email Campaign,PROP011,Lease Signed,Emily Rodriguez,2024-04-19,1267,5
+LEAD00427,2024-04-15,Google Ads,PROP002,Lease Signed,David Park,2024-04-18,3434,64
+LEAD00428,2024-04-16,Website Organic,PROP012,Lease Signed,Sarah Johnson,2024-04-28,1825,66
+LEAD00429,2024-04-16,Property Portals,PROP025,Contacted,David Park,,2161,70
+LEAD00430,2024-04-16,Google Ads,PROP020,Contacted,Lisa Thompson,,3110,72
+LEAD00431,2024-04-16,Google Ads,PROP008,Qualified,Emily Rodriguez,,3254,60
+LEAD00432,2024-04-16,Email Campaign,PROP005,Lost,Mike Chen,,1829,7
+LEAD00433,2024-04-16,Google Ads,PROP024,Qualified,Sarah Johnson,,2134,67
+LEAD00434,2024-04-16,Google Ads,PROP015,Lease Signed,Mike Chen,2024-04-27,2705,69
+LEAD00435,2024-04-17,Google Ads,PROP001,Lost,Mike Chen,,3295,9
+LEAD00436,2024-04-17,Facebook Ads,PROP009,Application,Mike Chen,2024-04-21,2239,93
+LEAD00437,2024-04-17,Facebook Ads,PROP006,Application,Emily Rodriguez,2024-04-30,1825,31
+LEAD00438,2024-04-17,Email Campaign,PROP024,Qualified,Emily Rodriguez,,1631,27
+LEAD00439,2024-04-17,Google Ads,PROP003,Contacted,Mike Chen,,2084,39
+LEAD00440,2024-04-18,Walk-in,PROP011,Lost,Sarah Johnson,,2297,63
+LEAD00441,2024-04-18,Facebook Ads,PROP018,Lost,David Park,,2141,75
+LEAD00442,2024-04-18,Website Organic,PROP004,Lease Signed,Emily Rodriguez,2024-04-25,2338,51
+LEAD00443,2024-04-18,Google Ads,PROP011,Lost,Sarah Johnson,,2049,45
+LEAD00444,2024-04-18,Website Organic,PROP019,Lease Signed,David Park,2024-05-02,2823,62
+LEAD00445,2024-04-19,Website Organic,PROP013,Qualified,Sarah Johnson,,2342,50
+LEAD00446,2024-04-19,Google Ads,PROP003,Toured,Lisa Thompson,,3364,74
+LEAD00447,2024-04-19,Facebook Ads,PROP013,Contacted,Lisa Thompson,,3481,35
+LEAD00448,2024-04-19,Walk-in,PROP019,Lease Signed,David Park,2024-05-08,1422,96
+LEAD00449,2024-04-20,Google Ads,PROP018,Toured,Emily Rodriguez,,1643,34
+LEAD00450,2024-04-20,AI Receptionist,PROP001,Lost,David Park,,1299,39
+LEAD00451,2024-04-20,AI Receptionist,PROP022,New,Emily Rodriguez,,3037,75
+LEAD00452,2024-04-20,Website Organic,PROP001,Contacted,Emily Rodriguez,,3235,62
+LEAD00453,2024-04-20,Referral,PROP019,Qualified,Mike Chen,,2245,68
+LEAD00454,2024-04-20,Facebook Ads,PROP002,Lease Signed,Emily Rodriguez,2024-05-03,3217,67
+LEAD00455,2024-04-20,Google Ads,PROP010,Toured,Lisa Thompson,,2628,65
+LEAD00456,2024-04-21,Walk-in,PROP017,Toured,Sarah Johnson,,2967,21
+LEAD00457,2024-04-21,Property Portals,PROP015,Qualified,Sarah Johnson,,2942,66
+LEAD00458,2024-04-21,Google Ads,PROP018,Qualified,Mike Chen,,2000,7
+LEAD00459,2024-04-21,Referral,PROP012,Toured,Lisa Thompson,,2467,89
+LEAD00460,2024-04-21,Facebook Ads,PROP018,Lost,Sarah Johnson,,1673,59
+LEAD00461,2024-04-22,Facebook Ads,PROP023,New,David Park,,1284,86
+LEAD00462,2024-04-22,Referral,PROP005,Application,David Park,2024-04-25,3160,23
+LEAD00463,2024-04-22,Property Portals,PROP025,Application,Lisa Thompson,2024-05-11,1715,72
+LEAD00464,2024-04-22,AI Receptionist,PROP005,Lease Signed,Sarah Johnson,2024-05-02,2828,5
+LEAD00465,2024-04-22,AI Receptionist,PROP008,Lost,Sarah Johnson,,2609,63
+LEAD00466,2024-04-23,Google Ads,PROP007,Lost,Emily Rodriguez,,3320,10
+LEAD00467,2024-04-23,Website Organic,PROP018,Lease Signed,Sarah Johnson,2024-05-01,3189,82
+LEAD00468,2024-04-23,Google Ads,PROP024,Qualified,David Park,,2720,40
+LEAD00469,2024-04-23,Referral,PROP009,Lost,David Park,,2568,93
+LEAD00470,2024-04-23,Google Ads,PROP004,Lost,Sarah Johnson,,2515,74
+LEAD00471,2024-04-24,Google Ads,PROP014,New,Lisa Thompson,,2350,56
+LEAD00472,2024-04-24,Google Ads,PROP007,Application,Sarah Johnson,2024-04-29,2032,21
+LEAD00473,2024-04-24,Referral,PROP001,Contacted,David Park,,2438,55
+LEAD00474,2024-04-24,AI Receptionist,PROP012,Contacted,Emily Rodriguez,,1574,52
+LEAD00475,2024-04-24,Website Organic,PROP001,Lease Signed,Sarah Johnson,2024-04-28,2501,86
+LEAD00476,2024-04-24,Google Ads,PROP009,Toured,Emily Rodriguez,,2613,14
+LEAD00477,2024-04-24,AI Receptionist,PROP024,Lost,Emily Rodriguez,,2366,35
+LEAD00478,2024-04-24,Google Ads,PROP022,Contacted,Mike Chen,,2408,30
+LEAD00479,2024-04-24,Google Ads,PROP003,Qualified,Lisa Thompson,,1945,67
+LEAD00480,2024-04-25,Property Portals,PROP017,Qualified,David Park,,1652,24
+LEAD00481,2024-04-25,Facebook Ads,PROP015,Qualified,David Park,,3146,84
+LEAD00482,2024-04-25,Facebook Ads,PROP004,New,Mike Chen,,1718,22
+LEAD00483,2024-04-25,Property Portals,PROP005,New,Lisa Thompson,,3321,5
+LEAD00484,2024-04-25,Property Portals,PROP018,Lost,Mike Chen,,1477,72
+LEAD00485,2024-04-25,Walk-in,PROP008,Toured,Mike Chen,,2989,53
+LEAD00486,2024-04-25,Google Ads,PROP001,Lost,David Park,,2576,7
+LEAD00487,2024-04-25,AI Receptionist,PROP001,Lease Signed,Emily Rodriguez,2024-05-04,3278,77
+LEAD00488,2024-04-25,AI Receptionist,PROP005,Lost,Emily Rodriguez,,3361,33
+LEAD00489,2024-04-25,Google Ads,PROP005,Lease Signed,Sarah Johnson,2024-05-08,1346,54
+LEAD00490,2024-04-26,Facebook Ads,PROP007,Qualified,Mike Chen,,2840,8
+LEAD00491,2024-04-26,AI Receptionist,PROP011,Toured,Sarah Johnson,,2935,15
+LEAD00492,2024-04-26,Google Ads,PROP001,Contacted,Emily Rodriguez,,1972,35
+LEAD00493,2024-04-26,Facebook Ads,PROP017,Application,Sarah Johnson,2024-05-01,1988,80
+LEAD00494,2024-04-26,Google Ads,PROP002,Qualified,Mike Chen,,1927,56
+LEAD00495,2024-04-26,Google Ads,PROP001,Lost,Sarah Johnson,,2650,49
+LEAD00496,2024-04-26,AI Receptionist,PROP012,Lease Signed,Sarah Johnson,2024-05-10,1247,61
+LEAD00497,2024-04-26,Referral,PROP023,Lease Signed,David Park,2024-05-02,1753,69
+LEAD00498,2024-04-26,AI Receptionist,PROP007,Toured,David Park,,1747,63
+LEAD00499,2024-04-26,Website Organic,PROP017,Lease Signed,Sarah Johnson,2024-05-14,1248,18
+LEAD00500,2024-04-26,Facebook Ads,PROP025,Lost,Lisa Thompson,,3183,59
+LEAD00501,2024-04-27,Property Portals,PROP005,Qualified,Emily Rodriguez,,3335,71
+LEAD00502,2024-04-27,Google Ads,PROP020,New,David Park,,2975,47
+LEAD00503,2024-04-27,Website Organic,PROP008,Contacted,Lisa Thompson,,3313,76
+LEAD00504,2024-04-27,Walk-in,PROP023,Lease Signed,Mike Chen,2024-05-08,1566,12
+LEAD00505,2024-04-27,Google Ads,PROP024,Lost,David Park,,2412,50
+LEAD00506,2024-04-27,Facebook Ads,PROP020,New,Mike Chen,,3485,3
+LEAD00507,2024-04-27,Email Campaign,PROP005,Toured,Emily Rodriguez,,2853,71
+LEAD00508,2024-04-27,Google Ads,PROP022,Contacted,David Park,,2435,87
+LEAD00509,2024-04-28,Google Ads,PROP018,Qualified,Sarah Johnson,,1893,64
+LEAD00510,2024-04-28,Website Organic,PROP015,Lost,Mike Chen,,1475,16
+LEAD00511,2024-04-28,Google Ads,PROP023,Lost,Lisa Thompson,,2420,2
+LEAD00512,2024-04-28,AI Receptionist,PROP020,New,David Park,,3041,25
+LEAD00513,2024-04-28,AI Receptionist,PROP021,Qualified,Emily Rodriguez,,3451,69
+LEAD00514,2024-04-28,AI Receptionist,PROP022,Contacted,Emily Rodriguez,,2156,38
+LEAD00515,2024-04-28,Google Ads,PROP019,Qualified,Lisa Thompson,,3496,53
+LEAD00516,2024-04-28,Facebook Ads,PROP011,Qualified,Mike Chen,,3332,55
+LEAD00517,2024-04-28,Walk-in,PROP001,Application,David Park,2024-05-05,2204,18
+LEAD00518,2024-04-28,AI Receptionist,PROP023,Lease Signed,David Park,2024-05-09,3466,80
+LEAD00519,2024-04-28,Website Organic,PROP004,Toured,Lisa Thompson,,2558,84
+LEAD00520,2024-04-29,Property Portals,PROP005,Toured,Mike Chen,,2492,93
+LEAD00521,2024-04-29,Facebook Ads,PROP013,Lost,David Park,,2936,21
+LEAD00522,2024-04-29,Facebook Ads,PROP020,Qualified,Emily Rodriguez,,3156,11
+LEAD00523,2024-04-29,Facebook Ads,PROP019,Contacted,Lisa Thompson,,2032,3
+LEAD00524,2024-04-29,AI Receptionist,PROP014,Toured,Lisa Thompson,,1568,15
+LEAD00525,2024-04-29,Google Ads,PROP014,Lost,Emily Rodriguez,,1487,95
+LEAD00526,2024-04-30,Facebook Ads,PROP013,Qualified,Lisa Thompson,,3426,37
+LEAD00527,2024-04-30,Google Ads,PROP020,New,Lisa Thompson,,1725,3
+LEAD00528,2024-04-30,Email Campaign,PROP011,Qualified,Lisa Thompson,,2889,18
+LEAD00529,2024-04-30,Google Ads,PROP025,Qualified,David Park,,3280,3
+LEAD00530,2024-04-30,Website Organic,PROP004,Lease Signed,Sarah Johnson,2024-05-19,3011,14
+LEAD00531,2024-04-30,AI Receptionist,PROP011,Lease Signed,Sarah Johnson,2024-05-12,2636,40
+LEAD00532,2024-04-30,Google Ads,PROP020,Lost,David Park,,3227,26
+LEAD00533,2024-04-30,Referral,PROP024,Lease Signed,Sarah Johnson,2024-05-11,2168,37
+LEAD00534,2024-04-30,AI Receptionist,PROP008,Qualified,David Park,,1939,43
+LEAD00535,2024-04-30,AI Receptionist,PROP010,Lost,Lisa Thompson,,2392,73
+LEAD00536,2024-04-30,Website Organic,PROP002,Lease Signed,Sarah Johnson,2024-05-16,3324,21
+LEAD00537,2024-05-01,Google Ads,PROP013,Lost,David Park,,2854,53
+LEAD00538,2024-05-01,Website Organic,PROP018,Application,Mike Chen,2024-05-16,1366,8
+LEAD00539,2024-05-01,Website Organic,PROP011,Contacted,Lisa Thompson,,2266,49
+LEAD00540,2024-05-01,Google Ads,PROP024,Lease Signed,Sarah Johnson,2024-05-09,2611,2
+LEAD00541,2024-05-01,AI Receptionist,PROP006,Application,Lisa Thompson,2024-05-17,3410,48
+LEAD00542,2024-05-01,Website Organic,PROP015,Lease Signed,Emily Rodriguez,2024-05-07,2757,27
+LEAD00543,2024-05-01,AI Receptionist,PROP012,Toured,David Park,,1448,9
+LEAD00544,2024-05-01,AI Receptionist,PROP009,Lease Signed,Mike Chen,2024-05-11,1419,19
+LEAD00545,2024-05-01,Website Organic,PROP011,New,Mike Chen,,3154,43
+LEAD00546,2024-05-01,Google Ads,PROP008,Lease Signed,Mike Chen,2024-05-09,3454,31
+LEAD00547,2024-05-02,Google Ads,PROP019,Lease Signed,Sarah Johnson,2024-05-16,2776,69
+LEAD00548,2024-05-02,Property Portals,PROP016,Lease Signed,Mike Chen,2024-05-07,1856,60
+LEAD00549,2024-05-02,Facebook Ads,PROP024,Contacted,Mike Chen,,3352,19
+LEAD00550,2024-05-02,Email Campaign,PROP019,Qualified,Emily Rodriguez,,3482,27
+LEAD00551,2024-05-02,AI Receptionist,PROP006,Toured,Sarah Johnson,,2573,72
+LEAD00552,2024-05-02,Google Ads,PROP007,Lease Signed,Sarah Johnson,2024-05-19,1891,35
+LEAD00553,2024-05-02,Google Ads,PROP005,Toured,Mike Chen,,1591,98
+LEAD00554,2024-05-02,Facebook Ads,PROP004,Qualified,Lisa Thompson,,2447,52
+LEAD00555,2024-05-03,Email Campaign,PROP020,Contacted,Mike Chen,,3318,17
+LEAD00556,2024-05-03,Walk-in,PROP022,Qualified,Mike Chen,,1633,69
+LEAD00557,2024-05-03,Walk-in,PROP023,Toured,Lisa Thompson,,2886,68
+LEAD00558,2024-05-03,Google Ads,PROP001,New,Emily Rodriguez,,1794,50
+LEAD00559,2024-05-03,Facebook Ads,PROP006,Contacted,Lisa Thompson,,1974,97
+LEAD00560,2024-05-03,Google Ads,PROP022,Qualified,David Park,,2320,17
+LEAD00561,2024-05-03,AI Receptionist,PROP005,Contacted,Emily Rodriguez,,3463,29
+LEAD00562,2024-05-03,Facebook Ads,PROP022,Toured,Lisa Thompson,,1313,87
+LEAD00563,2024-05-03,Facebook Ads,PROP017,Lost,Lisa Thompson,,3296,6
+LEAD00564,2024-05-03,Website Organic,PROP022,Contacted,David Park,,2622,44
+LEAD00565,2024-05-04,Google Ads,PROP006,New,David Park,,2830,44
+LEAD00566,2024-05-04,Referral,PROP003,Lost,Lisa Thompson,,2795,74
+LEAD00567,2024-05-04,Google Ads,PROP019,New,Sarah Johnson,,1956,1
+LEAD00568,2024-05-04,Google Ads,PROP018,Qualified,Emily Rodriguez,,2742,92
+LEAD00569,2024-05-04,Google Ads,PROP011,Contacted,Emily Rodriguez,,2701,91
+LEAD00570,2024-05-04,AI Receptionist,PROP018,Lost,Lisa Thompson,,2761,91
+LEAD00571,2024-05-04,Referral,PROP020,Application,Emily Rodriguez,2024-05-09,3274,73
+LEAD00572,2024-05-04,Referral,PROP001,Application,David Park,2024-05-07,1600,15
+LEAD00573,2024-05-05,Google Ads,PROP004,Lost,David Park,,1472,58
+LEAD00574,2024-05-05,Facebook Ads,PROP009,Lost,Emily Rodriguez,,2816,74
+LEAD00575,2024-05-05,Website Organic,PROP006,Qualified,David Park,,2603,3
+LEAD00576,2024-05-05,Property Portals,PROP010,Contacted,Mike Chen,,3367,9
+LEAD00577,2024-05-06,Referral,PROP024,Qualified,David Park,,2591,76
+LEAD00578,2024-05-06,Facebook Ads,PROP016,Application,Emily Rodriguez,2024-05-11,1749,6
+LEAD00579,2024-05-06,Website Organic,PROP015,Toured,Lisa Thompson,,1649,62
+LEAD00580,2024-05-06,Website Organic,PROP020,New,Emily Rodriguez,,2247,17
+LEAD00581,2024-05-06,Website Organic,PROP023,Contacted,David Park,,2565,56
+LEAD00582,2024-05-06,Referral,PROP022,Lease Signed,David Park,2024-05-14,2779,15
+LEAD00583,2024-05-06,Google Ads,PROP019,Contacted,Lisa Thompson,,3127,77
+LEAD00584,2024-05-06,Website Organic,PROP006,Lease Signed,Emily Rodriguez,2024-05-25,1334,90
+LEAD00585,2024-05-06,Google Ads,PROP017,Contacted,Sarah Johnson,,2751,96
+LEAD00586,2024-05-07,Google Ads,PROP014,Lease Signed,Lisa Thompson,2024-05-12,3424,1
+LEAD00587,2024-05-07,Google Ads,PROP014,Lease Signed,Sarah Johnson,2024-05-15,3012,4
+LEAD00588,2024-05-07,Google Ads,PROP002,Lease Signed,Sarah Johnson,2024-05-17,3157,23
+LEAD00589,2024-05-07,Email Campaign,PROP025,Lease Signed,Mike Chen,2024-05-12,1213,91
+LEAD00590,2024-05-07,Property Portals,PROP014,Lease Signed,Emily Rodriguez,2024-05-11,2483,36
+LEAD00591,2024-05-07,Facebook Ads,PROP009,New,David Park,,1603,74
+LEAD00592,2024-05-07,Google Ads,PROP022,Lost,Mike Chen,,1591,73
+LEAD00593,2024-05-08,Property Portals,PROP013,Lease Signed,Emily Rodriguez,2024-05-24,1942,48
+LEAD00594,2024-05-08,Facebook Ads,PROP020,Qualified,Mike Chen,,3354,20
+LEAD00595,2024-05-08,Referral,PROP022,Lease Signed,Sarah Johnson,2024-05-12,1785,1
+LEAD00596,2024-05-08,Website Organic,PROP007,Lease Signed,Emily Rodriguez,2024-05-27,2847,52
+LEAD00597,2024-05-08,AI Receptionist,PROP001,Qualified,Sarah Johnson,,1591,5
+LEAD00598,2024-05-08,Property Portals,PROP001,Lease Signed,Lisa Thompson,2024-05-20,2249,61
+LEAD00599,2024-05-08,Website Organic,PROP003,New,David Park,,1563,60
+LEAD00600,2024-05-09,Google Ads,PROP021,Toured,Lisa Thompson,,3119,90
+LEAD00601,2024-05-09,Google Ads,PROP015,Qualified,David Park,,1335,29
+LEAD00602,2024-05-09,Facebook Ads,PROP024,Contacted,David Park,,2451,31
+LEAD00603,2024-05-09,Email Campaign,PROP002,Lost,David Park,,2870,76
+LEAD00604,2024-05-09,Google Ads,PROP015,Lost,Emily Rodriguez,,2785,93
+LEAD00605,2024-05-09,AI Receptionist,PROP006,Contacted,David Park,,3452,91
+LEAD00606,2024-05-09,Google Ads,PROP013,Application,Lisa Thompson,2024-05-24,2819,54
+LEAD00607,2024-05-09,AI Receptionist,PROP017,Toured,Emily Rodriguez,,3446,45
+LEAD00608,2024-05-09,Google Ads,PROP001,Lease Signed,Sarah Johnson,2024-05-25,2655,10
+LEAD00609,2024-05-10,Facebook Ads,PROP004,Toured,Mike Chen,,1554,66
+LEAD00610,2024-05-10,Property Portals,PROP015,Lease Signed,Mike Chen,2024-05-30,2375,23
+LEAD00611,2024-05-10,Property Portals,PROP021,Contacted,Mike Chen,,1329,69
+LEAD00612,2024-05-10,AI Receptionist,PROP022,Qualified,Emily Rodriguez,,1306,72
+LEAD00613,2024-05-10,Email Campaign,PROP001,Lost,Emily Rodriguez,,3326,52
+LEAD00614,2024-05-10,AI Receptionist,PROP025,Toured,Emily Rodriguez,,3419,17
+LEAD00615,2024-05-11,Google Ads,PROP018,Qualified,David Park,,3262,68
+LEAD00616,2024-05-11,AI Receptionist,PROP022,Qualified,Mike Chen,,2468,64
+LEAD00617,2024-05-11,Google Ads,PROP002,Toured,Emily Rodriguez,,2876,24
+LEAD00618,2024-05-11,AI Receptionist,PROP024,Toured,Lisa Thompson,,3060,44
+LEAD00619,2024-05-11,Google Ads,PROP022,Lost,Lisa Thompson,,2444,54
+LEAD00620,2024-05-11,Google Ads,PROP003,Lost,Emily Rodriguez,,2040,38
+LEAD00621,2024-05-11,Google Ads,PROP012,New,David Park,,2750,98
+LEAD00622,2024-05-11,Google Ads,PROP003,Lease Signed,David Park,2024-05-30,3413,63
+LEAD00623,2024-05-12,Website Organic,PROP015,Toured,Emily Rodriguez,,2237,13
+LEAD00624,2024-05-12,Google Ads,PROP025,Toured,Mike Chen,,2229,34
+LEAD00625,2024-05-12,Google Ads,PROP009,Lost,Sarah Johnson,,2379,85
+LEAD00626,2024-05-13,Google Ads,PROP018,Qualified,Emily Rodriguez,,1779,56
+LEAD00627,2024-05-13,AI Receptionist,PROP012,Lost,Lisa Thompson,,3089,42
+LEAD00628,2024-05-13,AI Receptionist,PROP009,Lease Signed,Sarah Johnson,2024-06-01,1939,50
+LEAD00629,2024-05-13,AI Receptionist,PROP017,Lease Signed,Sarah Johnson,2024-05-29,2801,5
+LEAD00630,2024-05-13,AI Receptionist,PROP022,New,Emily Rodriguez,,2438,96
+LEAD00631,2024-05-13,Website Organic,PROP018,Lease Signed,Mike Chen,2024-05-21,2151,95
+LEAD00632,2024-05-13,Google Ads,PROP008,Contacted,Mike Chen,,3432,68
+LEAD00633,2024-05-13,Referral,PROP003,Contacted,Mike Chen,,2013,30
+LEAD00634,2024-05-13,Website Organic,PROP018,Contacted,Mike Chen,,2610,23
+LEAD00635,2024-05-13,Email Campaign,PROP018,Qualified,Lisa Thompson,,3157,77
+LEAD00636,2024-05-14,Walk-in,PROP005,Lost,Lisa Thompson,,1991,79
+LEAD00637,2024-05-14,Facebook Ads,PROP022,Lost,Emily Rodriguez,,1574,90
+LEAD00638,2024-05-14,Google Ads,PROP009,Application,Mike Chen,2024-06-01,1732,10
+LEAD00639,2024-05-14,Website Organic,PROP024,Lost,David Park,,2739,94
+LEAD00640,2024-05-14,Property Portals,PROP011,Lease Signed,Lisa Thompson,2024-06-01,2739,65
+LEAD00641,2024-05-14,Website Organic,PROP024,New,Sarah Johnson,,3292,18
+LEAD00642,2024-05-14,Referral,PROP025,Lease Signed,Mike Chen,2024-05-20,2514,38
+LEAD00643,2024-05-14,Website Organic,PROP009,Lost,Lisa Thompson,,2422,19
+LEAD00644,2024-05-14,Website Organic,PROP017,Application,Lisa Thompson,2024-05-29,2905,6
+LEAD00645,2024-05-14,Facebook Ads,PROP011,New,Sarah Johnson,,3255,44
+LEAD00646,2024-05-14,Referral,PROP003,Contacted,Sarah Johnson,,1663,82
+LEAD00647,2024-05-15,Facebook Ads,PROP021,New,Sarah Johnson,,1965,20
+LEAD00648,2024-05-15,Google Ads,PROP018,Contacted,Emily Rodriguez,,3209,45
+LEAD00649,2024-05-15,Facebook Ads,PROP002,Application,Mike Chen,2024-06-02,3110,93
+LEAD00650,2024-05-15,Referral,PROP002,Lease Signed,Mike Chen,2024-05-25,1726,17
+LEAD00651,2024-05-16,Email Campaign,PROP005,Qualified,Mike Chen,,1529,44
+LEAD00652,2024-05-16,Facebook Ads,PROP013,Contacted,Emily Rodriguez,,2468,66
+LEAD00653,2024-05-16,Google Ads,PROP023,Qualified,David Park,,1592,74
+LEAD00654,2024-05-16,AI Receptionist,PROP008,Lease Signed,David Park,2024-06-02,1587,36
+LEAD00655,2024-05-16,Website Organic,PROP012,Toured,David Park,,3426,97
+LEAD00656,2024-05-16,Email Campaign,PROP014,Toured,Lisa Thompson,,1461,37
+LEAD00657,2024-05-16,Website Organic,PROP021,Toured,Sarah Johnson,,1886,13
+LEAD00658,2024-05-16,Google Ads,PROP002,Toured,Mike Chen,,2596,10
+LEAD00659,2024-05-16,Facebook Ads,PROP002,Toured,Mike Chen,,2629,89
+LEAD00660,2024-05-17,Referral,PROP022,Lease Signed,Mike Chen,2024-05-27,1901,73
+LEAD00661,2024-05-17,Facebook Ads,PROP018,Lost,Lisa Thompson,,2557,15
+LEAD00662,2024-05-17,Property Portals,PROP021,New,David Park,,1359,77
+LEAD00663,2024-05-17,Website Organic,PROP007,Qualified,David Park,,2103,35
+LEAD00664,2024-05-17,Google Ads,PROP003,Contacted,Sarah Johnson,,3473,12
+LEAD00665,2024-05-17,Property Portals,PROP025,Qualified,Emily Rodriguez,,1404,31
+LEAD00666,2024-05-17,Facebook Ads,PROP007,Qualified,Lisa Thompson,,2305,6
+LEAD00667,2024-05-17,Google Ads,PROP014,New,Mike Chen,,1266,48
+LEAD00668,2024-05-17,Google Ads,PROP014,Qualified,Sarah Johnson,,1270,50
+LEAD00669,2024-05-17,Facebook Ads,PROP021,New,Sarah Johnson,,2869,82
+LEAD00670,2024-05-18,Facebook Ads,PROP003,Toured,Emily Rodriguez,,3407,66
+LEAD00671,2024-05-18,Referral,PROP002,Toured,David Park,,3221,82
+LEAD00672,2024-05-18,Property Portals,PROP013,Lease Signed,Emily Rodriguez,2024-05-22,3032,26
+LEAD00673,2024-05-18,Email Campaign,PROP004,Contacted,Mike Chen,,2972,73
+LEAD00674,2024-05-18,AI Receptionist,PROP019,Contacted,David Park,,1531,62
+LEAD00675,2024-05-18,Property Portals,PROP004,Application,Lisa Thompson,2024-05-27,3328,18
+LEAD00676,2024-05-18,Facebook Ads,PROP021,Contacted,Sarah Johnson,,3041,80
+LEAD00677,2024-05-18,Google Ads,PROP001,Lost,David Park,,2271,87
+LEAD00678,2024-05-18,Email Campaign,PROP014,Lease Signed,David Park,2024-06-06,1281,97
+LEAD00679,2024-05-18,Google Ads,PROP009,Lease Signed,Emily Rodriguez,2024-06-02,2891,28
+LEAD00680,2024-05-19,Facebook Ads,PROP025,Toured,Mike Chen,,2854,71
+LEAD00681,2024-05-19,Email Campaign,PROP007,Lost,Emily Rodriguez,,2914,27
+LEAD00682,2024-05-19,Facebook Ads,PROP016,Toured,Emily Rodriguez,,2353,48
+LEAD00683,2024-05-19,Walk-in,PROP015,Toured,Mike Chen,,2737,65
+LEAD00684,2024-05-19,Website Organic,PROP009,Lease Signed,David Park,2024-05-27,2034,62
+LEAD00685,2024-05-19,Email Campaign,PROP023,New,Emily Rodriguez,,1331,93
+LEAD00686,2024-05-19,Google Ads,PROP019,Qualified,Sarah Johnson,,2460,31
+LEAD00687,2024-05-19,Referral,PROP002,Application,Emily Rodriguez,2024-06-03,3169,85
+LEAD00688,2024-05-19,Email Campaign,PROP012,Lost,Lisa Thompson,,1515,52
+LEAD00689,2024-05-19,Google Ads,PROP009,Application,Mike Chen,2024-05-25,2038,7
+LEAD00690,2024-05-20,AI Receptionist,PROP024,Application,Sarah Johnson,2024-06-06,2062,48
+LEAD00691,2024-05-20,Property Portals,PROP004,Toured,Mike Chen,,2953,93
+LEAD00692,2024-05-20,AI Receptionist,PROP013,Toured,Emily Rodriguez,,3025,60
+LEAD00693,2024-05-20,Walk-in,PROP002,Lease Signed,David Park,2024-06-08,1759,96
+LEAD00694,2024-05-20,Property Portals,PROP017,Qualified,David Park,,3276,60
+LEAD00695,2024-05-20,Facebook Ads,PROP016,Lost,Sarah Johnson,,1308,68
+LEAD00696,2024-05-20,AI Receptionist,PROP010,Qualified,Mike Chen,,2630,73
+LEAD00697,2024-05-20,Property Portals,PROP008,Lost,Sarah Johnson,,3069,17
+LEAD00698,2024-05-20,AI Receptionist,PROP022,Qualified,Lisa Thompson,,2850,26
+LEAD00699,2024-05-20,Website Organic,PROP017,Lost,Mike Chen,,1844,50
+LEAD00700,2024-05-21,Facebook Ads,PROP024,Contacted,Mike Chen,,2686,57
+LEAD00701,2024-05-21,Website Organic,PROP017,Contacted,Mike Chen,,2922,31
+LEAD00702,2024-05-21,Email Campaign,PROP017,Qualified,David Park,,1908,92
+LEAD00703,2024-05-21,AI Receptionist,PROP011,Toured,Mike Chen,,1662,87
+LEAD00704,2024-05-21,Email Campaign,PROP015,Qualified,David Park,,3306,64
+LEAD00705,2024-05-21,Referral,PROP020,Lease Signed,Lisa Thompson,2024-06-09,2783,45
+LEAD00706,2024-05-21,Google Ads,PROP004,Qualified,Lisa Thompson,,3135,46
+LEAD00707,2024-05-21,Google Ads,PROP014,Application,Emily Rodriguez,2024-06-06,2925,35
+LEAD00708,2024-05-21,Google Ads,PROP010,Application,Mike Chen,2024-06-07,2129,23
+LEAD00709,2024-05-22,AI Receptionist,PROP007,Lease Signed,Lisa Thompson,2024-06-05,2439,28
+LEAD00710,2024-05-22,Google Ads,PROP018,Toured,Sarah Johnson,,1242,42
+LEAD00711,2024-05-22,Referral,PROP001,Lease Signed,Lisa Thompson,2024-06-08,2896,87
+LEAD00712,2024-05-22,Email Campaign,PROP002,Toured,Lisa Thompson,,1495,30
+LEAD00713,2024-05-22,AI Receptionist,PROP007,Qualified,Mike Chen,,1945,3
+LEAD00714,2024-05-22,AI Receptionist,PROP011,Qualified,David Park,,2496,34
+LEAD00715,2024-05-22,Property Portals,PROP006,Lease Signed,Sarah Johnson,2024-06-11,2182,89
+LEAD00716,2024-05-23,Property Portals,PROP021,Contacted,David Park,,2888,84
+LEAD00717,2024-05-23,Email Campaign,PROP023,Lost,Mike Chen,,2475,14
+LEAD00718,2024-05-23,Email Campaign,PROP002,New,David Park,,3373,9
+LEAD00719,2024-05-23,Google Ads,PROP014,Qualified,Mike Chen,,2290,66
+LEAD00720,2024-05-23,Facebook Ads,PROP009,Contacted,David Park,,2739,10
+LEAD00721,2024-05-23,Google Ads,PROP018,Lease Signed,David Park,2024-06-03,1228,16
+LEAD00722,2024-05-23,Facebook Ads,PROP015,Qualified,Emily Rodriguez,,1555,31
+LEAD00723,2024-05-24,Website Organic,PROP009,Qualified,Mike Chen,,3103,27
+LEAD00724,2024-05-24,Property Portals,PROP019,Lease Signed,Emily Rodriguez,2024-06-07,1278,17
+LEAD00725,2024-05-24,Facebook Ads,PROP007,New,Mike Chen,,2647,85
+LEAD00726,2024-05-25,Google Ads,PROP007,Contacted,Sarah Johnson,,1412,55
+LEAD00727,2024-05-25,Facebook Ads,PROP001,Contacted,Mike Chen,,2932,63
+LEAD00728,2024-05-25,Property Portals,PROP010,Toured,Lisa Thompson,,1972,58
+LEAD00729,2024-05-25,Property Portals,PROP013,Contacted,Sarah Johnson,,2586,53
+LEAD00730,2024-05-25,Google Ads,PROP011,Toured,Emily Rodriguez,,2155,44
+LEAD00731,2024-05-26,AI Receptionist,PROP023,Toured,David Park,,1472,38
+LEAD00732,2024-05-26,Google Ads,PROP020,Toured,Sarah Johnson,,3272,80
+LEAD00733,2024-05-26,Property Portals,PROP016,Qualified,Mike Chen,,2113,47
+LEAD00734,2024-05-26,Google Ads,PROP018,Lost,David Park,,2825,67
+LEAD00735,2024-05-26,Property Portals,PROP019,Contacted,Emily Rodriguez,,2149,45
+LEAD00736,2024-05-26,Referral,PROP020,Lease Signed,David Park,2024-06-03,1837,53
+LEAD00737,2024-05-26,Property Portals,PROP016,Lease Signed,Sarah Johnson,2024-05-30,1342,10
+LEAD00738,2024-05-26,Website Organic,PROP021,Lease Signed,Mike Chen,2024-06-03,2950,16
+LEAD00739,2024-05-27,Google Ads,PROP006,Lost,Emily Rodriguez,,2031,89
+LEAD00740,2024-05-27,Facebook Ads,PROP025,Contacted,Emily Rodriguez,,3089,11
+LEAD00741,2024-05-27,Facebook Ads,PROP005,New,Mike Chen,,3190,80
+LEAD00742,2024-05-27,Email Campaign,PROP019,Lease Signed,Sarah Johnson,2024-06-06,1837,41
+LEAD00743,2024-05-27,AI Receptionist,PROP009,Qualified,Emily Rodriguez,,1232,20
+LEAD00744,2024-05-27,Email Campaign,PROP008,Qualified,Mike Chen,,2931,15
+LEAD00745,2024-05-27,Email Campaign,PROP005,Contacted,Emily Rodriguez,,2949,34
+LEAD00746,2024-05-27,AI Receptionist,PROP018,Contacted,Sarah Johnson,,2796,78
+LEAD00747,2024-05-27,Google Ads,PROP010,New,Mike Chen,,2184,7
+LEAD00748,2024-05-27,Google Ads,PROP015,Lease Signed,Emily Rodriguez,2024-06-11,2133,51
+LEAD00749,2024-05-27,Facebook Ads,PROP021,Qualified,Lisa Thompson,,3257,8
+LEAD00750,2024-05-28,Website Organic,PROP003,Qualified,Mike Chen,,3344,78
+LEAD00751,2024-05-28,Google Ads,PROP023,Qualified,Emily Rodriguez,,1860,1
+LEAD00752,2024-05-28,AI Receptionist,PROP009,Lease Signed,Emily Rodriguez,2024-06-13,1782,31
+LEAD00753,2024-05-28,Email Campaign,PROP002,Contacted,Lisa Thompson,,2946,38
+LEAD00754,2024-05-28,Referral,PROP010,New,Emily Rodriguez,,3211,33
+LEAD00755,2024-05-28,Website Organic,PROP005,Lost,Mike Chen,,2280,1
+LEAD00756,2024-05-28,AI Receptionist,PROP005,Qualified,Lisa Thompson,,2320,25
+LEAD00757,2024-05-28,Website Organic,PROP025,Lost,Emily Rodriguez,,3134,4
+LEAD00758,2024-05-29,Google Ads,PROP023,Toured,Sarah Johnson,,2524,97
+LEAD00759,2024-05-29,Referral,PROP022,Qualified,Sarah Johnson,,1216,56
+LEAD00760,2024-05-29,Email Campaign,PROP022,Application,Lisa Thompson,2024-06-07,2410,88
+LEAD00761,2024-05-29,Google Ads,PROP023,Contacted,Lisa Thompson,,3035,63
+LEAD00762,2024-05-29,Facebook Ads,PROP021,Application,Emily Rodriguez,2024-06-09,3139,83
+LEAD00763,2024-05-29,Walk-in,PROP008,New,Emily Rodriguez,,3469,90
+LEAD00764,2024-05-29,Google Ads,PROP006,Contacted,Sarah Johnson,,3245,97
+LEAD00765,2024-05-29,Google Ads,PROP024,Contacted,David Park,,2914,11
+LEAD00766,2024-05-30,AI Receptionist,PROP002,Toured,David Park,,3195,48
+LEAD00767,2024-05-30,Facebook Ads,PROP004,Qualified,Emily Rodriguez,,1593,43
+LEAD00768,2024-05-30,Google Ads,PROP021,Toured,David Park,,2405,38
+LEAD00769,2024-05-30,Facebook Ads,PROP019,New,Emily Rodriguez,,1493,66
+LEAD00770,2024-05-30,Google Ads,PROP016,Qualified,David Park,,1686,90
+LEAD00771,2024-05-30,Website Organic,PROP015,Contacted,Sarah Johnson,,1477,81
+LEAD00772,2024-05-30,Facebook Ads,PROP017,Toured,David Park,,2706,6
+LEAD00773,2024-05-30,AI Receptionist,PROP006,Qualified,Emily Rodriguez,,2005,80
+LEAD00774,2024-05-30,AI Receptionist,PROP021,Qualified,Emily Rodriguez,,2281,73
+LEAD00775,2024-05-30,AI Receptionist,PROP010,Lost,Emily Rodriguez,,2457,63
+LEAD00776,2024-05-31,AI Receptionist,PROP020,Application,Mike Chen,2024-06-19,1634,65
+LEAD00777,2024-05-31,Facebook Ads,PROP010,New,David Park,,1619,31
+LEAD00778,2024-05-31,AI Receptionist,PROP019,Contacted,Lisa Thompson,,3208,94
+LEAD00779,2024-05-31,AI Receptionist,PROP007,Lease Signed,Sarah Johnson,2024-06-13,1814,7
+LEAD00780,2024-05-31,AI Receptionist,PROP024,Contacted,Sarah Johnson,,2966,49
+LEAD00781,2024-06-01,AI Receptionist,PROP003,Lease Signed,Sarah Johnson,2024-06-07,1949,45
+LEAD00782,2024-06-01,Referral,PROP015,Lease Signed,David Park,2024-06-17,3361,68
+LEAD00783,2024-06-01,Facebook Ads,PROP019,New,Mike Chen,,2074,28
+LEAD00784,2024-06-01,Facebook Ads,PROP012,Qualified,Emily Rodriguez,,2946,20
+LEAD00785,2024-06-01,Google Ads,PROP024,Lost,Sarah Johnson,,3302,35
+LEAD00786,2024-06-01,Walk-in,PROP007,Qualified,Mike Chen,,3360,41
+LEAD00787,2024-06-02,Google Ads,PROP021,Contacted,Mike Chen,,2462,9
+LEAD00788,2024-06-02,Email Campaign,PROP004,Qualified,Lisa Thompson,,2902,7
+LEAD00789,2024-06-02,Google Ads,PROP012,Qualified,Emily Rodriguez,,2423,71
+LEAD00790,2024-06-02,Website Organic,PROP013,Qualified,Sarah Johnson,,3163,99
+LEAD00791,2024-06-02,Property Portals,PROP025,Lost,David Park,,2723,70
+LEAD00792,2024-06-02,Email Campaign,PROP002,New,Emily Rodriguez,,1619,49
+LEAD00793,2024-06-02,AI Receptionist,PROP023,Application,Emily Rodriguez,2024-06-17,2368,32
+LEAD00794,2024-06-02,Google Ads,PROP022,Lost,Sarah Johnson,,2896,14
+LEAD00795,2024-06-03,Google Ads,PROP017,Toured,Sarah Johnson,,1752,45
+LEAD00796,2024-06-03,Referral,PROP002,New,Sarah Johnson,,2364,71
+LEAD00797,2024-06-03,AI Receptionist,PROP003,Lease Signed,Emily Rodriguez,2024-06-06,2041,65
+LEAD00798,2024-06-03,Google Ads,PROP017,New,Emily Rodriguez,,1768,86
+LEAD00799,2024-06-03,Website Organic,PROP002,Toured,Emily Rodriguez,,2021,74
+LEAD00800,2024-06-03,Property Portals,PROP012,Qualified,Mike Chen,,2669,84
+LEAD00801,2024-06-03,Email Campaign,PROP020,New,Lisa Thompson,,3363,46
+LEAD00802,2024-06-03,Email Campaign,PROP004,Lost,Sarah Johnson,,2399,77
+LEAD00803,2024-06-03,Facebook Ads,PROP022,Qualified,Mike Chen,,3332,1
+LEAD00804,2024-06-03,Facebook Ads,PROP006,Qualified,David Park,,2231,90
+LEAD00805,2024-06-04,Email Campaign,PROP019,Toured,Mike Chen,,1507,50
+LEAD00806,2024-06-04,Website Organic,PROP015,Toured,Mike Chen,,2294,47
+LEAD00807,2024-06-04,Facebook Ads,PROP011,Application,Lisa Thompson,2024-06-09,3003,76
+LEAD00808,2024-06-04,Property Portals,PROP019,Toured,David Park,,2021,47
+LEAD00809,2024-06-04,Website Organic,PROP003,Qualified,Lisa Thompson,,1295,38
+LEAD00810,2024-06-04,Property Portals,PROP013,Toured,David Park,,1748,73
+LEAD00811,2024-06-05,Email Campaign,PROP023,Contacted,Mike Chen,,1543,48
+LEAD00812,2024-06-05,Property Portals,PROP011,Contacted,Emily Rodriguez,,2530,84
+LEAD00813,2024-06-05,Property Portals,PROP007,Application,Emily Rodriguez,2024-06-20,3355,24
+LEAD00814,2024-06-05,Walk-in,PROP020,New,David Park,,3312,62
+LEAD00815,2024-06-05,Google Ads,PROP006,Lease Signed,Mike Chen,2024-06-18,3336,39
+LEAD00816,2024-06-05,AI Receptionist,PROP016,Toured,Sarah Johnson,,1699,29
+LEAD00817,2024-06-05,Google Ads,PROP016,Lease Signed,Mike Chen,2024-06-20,1428,22
+LEAD00818,2024-06-05,Walk-in,PROP007,Qualified,Lisa Thompson,,1373,90
+LEAD00819,2024-06-06,Google Ads,PROP012,New,David Park,,3463,77
+LEAD00820,2024-06-06,Website Organic,PROP002,New,Emily Rodriguez,,2429,30
+LEAD00821,2024-06-06,Google Ads,PROP011,Qualified,Mike Chen,,1907,51
+LEAD00822,2024-06-06,Website Organic,PROP010,Qualified,Mike Chen,,1895,19
+LEAD00823,2024-06-06,Email Campaign,PROP017,Qualified,David Park,,1265,5
+LEAD00824,2024-06-06,Google Ads,PROP014,Application,Mike Chen,2024-06-16,1784,71
+LEAD00825,2024-06-06,Property Portals,PROP018,Contacted,Lisa Thompson,,3092,22
+LEAD00826,2024-06-07,AI Receptionist,PROP024,Application,Mike Chen,2024-06-12,1505,2
+LEAD00827,2024-06-07,Email Campaign,PROP015,Lost,Sarah Johnson,,2209,52
+LEAD00828,2024-06-07,AI Receptionist,PROP005,New,Sarah Johnson,,2333,37
+LEAD00829,2024-06-07,Facebook Ads,PROP014,Contacted,Mike Chen,,1218,91
+LEAD00830,2024-06-07,AI Receptionist,PROP005,Lost,David Park,,1823,16
+LEAD00831,2024-06-07,AI Receptionist,PROP018,New,Emily Rodriguez,,3016,8
+LEAD00832,2024-06-07,Property Portals,PROP007,Lost,Emily Rodriguez,,3221,41
+LEAD00833,2024-06-07,Google Ads,PROP020,Contacted,Sarah Johnson,,2546,40
+LEAD00834,2024-06-07,Email Campaign,PROP020,Application,David Park,2024-06-20,1688,53
+LEAD00835,2024-06-07,Website Organic,PROP020,Qualified,Emily Rodriguez,,1850,85
+LEAD00836,2024-06-07,Referral,PROP007,Lease Signed,Emily Rodriguez,2024-06-10,1648,34
+LEAD00837,2024-06-08,Google Ads,PROP005,Lost,Mike Chen,,1919,46
+LEAD00838,2024-06-08,AI Receptionist,PROP008,Contacted,Sarah Johnson,,3356,9
+LEAD00839,2024-06-08,Property Portals,PROP010,Qualified,Sarah Johnson,,3399,85
+LEAD00840,2024-06-08,Property Portals,PROP015,Contacted,Mike Chen,,1409,12
+LEAD00841,2024-06-08,AI Receptionist,PROP009,Qualified,David Park,,3157,92
+LEAD00842,2024-06-08,Website Organic,PROP008,Lease Signed,Mike Chen,2024-06-28,2044,86
+LEAD00843,2024-06-08,Google Ads,PROP011,Lost,David Park,,1423,14
+LEAD00844,2024-06-08,Google Ads,PROP006,Application,Mike Chen,2024-06-23,2827,11
+LEAD00845,2024-06-08,Website Organic,PROP008,Lease Signed,Lisa Thompson,2024-06-11,2631,30
+LEAD00846,2024-06-08,Google Ads,PROP001,New,Sarah Johnson,,1263,48
+LEAD00847,2024-06-08,Google Ads,PROP023,Qualified,Mike Chen,,3194,98
+LEAD00848,2024-06-09,Facebook Ads,PROP015,Qualified,Lisa Thompson,,3148,35
+LEAD00849,2024-06-09,Facebook Ads,PROP013,Qualified,Sarah Johnson,,1389,59
+LEAD00850,2024-06-09,AI Receptionist,PROP017,Contacted,Lisa Thompson,,1796,54
+LEAD00851,2024-06-09,Website Organic,PROP013,Lease Signed,David Park,2024-06-22,1341,17
+LEAD00852,2024-06-09,Referral,PROP002,Application,Lisa Thompson,2024-06-19,1620,7
+LEAD00853,2024-06-09,Walk-in,PROP016,Contacted,Sarah Johnson,,1627,40
+LEAD00854,2024-06-10,Google Ads,PROP011,Contacted,David Park,,2953,9
+LEAD00855,2024-06-10,AI Receptionist,PROP012,Lease Signed,Mike Chen,2024-06-22,3103,33
+LEAD00856,2024-06-10,Referral,PROP006,Contacted,Mike Chen,,1739,68
+LEAD00857,2024-06-10,Walk-in,PROP015,Lease Signed,Mike Chen,2024-06-27,3155,1
+LEAD00858,2024-06-10,Property Portals,PROP011,Application,Emily Rodriguez,2024-06-22,1427,27
+LEAD00859,2024-06-10,AI Receptionist,PROP007,Contacted,David Park,,3186,63
+LEAD00860,2024-06-10,Google Ads,PROP008,Contacted,Mike Chen,,1961,76
+LEAD00861,2024-06-11,Referral,PROP005,Qualified,David Park,,1499,67
+LEAD00862,2024-06-11,Email Campaign,PROP011,Lease Signed,Mike Chen,2024-06-23,3244,81
+LEAD00863,2024-06-11,Property Portals,PROP002,Qualified,Lisa Thompson,,2271,98
+LEAD00864,2024-06-11,Facebook Ads,PROP005,Toured,Sarah Johnson,,2162,94
+LEAD00865,2024-06-11,Referral,PROP002,Lease Signed,Sarah Johnson,2024-06-15,2006,7
+LEAD00866,2024-06-11,Google Ads,PROP008,Contacted,Mike Chen,,2400,16
+LEAD00867,2024-06-11,AI Receptionist,PROP010,Application,Lisa Thompson,2024-06-28,2349,55
+LEAD00868,2024-06-11,Email Campaign,PROP008,Qualified,Sarah Johnson,,1943,44
+LEAD00869,2024-06-11,Facebook Ads,PROP004,Qualified,Mike Chen,,1576,23
+LEAD00870,2024-06-11,Facebook Ads,PROP017,New,David Park,,1477,83
+LEAD00871,2024-06-11,Facebook Ads,PROP013,Toured,Mike Chen,,1309,52
+LEAD00872,2024-06-12,Referral,PROP009,Qualified,Sarah Johnson,,2737,17
+LEAD00873,2024-06-12,Website Organic,PROP004,Lost,Lisa Thompson,,2840,24
+LEAD00874,2024-06-12,Google Ads,PROP002,Toured,Mike Chen,,2797,43
+LEAD00875,2024-06-12,Property Portals,PROP009,Toured,Emily Rodriguez,,2726,68
+LEAD00876,2024-06-12,Google Ads,PROP009,Lease Signed,Emily Rodriguez,2024-06-19,2026,28
+LEAD00877,2024-06-12,Google Ads,PROP013,Lease Signed,David Park,2024-06-27,1317,14
+LEAD00878,2024-06-12,Google Ads,PROP023,Qualified,David Park,,3275,40
+LEAD00879,2024-06-12,Facebook Ads,PROP019,Qualified,Sarah Johnson,,2751,53
+LEAD00880,2024-06-12,Facebook Ads,PROP004,Qualified,Mike Chen,,3397,73
+LEAD00881,2024-06-13,Email Campaign,PROP002,Lost,David Park,,2172,20
+LEAD00882,2024-06-13,Website Organic,PROP011,Toured,Mike Chen,,1695,3
+LEAD00883,2024-06-13,Google Ads,PROP017,Contacted,Lisa Thompson,,2796,16
+LEAD00884,2024-06-13,Email Campaign,PROP015,Application,Lisa Thompson,2024-07-03,1240,72
+LEAD00885,2024-06-13,Website Organic,PROP022,Contacted,Sarah Johnson,,2571,95
+LEAD00886,2024-06-13,Google Ads,PROP008,New,Lisa Thompson,,2233,18
+LEAD00887,2024-06-13,Google Ads,PROP016,Qualified,Emily Rodriguez,,1254,60
+LEAD00888,2024-06-14,Google Ads,PROP021,New,Sarah Johnson,,2755,74
+LEAD00889,2024-06-14,AI Receptionist,PROP024,Contacted,Lisa Thompson,,2995,4
+LEAD00890,2024-06-14,Website Organic,PROP024,New,David Park,,1838,32
+LEAD00891,2024-06-14,AI Receptionist,PROP013,Lease Signed,David Park,2024-07-02,2619,60
+LEAD00892,2024-06-14,Google Ads,PROP022,Lease Signed,Mike Chen,2024-06-24,1907,30
+LEAD00893,2024-06-14,Referral,PROP014,Lease Signed,Mike Chen,2024-06-23,2118,34
+LEAD00894,2024-06-14,AI Receptionist,PROP001,Qualified,Lisa Thompson,,1384,77
+LEAD00895,2024-06-14,AI Receptionist,PROP022,Lost,David Park,,1476,61
+LEAD00896,2024-06-14,Email Campaign,PROP022,Contacted,Emily Rodriguez,,3177,14
+LEAD00897,2024-06-15,Property Portals,PROP003,Toured,Lisa Thompson,,3044,83
+LEAD00898,2024-06-15,Facebook Ads,PROP004,Contacted,Sarah Johnson,,3359,16
+LEAD00899,2024-06-15,Google Ads,PROP001,Lease Signed,Lisa Thompson,2024-06-24,2715,36
+LEAD00900,2024-06-15,Google Ads,PROP004,Contacted,Lisa Thompson,,1735,53
+LEAD00901,2024-06-16,AI Receptionist,PROP012,Qualified,Emily Rodriguez,,2187,40
+LEAD00902,2024-06-16,Facebook Ads,PROP005,Lost,Sarah Johnson,,1626,21
+LEAD00903,2024-06-16,Facebook Ads,PROP007,Contacted,Mike Chen,,2577,90
+LEAD00904,2024-06-16,Referral,PROP005,Lease Signed,David Park,2024-06-29,2704,76
+LEAD00905,2024-06-16,Google Ads,PROP011,Toured,Sarah Johnson,,2010,97
+LEAD00906,2024-06-17,AI Receptionist,PROP006,Lease Signed,David Park,2024-06-21,1215,13
+LEAD00907,2024-06-17,Property Portals,PROP011,Qualified,Emily Rodriguez,,2946,86
+LEAD00908,2024-06-17,Website Organic,PROP005,Toured,David Park,,1909,15
+LEAD00909,2024-06-18,Google Ads,PROP024,Toured,Sarah Johnson,,2264,56
+LEAD00910,2024-06-18,Property Portals,PROP001,New,David Park,,1904,42
+LEAD00911,2024-06-18,AI Receptionist,PROP010,Toured,Lisa Thompson,,3386,99
+LEAD00912,2024-06-18,AI Receptionist,PROP010,Lost,Sarah Johnson,,2119,33
+LEAD00913,2024-06-18,Property Portals,PROP019,New,Sarah Johnson,,1516,3
+LEAD00914,2024-06-18,AI Receptionist,PROP021,Lease Signed,David Park,2024-06-27,2650,6
+LEAD00915,2024-06-19,Walk-in,PROP021,Application,Mike Chen,2024-06-29,3315,16
+LEAD00916,2024-06-19,AI Receptionist,PROP002,New,Emily Rodriguez,,2102,88
+LEAD00917,2024-06-19,Referral,PROP018,Toured,Sarah Johnson,,1784,49
+LEAD00918,2024-06-19,Facebook Ads,PROP007,Contacted,David Park,,2717,55
+LEAD00919,2024-06-19,Google Ads,PROP007,Lease Signed,Sarah Johnson,2024-07-07,1620,41
+LEAD00920,2024-06-19,AI Receptionist,PROP008,New,David Park,,1709,18
+LEAD00921,2024-06-19,Referral,PROP004,Lease Signed,Mike Chen,2024-06-29,3303,23
+LEAD00922,2024-06-19,Walk-in,PROP022,Qualified,Emily Rodriguez,,2255,12
+LEAD00923,2024-06-19,Referral,PROP007,Lease Signed,Lisa Thompson,2024-06-28,2216,35
+LEAD00924,2024-06-20,Property Portals,PROP003,New,David Park,,1850,38
+LEAD00925,2024-06-20,Google Ads,PROP017,New,Lisa Thompson,,1771,54
+LEAD00926,2024-06-20,AI Receptionist,PROP010,Lease Signed,Mike Chen,2024-07-05,2581,75
+LEAD00927,2024-06-20,Website Organic,PROP014,Contacted,David Park,,1746,33
+LEAD00928,2024-06-20,Facebook Ads,PROP023,Lost,Mike Chen,,1591,71
+LEAD00929,2024-06-20,Google Ads,PROP021,Contacted,Emily Rodriguez,,1563,17
+LEAD00930,2024-06-20,Property Portals,PROP016,Lost,Lisa Thompson,,3259,38
+LEAD00931,2024-06-20,Google Ads,PROP005,Lost,Sarah Johnson,,1964,90
+LEAD00932,2024-06-20,AI Receptionist,PROP009,Contacted,Sarah Johnson,,1317,31
+LEAD00933,2024-06-21,AI Receptionist,PROP016,Contacted,Lisa Thompson,,1404,68
+LEAD00934,2024-06-21,Property Portals,PROP025,Contacted,David Park,,1839,7
+LEAD00935,2024-06-21,Property Portals,PROP016,Toured,David Park,,2760,45
+LEAD00936,2024-06-21,Facebook Ads,PROP007,New,Mike Chen,,2646,18
+LEAD00937,2024-06-21,Google Ads,PROP003,New,Emily Rodriguez,,3013,57
+LEAD00938,2024-06-21,Facebook Ads,PROP024,Contacted,David Park,,1558,31
+LEAD00939,2024-06-21,Google Ads,PROP004,Toured,Lisa Thompson,,2824,89
+LEAD00940,2024-06-21,Google Ads,PROP011,Lost,Lisa Thompson,,1865,53
+LEAD00941,2024-06-21,AI Receptionist,PROP016,New,David Park,,2505,20
+LEAD00942,2024-06-21,Property Portals,PROP009,Lost,David Park,,2563,78
+LEAD00943,2024-06-22,Google Ads,PROP019,Qualified,Lisa Thompson,,2455,84
+LEAD00944,2024-06-22,Email Campaign,PROP003,Qualified,Lisa Thompson,,3300,45
+LEAD00945,2024-06-22,Website Organic,PROP006,Lost,Lisa Thompson,,2057,81
+LEAD00946,2024-06-22,Facebook Ads,PROP020,Lease Signed,Sarah Johnson,2024-07-07,1804,53
+LEAD00947,2024-06-22,Email Campaign,PROP002,Contacted,Sarah Johnson,,1458,47
+LEAD00948,2024-06-22,Website Organic,PROP020,Qualified,Sarah Johnson,,1243,25
+LEAD00949,2024-06-22,Google Ads,PROP022,Toured,Mike Chen,,1682,86
+LEAD00950,2024-06-22,Facebook Ads,PROP022,Toured,Sarah Johnson,,3403,50
+LEAD00951,2024-06-23,Facebook Ads,PROP010,Toured,Lisa Thompson,,2650,11
+LEAD00952,2024-06-23,Referral,PROP014,Toured,Sarah Johnson,,3013,54
+LEAD00953,2024-06-23,AI Receptionist,PROP019,Contacted,David Park,,1524,29
+LEAD00954,2024-06-23,Facebook Ads,PROP025,Toured,Sarah Johnson,,2200,20
+LEAD00955,2024-06-23,Google Ads,PROP016,Lost,Mike Chen,,2448,16
+LEAD00956,2024-06-23,Google Ads,PROP011,Contacted,David Park,,3170,89
+LEAD00957,2024-06-24,Facebook Ads,PROP011,Toured,David Park,,2848,36
+LEAD00958,2024-06-24,Property Portals,PROP018,New,Sarah Johnson,,3200,53
+LEAD00959,2024-06-24,Referral,PROP009,Contacted,Sarah Johnson,,1672,88
+LEAD00960,2024-06-25,AI Receptionist,PROP006,Lease Signed,Lisa Thompson,2024-07-07,2983,47
+LEAD00961,2024-06-25,Facebook Ads,PROP008,Toured,Sarah Johnson,,2261,13
+LEAD00962,2024-06-25,Google Ads,PROP024,Toured,Sarah Johnson,,1307,23
+LEAD00963,2024-06-25,Facebook Ads,PROP014,Qualified,David Park,,3048,1
+LEAD00964,2024-06-25,Property Portals,PROP014,Toured,Lisa Thompson,,3224,29
+LEAD00965,2024-06-25,Website Organic,PROP008,Qualified,Sarah Johnson,,2704,10
+LEAD00966,2024-06-25,Website Organic,PROP018,Contacted,Sarah Johnson,,2507,96
+LEAD00967,2024-06-25,Google Ads,PROP016,Lost,Sarah Johnson,,2043,22
+LEAD00968,2024-06-25,Website Organic,PROP005,Qualified,Lisa Thompson,,1764,40
+LEAD00969,2024-06-26,Property Portals,PROP013,Lease Signed,Lisa Thompson,2024-07-07,3122,22
+LEAD00970,2024-06-26,Google Ads,PROP003,Application,David Park,2024-07-08,1360,58
+LEAD00971,2024-06-26,AI Receptionist,PROP011,Contacted,Sarah Johnson,,1401,21
+LEAD00972,2024-06-26,Referral,PROP008,Lease Signed,David Park,2024-07-13,2229,42
+LEAD00973,2024-06-27,Facebook Ads,PROP006,Contacted,Lisa Thompson,,2006,12
+LEAD00974,2024-06-27,Referral,PROP012,Lease Signed,Sarah Johnson,2024-07-17,2528,67
+LEAD00975,2024-06-27,Property Portals,PROP013,Qualified,Sarah Johnson,,3391,28
+LEAD00976,2024-06-27,Email Campaign,PROP016,Application,David Park,2024-07-13,1877,84
+LEAD00977,2024-06-28,Facebook Ads,PROP003,Qualified,Mike Chen,,3415,17
+LEAD00978,2024-06-28,Referral,PROP001,Lease Signed,Sarah Johnson,2024-07-09,1753,4
+LEAD00979,2024-06-28,AI Receptionist,PROP008,Qualified,Sarah Johnson,,2014,13
+LEAD00980,2024-06-28,Walk-in,PROP023,Toured,Lisa Thompson,,2489,38
+LEAD00981,2024-06-28,AI Receptionist,PROP010,New,David Park,,2165,92
+LEAD00982,2024-06-28,Facebook Ads,PROP013,Toured,Sarah Johnson,,1768,54
+LEAD00983,2024-06-28,AI Receptionist,PROP010,Lease Signed,Emily Rodriguez,2024-07-18,2104,95
+LEAD00984,2024-06-28,Referral,PROP012,Qualified,Lisa Thompson,,1884,53
+LEAD00985,2024-06-28,Website Organic,PROP017,Lease Signed,Mike Chen,2024-07-03,3479,18
+LEAD00986,2024-06-28,Google Ads,PROP023,Contacted,Sarah Johnson,,2376,9
+LEAD00987,2024-06-28,Google Ads,PROP017,Lease Signed,David Park,2024-07-15,2092,50
+LEAD00988,2024-06-29,AI Receptionist,PROP008,Lost,Emily Rodriguez,,1344,53
+LEAD00989,2024-06-29,AI Receptionist,PROP015,Qualified,David Park,,2772,75
+LEAD00990,2024-06-29,Facebook Ads,PROP022,Lease Signed,Mike Chen,2024-07-08,2269,40
+LEAD00991,2024-06-29,Facebook Ads,PROP014,Toured,Sarah Johnson,,1464,9
+LEAD00992,2024-06-29,AI Receptionist,PROP002,Lease Signed,Sarah Johnson,2024-07-14,2626,79
+LEAD00993,2024-06-29,Google Ads,PROP001,Qualified,Sarah Johnson,,1243,77
+LEAD00994,2024-06-29,Referral,PROP006,Contacted,Sarah Johnson,,1765,92
+LEAD00995,2024-06-29,Google Ads,PROP004,Application,Lisa Thompson,2024-07-15,3413,32
+LEAD00996,2024-06-29,Google Ads,PROP008,Contacted,Mike Chen,,1543,65
+LEAD00997,2024-06-29,Google Ads,PROP019,Toured,Emily Rodriguez,,1857,42
+LEAD00998,2024-06-29,Property Portals,PROP001,Lease Signed,Sarah Johnson,2024-07-05,2948,98
+LEAD00999,2024-06-30,Google Ads,PROP010,Lease Signed,Sarah Johnson,2024-07-05,2716,41
+LEAD01000,2024-06-30,Google Ads,PROP016,Lease Signed,Emily Rodriguez,2024-07-04,2737,94
+LEAD01001,2024-06-30,AI Receptionist,PROP019,Lost,Mike Chen,,3047,72
+LEAD01002,2024-06-30,AI Receptionist,PROP013,Qualified,Lisa Thompson,,1697,41
+LEAD01003,2024-06-30,Email Campaign,PROP018,Qualified,Lisa Thompson,,1913,74
+LEAD01004,2024-06-30,Website Organic,PROP004,Qualified,Emily Rodriguez,,3156,20
+LEAD01005,2024-06-30,AI Receptionist,PROP013,Qualified,Lisa Thompson,,2408,54
+LEAD01006,2024-06-30,Email Campaign,PROP005,Lost,David Park,,2451,44
+LEAD01007,2024-06-30,Google Ads,PROP010,Lost,David Park,,1695,4
+LEAD01008,2024-06-30,Property Portals,PROP018,Qualified,Emily Rodriguez,,2433,6
+LEAD01009,2024-07-01,Facebook Ads,PROP025,Lease Signed,Emily Rodriguez,2024-07-11,2049,73
+LEAD01010,2024-07-01,Facebook Ads,PROP004,Qualified,Lisa Thompson,,3440,3
+LEAD01011,2024-07-01,Referral,PROP024,Lease Signed,Mike Chen,2024-07-19,1721,71
+LEAD01012,2024-07-01,Google Ads,PROP019,Qualified,Sarah Johnson,,1592,9
+LEAD01013,2024-07-01,Facebook Ads,PROP007,Qualified,Mike Chen,,1465,24
+LEAD01014,2024-07-02,Referral,PROP011,Toured,Lisa Thompson,,2258,38
+LEAD01015,2024-07-02,Google Ads,PROP003,Toured,Mike Chen,,3301,55
+LEAD01016,2024-07-02,Google Ads,PROP021,New,Sarah Johnson,,1375,54
+LEAD01017,2024-07-02,Email Campaign,PROP024,New,Emily Rodriguez,,2906,8
+LEAD01018,2024-07-02,Google Ads,PROP009,Application,David Park,2024-07-08,3281,20
+LEAD01019,2024-07-03,AI Receptionist,PROP019,New,Emily Rodriguez,,1816,71
+LEAD01020,2024-07-03,Website Organic,PROP017,New,David Park,,1593,34
+LEAD01021,2024-07-03,Facebook Ads,PROP023,Qualified,Lisa Thompson,,3036,50
+LEAD01022,2024-07-03,AI Receptionist,PROP002,Qualified,Mike Chen,,3091,15
+LEAD01023,2024-07-04,Property Portals,PROP003,Lease Signed,David Park,2024-07-22,3240,8
+LEAD01024,2024-07-04,Facebook Ads,PROP014,Application,Emily Rodriguez,2024-07-10,1837,80
+LEAD01025,2024-07-04,AI Receptionist,PROP017,Lease Signed,David Park,2024-07-22,1925,70
+LEAD01026,2024-07-04,Google Ads,PROP011,Toured,David Park,,2022,58
+LEAD01027,2024-07-04,Google Ads,PROP001,Lost,Sarah Johnson,,3378,48
+LEAD01028,2024-07-04,Referral,PROP014,New,Mike Chen,,1534,96
+LEAD01029,2024-07-04,Website Organic,PROP007,Contacted,Emily Rodriguez,,1280,87
+LEAD01030,2024-07-05,Referral,PROP025,Application,Emily Rodriguez,2024-07-10,2737,95
+LEAD01031,2024-07-05,AI Receptionist,PROP017,Lease Signed,Sarah Johnson,2024-07-17,3141,6
+LEAD01032,2024-07-05,Website Organic,PROP002,Lease Signed,Sarah Johnson,2024-07-19,3141,91
+LEAD01033,2024-07-05,Referral,PROP021,Lease Signed,David Park,2024-07-11,1616,86
+LEAD01034,2024-07-05,AI Receptionist,PROP022,New,Emily Rodriguez,,1439,78
+LEAD01035,2024-07-05,Facebook Ads,PROP024,Qualified,Lisa Thompson,,2971,36
+LEAD01036,2024-07-05,Facebook Ads,PROP004,Contacted,David Park,,2867,74
+LEAD01037,2024-07-05,Website Organic,PROP021,Application,Emily Rodriguez,2024-07-22,3334,77
+LEAD01038,2024-07-05,AI Receptionist,PROP019,Lost,David Park,,1574,3
+LEAD01039,2024-07-05,AI Receptionist,PROP010,Lease Signed,Sarah Johnson,2024-07-20,1393,31
+LEAD01040,2024-07-06,Google Ads,PROP005,Lost,Emily Rodriguez,,1657,51
+LEAD01041,2024-07-06,Email Campaign,PROP014,New,David Park,,3355,60
+LEAD01042,2024-07-06,Website Organic,PROP005,Contacted,David Park,,2506,54
+LEAD01043,2024-07-06,Website Organic,PROP008,Toured,Sarah Johnson,,2012,93
+LEAD01044,2024-07-06,Property Portals,PROP019,Contacted,Emily Rodriguez,,2851,29
+LEAD01045,2024-07-06,Facebook Ads,PROP013,Contacted,Sarah Johnson,,1302,83
+LEAD01046,2024-07-07,Property Portals,PROP005,Toured,Mike Chen,,2081,95
+LEAD01047,2024-07-07,Property Portals,PROP024,New,Mike Chen,,1993,18
+LEAD01048,2024-07-07,Facebook Ads,PROP018,New,Lisa Thompson,,2038,65
+LEAD01049,2024-07-07,Google Ads,PROP018,Toured,David Park,,3093,28
+LEAD01050,2024-07-07,Website Organic,PROP013,New,David Park,,1845,24
+LEAD01051,2024-07-07,Google Ads,PROP019,Qualified,Lisa Thompson,,1564,96
+LEAD01052,2024-07-07,Email Campaign,PROP003,Qualified,Emily Rodriguez,,2235,4
+LEAD01053,2024-07-07,Property Portals,PROP003,Lease Signed,Sarah Johnson,2024-07-27,2916,84
+LEAD01054,2024-07-07,Referral,PROP002,Qualified,Lisa Thompson,,1532,99
+LEAD01055,2024-07-07,Google Ads,PROP018,Contacted,David Park,,3452,77
+LEAD01056,2024-07-08,Facebook Ads,PROP025,New,Mike Chen,,3315,92
+LEAD01057,2024-07-08,Google Ads,PROP013,Qualified,Lisa Thompson,,1604,44
+LEAD01058,2024-07-08,Referral,PROP002,Application,David Park,2024-07-12,1865,16
+LEAD01059,2024-07-08,Google Ads,PROP012,Lost,Lisa Thompson,,1349,6
+LEAD01060,2024-07-08,Walk-in,PROP017,Lost,Sarah Johnson,,2156,49
+LEAD01061,2024-07-08,AI Receptionist,PROP022,Contacted,Lisa Thompson,,2621,16
+LEAD01062,2024-07-08,Walk-in,PROP015,Lost,David Park,,1935,23
+LEAD01063,2024-07-09,Referral,PROP025,Lost,Sarah Johnson,,1522,55
+LEAD01064,2024-07-09,Google Ads,PROP002,Application,Emily Rodriguez,2024-07-13,3013,74
+LEAD01065,2024-07-09,Facebook Ads,PROP001,Toured,Lisa Thompson,,1757,1
+LEAD01066,2024-07-09,Referral,PROP009,Lost,Mike Chen,,1231,96
+LEAD01067,2024-07-09,Google Ads,PROP024,Lease Signed,Emily Rodriguez,2024-07-29,2612,24
+LEAD01068,2024-07-10,Email Campaign,PROP016,Qualified,David Park,,2528,34
+LEAD01069,2024-07-10,Facebook Ads,PROP007,Contacted,Mike Chen,,3096,93
+LEAD01070,2024-07-10,Google Ads,PROP014,New,Emily Rodriguez,,3074,59
+LEAD01071,2024-07-10,Facebook Ads,PROP023,Toured,Sarah Johnson,,1409,1
+LEAD01072,2024-07-10,Google Ads,PROP001,Qualified,Sarah Johnson,,1593,50
+LEAD01073,2024-07-10,Google Ads,PROP017,Lost,Mike Chen,,2284,41
+LEAD01074,2024-07-10,AI Receptionist,PROP003,Contacted,David Park,,1893,28
+LEAD01075,2024-07-10,Google Ads,PROP012,Lost,David Park,,1812,59
+LEAD01076,2024-07-11,Google Ads,PROP011,Qualified,David Park,,2745,59
+LEAD01077,2024-07-11,Google Ads,PROP001,Contacted,Lisa Thompson,,2508,18
+LEAD01078,2024-07-11,Property Portals,PROP021,Lost,Emily Rodriguez,,3402,83
+LEAD01079,2024-07-11,Website Organic,PROP020,Qualified,Lisa Thompson,,2174,30
+LEAD01080,2024-07-11,Referral,PROP017,Lease Signed,Mike Chen,2024-07-21,1674,51
+LEAD01081,2024-07-11,Google Ads,PROP004,New,David Park,,2156,62
+LEAD01082,2024-07-11,Email Campaign,PROP021,Contacted,David Park,,2293,99
+LEAD01083,2024-07-11,Facebook Ads,PROP024,Qualified,Sarah Johnson,,3301,1
+LEAD01084,2024-07-11,Property Portals,PROP002,Lease Signed,Lisa Thompson,2024-07-30,2892,58
+LEAD01085,2024-07-11,Google Ads,PROP011,Toured,Sarah Johnson,,2578,34
+LEAD01086,2024-07-12,Facebook Ads,PROP003,Qualified,Mike Chen,,1775,30
+LEAD01087,2024-07-12,AI Receptionist,PROP011,Lost,Emily Rodriguez,,2772,82
+LEAD01088,2024-07-12,AI Receptionist,PROP015,Contacted,Lisa Thompson,,2822,56
+LEAD01089,2024-07-13,Referral,PROP020,Lease Signed,Emily Rodriguez,2024-07-25,2808,11
+LEAD01090,2024-07-13,Website Organic,PROP022,Toured,Lisa Thompson,,3012,21
+LEAD01091,2024-07-13,Facebook Ads,PROP006,Lost,David Park,,3243,58
+LEAD01092,2024-07-13,Google Ads,PROP012,Lost,David Park,,2725,70
+LEAD01093,2024-07-13,Property Portals,PROP020,Contacted,Mike Chen,,1775,42
+LEAD01094,2024-07-13,Referral,PROP009,Application,Mike Chen,2024-07-19,1314,97
+LEAD01095,2024-07-13,AI Receptionist,PROP012,Lease Signed,Lisa Thompson,2024-07-26,1967,7
+LEAD01096,2024-07-13,Facebook Ads,PROP008,Lost,Mike Chen,,2220,42
+LEAD01097,2024-07-13,Facebook Ads,PROP020,Qualified,David Park,,3304,38
+LEAD01098,2024-07-13,Website Organic,PROP008,Toured,David Park,,1251,38
+LEAD01099,2024-07-13,Email Campaign,PROP023,Toured,Sarah Johnson,,2432,89
+LEAD01100,2024-07-14,Google Ads,PROP017,Contacted,Mike Chen,,2475,3
+LEAD01101,2024-07-14,AI Receptionist,PROP002,Toured,David Park,,3317,73
+LEAD01102,2024-07-14,Referral,PROP004,Toured,Mike Chen,,2920,97
+LEAD01103,2024-07-14,Google Ads,PROP008,Qualified,Sarah Johnson,,1762,45
+LEAD01104,2024-07-14,Google Ads,PROP022,Toured,Mike Chen,,2624,68
+LEAD01105,2024-07-14,Email Campaign,PROP025,Contacted,Sarah Johnson,,1378,73
+LEAD01106,2024-07-14,Walk-in,PROP020,Toured,Mike Chen,,2253,64
+LEAD01107,2024-07-14,Referral,PROP008,Lost,Mike Chen,,1511,96
+LEAD01108,2024-07-14,Property Portals,PROP013,Toured,Mike Chen,,2087,5
+LEAD01109,2024-07-14,Referral,PROP024,Toured,David Park,,1668,69
+LEAD01110,2024-07-15,Google Ads,PROP005,Lost,Emily Rodriguez,,3155,75
+LEAD01111,2024-07-15,Google Ads,PROP024,Toured,David Park,,2107,32
+LEAD01112,2024-07-15,Facebook Ads,PROP010,Toured,Sarah Johnson,,3473,51
+LEAD01113,2024-07-15,AI Receptionist,PROP020,Lease Signed,Mike Chen,2024-07-20,2015,87
+LEAD01114,2024-07-15,Website Organic,PROP025,Lost,Emily Rodriguez,,1568,62
+LEAD01115,2024-07-15,AI Receptionist,PROP024,Toured,Mike Chen,,1963,36
+LEAD01116,2024-07-15,AI Receptionist,PROP004,Application,Emily Rodriguez,2024-07-23,2195,21
+LEAD01117,2024-07-15,Email Campaign,PROP002,Qualified,David Park,,1307,5
+LEAD01118,2024-07-16,Walk-in,PROP004,Lease Signed,Sarah Johnson,2024-07-29,3055,88
+LEAD01119,2024-07-16,AI Receptionist,PROP018,Qualified,David Park,,2851,74
+LEAD01120,2024-07-16,Google Ads,PROP002,Qualified,Emily Rodriguez,,2176,76
+LEAD01121,2024-07-16,Website Organic,PROP012,Qualified,Mike Chen,,1454,71
+LEAD01122,2024-07-16,AI Receptionist,PROP012,Toured,Emily Rodriguez,,1956,97
+LEAD01123,2024-07-16,Property Portals,PROP016,New,Lisa Thompson,,3472,62
+LEAD01124,2024-07-16,Google Ads,PROP005,Lease Signed,Lisa Thompson,2024-07-27,1265,13
+LEAD01125,2024-07-16,Website Organic,PROP025,New,Mike Chen,,1379,66
+LEAD01126,2024-07-16,Referral,PROP011,Contacted,Emily Rodriguez,,2741,15
+LEAD01127,2024-07-16,Google Ads,PROP022,Contacted,Lisa Thompson,,1893,56
+LEAD01128,2024-07-16,Website Organic,PROP021,Qualified,David Park,,2757,60
+LEAD01129,2024-07-17,Property Portals,PROP019,Lease Signed,Sarah Johnson,2024-08-05,2878,13
+LEAD01130,2024-07-17,Facebook Ads,PROP018,Qualified,Lisa Thompson,,3030,27
+LEAD01131,2024-07-17,AI Receptionist,PROP009,Lost,Sarah Johnson,,2147,82
+LEAD01132,2024-07-17,Google Ads,PROP004,Contacted,Emily Rodriguez,,1882,1
+LEAD01133,2024-07-17,Referral,PROP009,Lost,Lisa Thompson,,1931,77
+LEAD01134,2024-07-17,Facebook Ads,PROP010,Toured,Lisa Thompson,,1571,39
+LEAD01135,2024-07-17,Facebook Ads,PROP010,Contacted,David Park,,3196,15
+LEAD01136,2024-07-17,AI Receptionist,PROP006,Lease Signed,Sarah Johnson,2024-07-30,2353,55
+LEAD01137,2024-07-17,Google Ads,PROP004,Contacted,Sarah Johnson,,2577,24
+LEAD01138,2024-07-17,Facebook Ads,PROP003,Application,Lisa Thompson,2024-07-27,1227,78
+LEAD01139,2024-07-18,Google Ads,PROP005,Qualified,David Park,,2742,71
+LEAD01140,2024-07-18,Facebook Ads,PROP024,Lease Signed,Sarah Johnson,2024-07-23,1573,51
+LEAD01141,2024-07-18,Website Organic,PROP006,Toured,Emily Rodriguez,,2147,93
+LEAD01142,2024-07-18,Google Ads,PROP016,Contacted,Emily Rodriguez,,2747,23
+LEAD01143,2024-07-18,Google Ads,PROP007,Contacted,Sarah Johnson,,1228,60
+LEAD01144,2024-07-18,Facebook Ads,PROP025,Lease Signed,Mike Chen,2024-08-05,1422,75
+LEAD01145,2024-07-18,AI Receptionist,PROP021,Contacted,David Park,,2883,11
+LEAD01146,2024-07-18,Facebook Ads,PROP012,Lease Signed,Mike Chen,2024-07-24,3406,99
+LEAD01147,2024-07-18,Walk-in,PROP015,Lost,Sarah Johnson,,3497,13
+LEAD01148,2024-07-19,Google Ads,PROP013,Qualified,David Park,,1637,44
+LEAD01149,2024-07-19,Referral,PROP014,Application,Lisa Thompson,2024-07-25,1368,35
+LEAD01150,2024-07-19,Google Ads,PROP017,New,Mike Chen,,2818,79
+LEAD01151,2024-07-19,AI Receptionist,PROP022,Contacted,David Park,,1997,20
+LEAD01152,2024-07-19,Website Organic,PROP010,Lease Signed,Sarah Johnson,2024-07-30,1930,57
+LEAD01153,2024-07-19,AI Receptionist,PROP007,Contacted,Sarah Johnson,,1707,22
+LEAD01154,2024-07-19,Google Ads,PROP013,Toured,Emily Rodriguez,,1877,1
+LEAD01155,2024-07-19,Property Portals,PROP024,New,Mike Chen,,2284,32
+LEAD01156,2024-07-19,AI Receptionist,PROP001,Toured,Sarah Johnson,,1496,71
+LEAD01157,2024-07-20,Referral,PROP016,Qualified,Mike Chen,,1653,65
+LEAD01158,2024-07-20,Google Ads,PROP014,Lease Signed,Sarah Johnson,2024-07-28,2148,60
+LEAD01159,2024-07-20,AI Receptionist,PROP021,Qualified,Emily Rodriguez,,2643,56
+LEAD01160,2024-07-20,Google Ads,PROP019,Contacted,Sarah Johnson,,2598,63
+LEAD01161,2024-07-20,Google Ads,PROP022,Contacted,Emily Rodriguez,,3400,17
+LEAD01162,2024-07-20,Google Ads,PROP011,Lost,Sarah Johnson,,3176,44
+LEAD01163,2024-07-20,Google Ads,PROP006,Contacted,David Park,,1432,96
+LEAD01164,2024-07-20,Google Ads,PROP020,Toured,Emily Rodriguez,,1522,76
+LEAD01165,2024-07-20,Facebook Ads,PROP014,Qualified,Sarah Johnson,,2773,36
+LEAD01166,2024-07-20,Facebook Ads,PROP025,Qualified,Mike Chen,,3235,36
+LEAD01167,2024-07-20,AI Receptionist,PROP001,Lease Signed,Emily Rodriguez,2024-08-06,2598,92
+LEAD01168,2024-07-21,Website Organic,PROP025,Lost,David Park,,2495,81
+LEAD01169,2024-07-21,Google Ads,PROP015,Lost,Mike Chen,,2871,71
+LEAD01170,2024-07-21,Referral,PROP004,Qualified,Emily Rodriguez,,2973,56
+LEAD01171,2024-07-21,Google Ads,PROP002,Lost,David Park,,2607,17
+LEAD01172,2024-07-21,AI Receptionist,PROP017,Toured,Mike Chen,,2833,16
+LEAD01173,2024-07-21,Google Ads,PROP007,Toured,David Park,,2806,18
+LEAD01174,2024-07-21,Google Ads,PROP011,Toured,Sarah Johnson,,1561,28
+LEAD01175,2024-07-22,AI Receptionist,PROP022,Lease Signed,Lisa Thompson,2024-07-25,1469,25
+LEAD01176,2024-07-22,Google Ads,PROP009,Contacted,Emily Rodriguez,,3472,54
+LEAD01177,2024-07-22,Facebook Ads,PROP010,Qualified,Lisa Thompson,,1214,48
+LEAD01178,2024-07-22,AI Receptionist,PROP002,Lost,Mike Chen,,3061,33
+LEAD01179,2024-07-22,AI Receptionist,PROP011,Qualified,Mike Chen,,1708,60
+LEAD01180,2024-07-23,AI Receptionist,PROP025,Qualified,Sarah Johnson,,2987,84
+LEAD01181,2024-07-23,Google Ads,PROP013,Lost,Lisa Thompson,,1980,42
+LEAD01182,2024-07-23,Property Portals,PROP018,Lost,Lisa Thompson,,3226,68
+LEAD01183,2024-07-23,Property Portals,PROP023,Qualified,Mike Chen,,2236,9
+LEAD01184,2024-07-23,Property Portals,PROP013,Toured,Emily Rodriguez,,2814,45
+LEAD01185,2024-07-23,Walk-in,PROP005,Contacted,Emily Rodriguez,,2456,32
+LEAD01186,2024-07-23,AI Receptionist,PROP024,Lease Signed,Sarah Johnson,2024-08-01,1759,82
+LEAD01187,2024-07-24,AI Receptionist,PROP021,Lost,David Park,,1818,67
+LEAD01188,2024-07-24,Google Ads,PROP002,New,Emily Rodriguez,,1379,3
+LEAD01189,2024-07-24,Website Organic,PROP007,Lease Signed,Lisa Thompson,2024-08-09,3410,81
+LEAD01190,2024-07-24,Email Campaign,PROP004,Application,Mike Chen,2024-08-05,2927,30
+LEAD01191,2024-07-25,Google Ads,PROP007,Lease Signed,Sarah Johnson,2024-08-14,3091,46
+LEAD01192,2024-07-25,Property Portals,PROP013,Contacted,Emily Rodriguez,,3170,8
+LEAD01193,2024-07-25,Google Ads,PROP020,Lost,Lisa Thompson,,2107,9
+LEAD01194,2024-07-25,Walk-in,PROP019,Lease Signed,Sarah Johnson,2024-07-30,2879,85
+LEAD01195,2024-07-25,AI Receptionist,PROP024,Lease Signed,David Park,2024-08-12,2489,52
+LEAD01196,2024-07-25,Google Ads,PROP015,Lease Signed,David Park,2024-08-02,3448,99
+LEAD01197,2024-07-25,Referral,PROP005,Lease Signed,Mike Chen,2024-07-30,1631,69
+LEAD01198,2024-07-25,Google Ads,PROP015,Toured,Sarah Johnson,,3184,58
+LEAD01199,2024-07-25,AI Receptionist,PROP017,Qualified,Sarah Johnson,,3490,97
+LEAD01200,2024-07-26,AI Receptionist,PROP010,Lease Signed,Mike Chen,2024-08-02,3265,88
+LEAD01201,2024-07-26,Property Portals,PROP024,Contacted,Lisa Thompson,,2754,23
+LEAD01202,2024-07-26,Facebook Ads,PROP012,Application,Emily Rodriguez,2024-07-31,3075,28
+LEAD01203,2024-07-27,Website Organic,PROP016,Lost,Emily Rodriguez,,2714,49
+LEAD01204,2024-07-27,Referral,PROP005,Lease Signed,David Park,2024-08-05,2297,69
+LEAD01205,2024-07-27,AI Receptionist,PROP010,Contacted,David Park,,2458,8
+LEAD01206,2024-07-27,Google Ads,PROP017,Lost,Lisa Thompson,,3148,72
+LEAD01207,2024-07-27,Referral,PROP013,Lease Signed,Lisa Thompson,2024-08-11,3268,71
+LEAD01208,2024-07-27,Referral,PROP004,Lost,Emily Rodriguez,,1295,96
+LEAD01209,2024-07-27,Google Ads,PROP014,Contacted,Emily Rodriguez,,3493,35
+LEAD01210,2024-07-27,AI Receptionist,PROP010,Qualified,Sarah Johnson,,2361,82
+LEAD01211,2024-07-27,Property Portals,PROP003,Lease Signed,Mike Chen,2024-08-04,2424,36
+LEAD01212,2024-07-27,AI Receptionist,PROP023,Lease Signed,Mike Chen,2024-08-12,3226,2
+LEAD01213,2024-07-27,Property Portals,PROP005,New,Mike Chen,,1478,44
+LEAD01214,2024-07-28,AI Receptionist,PROP023,Lost,Sarah Johnson,,2796,85
+LEAD01215,2024-07-28,Walk-in,PROP007,Toured,David Park,,3006,17
+LEAD01216,2024-07-28,Property Portals,PROP003,Application,David Park,2024-08-04,1966,15
+LEAD01217,2024-07-28,AI Receptionist,PROP013,Lease Signed,Emily Rodriguez,2024-08-11,3170,85
+LEAD01218,2024-07-28,Google Ads,PROP006,Lost,Emily Rodriguez,,1963,91
+LEAD01219,2024-07-28,AI Receptionist,PROP023,Contacted,Mike Chen,,2691,80
+LEAD01220,2024-07-28,Google Ads,PROP002,Contacted,David Park,,2497,26
+LEAD01221,2024-07-28,Google Ads,PROP013,Lost,Sarah Johnson,,3026,52
+LEAD01222,2024-07-28,Referral,PROP021,Application,Mike Chen,2024-08-15,3167,52
+LEAD01223,2024-07-28,Google Ads,PROP023,Qualified,Sarah Johnson,,1261,55
+LEAD01224,2024-07-28,Property Portals,PROP020,Qualified,Mike Chen,,2392,10
+LEAD01225,2024-07-29,AI Receptionist,PROP014,Toured,David Park,,1453,74
+LEAD01226,2024-07-29,AI Receptionist,PROP006,Application,Emily Rodriguez,2024-08-04,1669,86
+LEAD01227,2024-07-29,Facebook Ads,PROP002,Contacted,Sarah Johnson,,2593,53
+LEAD01228,2024-07-29,AI Receptionist,PROP005,Lease Signed,David Park,2024-08-07,2888,28
+LEAD01229,2024-07-29,Property Portals,PROP015,Lease Signed,Emily Rodriguez,2024-08-08,1932,69
+LEAD01230,2024-07-29,Referral,PROP015,New,Emily Rodriguez,,1820,97
+LEAD01231,2024-07-30,Property Portals,PROP009,Toured,David Park,,2147,96
+LEAD01232,2024-07-30,Website Organic,PROP001,Application,Lisa Thompson,2024-08-08,1319,44
+LEAD01233,2024-07-30,AI Receptionist,PROP025,Application,Emily Rodriguez,2024-08-13,2735,46
+LEAD01234,2024-07-31,Property Portals,PROP002,Lease Signed,Lisa Thompson,2024-08-05,2316,76
+LEAD01235,2024-07-31,Google Ads,PROP003,Lost,Sarah Johnson,,2284,74
+LEAD01236,2024-07-31,Property Portals,PROP020,Toured,Sarah Johnson,,1276,3
+LEAD01237,2024-07-31,Email Campaign,PROP019,Contacted,Mike Chen,,2552,29
+LEAD01238,2024-07-31,Website Organic,PROP002,Lease Signed,David Park,2024-08-15,2202,52
+LEAD01239,2024-07-31,Walk-in,PROP003,Lease Signed,Mike Chen,2024-08-04,1667,42
+LEAD01240,2024-07-31,Walk-in,PROP011,Qualified,Emily Rodriguez,,1516,94
+LEAD01241,2024-07-31,Facebook Ads,PROP003,Application,David Park,2024-08-08,1635,24
+LEAD01242,2024-08-01,Referral,PROP007,Lease Signed,Lisa Thompson,2024-08-19,3240,97
+LEAD01243,2024-08-01,AI Receptionist,PROP022,Lost,Lisa Thompson,,3493,27
+LEAD01244,2024-08-01,Property Portals,PROP006,Toured,David Park,,3199,27
+LEAD01245,2024-08-01,AI Receptionist,PROP017,Lease Signed,Emily Rodriguez,2024-08-18,1751,39
+LEAD01246,2024-08-01,Facebook Ads,PROP013,Toured,Sarah Johnson,,1417,84
+LEAD01247,2024-08-01,Google Ads,PROP018,Lost,Mike Chen,,2094,66
+LEAD01248,2024-08-01,Referral,PROP003,Contacted,Emily Rodriguez,,3257,97
+LEAD01249,2024-08-01,Email Campaign,PROP007,New,Lisa Thompson,,1410,51
+LEAD01250,2024-08-02,AI Receptionist,PROP006,Toured,David Park,,1990,54
+LEAD01251,2024-08-02,Google Ads,PROP003,Contacted,Mike Chen,,1888,88
+LEAD01252,2024-08-02,Google Ads,PROP017,Qualified,Mike Chen,,1262,93
+LEAD01253,2024-08-02,Website Organic,PROP014,New,Mike Chen,,3196,18
+LEAD01254,2024-08-02,Website Organic,PROP012,Lease Signed,Lisa Thompson,2024-08-09,1769,1
+LEAD01255,2024-08-03,Walk-in,PROP007,Contacted,Mike Chen,,2121,31
+LEAD01256,2024-08-03,Property Portals,PROP003,New,Sarah Johnson,,3230,30
+LEAD01257,2024-08-03,Referral,PROP014,New,Emily Rodriguez,,3182,79
+LEAD01258,2024-08-04,Google Ads,PROP008,Toured,Sarah Johnson,,1983,13
+LEAD01259,2024-08-04,Google Ads,PROP023,Qualified,Mike Chen,,2664,30
+LEAD01260,2024-08-04,Website Organic,PROP003,New,Lisa Thompson,,3243,3
+LEAD01261,2024-08-04,Property Portals,PROP023,Lease Signed,Mike Chen,2024-08-20,1754,53
+LEAD01262,2024-08-05,Google Ads,PROP011,Toured,David Park,,2315,10
+LEAD01263,2024-08-05,Facebook Ads,PROP023,Toured,Sarah Johnson,,2757,91
+LEAD01264,2024-08-05,Website Organic,PROP016,Lost,Sarah Johnson,,2006,46
+LEAD01265,2024-08-05,Facebook Ads,PROP015,Toured,Sarah Johnson,,1560,6
+LEAD01266,2024-08-05,Facebook Ads,PROP012,Contacted,David Park,,2789,27
+LEAD01267,2024-08-06,Google Ads,PROP008,Contacted,Mike Chen,,1505,18
+LEAD01268,2024-08-06,Website Organic,PROP020,Toured,David Park,,3456,62
+LEAD01269,2024-08-06,AI Receptionist,PROP018,Qualified,Mike Chen,,1756,94
+LEAD01270,2024-08-06,Google Ads,PROP022,New,Sarah Johnson,,1397,64
+LEAD01271,2024-08-06,AI Receptionist,PROP022,Qualified,David Park,,2224,62
+LEAD01272,2024-08-06,Referral,PROP018,Lost,Emily Rodriguez,,2794,59
+LEAD01273,2024-08-07,Google Ads,PROP008,Lost,Sarah Johnson,,1255,97
+LEAD01274,2024-08-07,AI Receptionist,PROP018,Contacted,Lisa Thompson,,3303,95
+LEAD01275,2024-08-07,Email Campaign,PROP005,Contacted,Sarah Johnson,,2036,63
+LEAD01276,2024-08-07,Facebook Ads,PROP012,Qualified,David Park,,1464,99
+LEAD01277,2024-08-07,Walk-in,PROP015,Contacted,Mike Chen,,2004,52
+LEAD01278,2024-08-07,Google Ads,PROP017,Lost,Lisa Thompson,,2863,48
+LEAD01279,2024-08-07,AI Receptionist,PROP017,Application,Lisa Thompson,2024-08-10,3146,3
+LEAD01280,2024-08-08,Google Ads,PROP004,Contacted,David Park,,2697,1
+LEAD01281,2024-08-08,AI Receptionist,PROP004,Contacted,Mike Chen,,1388,22
+LEAD01282,2024-08-08,Facebook Ads,PROP023,Contacted,Mike Chen,,1393,71
+LEAD01283,2024-08-08,AI Receptionist,PROP003,Qualified,Sarah Johnson,,3202,76
+LEAD01284,2024-08-09,Referral,PROP002,Toured,Lisa Thompson,,2565,49
+LEAD01285,2024-08-09,Facebook Ads,PROP019,Lease Signed,Sarah Johnson,2024-08-23,2721,98
+LEAD01286,2024-08-09,AI Receptionist,PROP024,New,Emily Rodriguez,,1800,92
+LEAD01287,2024-08-09,Website Organic,PROP016,Lease Signed,Emily Rodriguez,2024-08-21,3210,41
+LEAD01288,2024-08-09,Google Ads,PROP019,Qualified,Lisa Thompson,,1359,46
+LEAD01289,2024-08-09,Walk-in,PROP018,Lease Signed,Sarah Johnson,2024-08-19,1757,55
+LEAD01290,2024-08-09,Website Organic,PROP002,Application,Emily Rodriguez,2024-08-13,3033,17
+LEAD01291,2024-08-09,Referral,PROP014,Contacted,Emily Rodriguez,,2349,19
+LEAD01292,2024-08-09,Email Campaign,PROP024,Lost,David Park,,2520,87
+LEAD01293,2024-08-09,Google Ads,PROP018,Toured,Sarah Johnson,,2284,55
+LEAD01294,2024-08-09,Google Ads,PROP001,Toured,Mike Chen,,3120,85
+LEAD01295,2024-08-10,Facebook Ads,PROP014,New,Sarah Johnson,,1964,73
+LEAD01296,2024-08-10,Google Ads,PROP020,Qualified,Lisa Thompson,,2965,19
+LEAD01297,2024-08-10,Email Campaign,PROP006,Contacted,Lisa Thompson,,2938,57
+LEAD01298,2024-08-10,Google Ads,PROP003,Qualified,Lisa Thompson,,3461,34
+LEAD01299,2024-08-10,Facebook Ads,PROP009,Qualified,Sarah Johnson,,2263,52
+LEAD01300,2024-08-10,Google Ads,PROP008,New,Emily Rodriguez,,1921,23
+LEAD01301,2024-08-10,Website Organic,PROP013,Lease Signed,Sarah Johnson,2024-08-26,2646,78
+LEAD01302,2024-08-10,Referral,PROP015,Contacted,Sarah Johnson,,2471,29
+LEAD01303,2024-08-10,Google Ads,PROP005,Toured,Mike Chen,,1972,13
+LEAD01304,2024-08-10,Google Ads,PROP025,Qualified,Mike Chen,,2305,84
+LEAD01305,2024-08-10,Property Portals,PROP015,Contacted,Emily Rodriguez,,3086,50
+LEAD01306,2024-08-11,Walk-in,PROP017,Toured,David Park,,1943,87
+LEAD01307,2024-08-11,AI Receptionist,PROP019,Qualified,David Park,,3407,13
+LEAD01308,2024-08-11,Website Organic,PROP020,Qualified,Sarah Johnson,,2954,5
+LEAD01309,2024-08-11,Facebook Ads,PROP016,Lease Signed,Mike Chen,2024-08-26,1316,52
+LEAD01310,2024-08-11,AI Receptionist,PROP021,Lease Signed,Sarah Johnson,2024-08-30,3225,5
+LEAD01311,2024-08-11,Email Campaign,PROP019,Toured,David Park,,2738,9
+LEAD01312,2024-08-11,AI Receptionist,PROP019,New,Sarah Johnson,,3234,35
+LEAD01313,2024-08-11,Google Ads,PROP018,Lease Signed,Mike Chen,2024-08-14,3346,82
+LEAD01314,2024-08-11,Google Ads,PROP021,Toured,David Park,,2847,7
+LEAD01315,2024-08-11,Facebook Ads,PROP022,Contacted,David Park,,2620,90
+LEAD01316,2024-08-11,Google Ads,PROP007,New,David Park,,3263,22
+LEAD01317,2024-08-12,AI Receptionist,PROP023,Application,Mike Chen,2024-09-01,1769,76
+LEAD01318,2024-08-12,AI Receptionist,PROP001,Qualified,Lisa Thompson,,3410,27
+LEAD01319,2024-08-12,Facebook Ads,PROP003,Qualified,Sarah Johnson,,1454,67
+LEAD01320,2024-08-12,Property Portals,PROP006,Lost,Mike Chen,,2457,70
+LEAD01321,2024-08-12,Email Campaign,PROP006,Qualified,David Park,,3227,94
+LEAD01322,2024-08-12,AI Receptionist,PROP005,Lease Signed,Lisa Thompson,2024-08-23,1636,87
+LEAD01323,2024-08-13,Website Organic,PROP002,Lease Signed,Emily Rodriguez,2024-09-02,3029,37
+LEAD01324,2024-08-13,Referral,PROP016,Lease Signed,David Park,2024-08-17,2306,27
+LEAD01325,2024-08-13,Facebook Ads,PROP007,Contacted,Sarah Johnson,,2863,18
+LEAD01326,2024-08-13,Google Ads,PROP025,Application,Mike Chen,2024-08-27,1465,35
+LEAD01327,2024-08-14,Website Organic,PROP023,Contacted,Sarah Johnson,,2191,53
+LEAD01328,2024-08-14,Website Organic,PROP025,Application,Lisa Thompson,2024-08-26,2976,31
+LEAD01329,2024-08-14,Walk-in,PROP020,Qualified,Emily Rodriguez,,2549,43
+LEAD01330,2024-08-14,Facebook Ads,PROP001,Toured,Mike Chen,,2974,84
+LEAD01331,2024-08-14,Email Campaign,PROP020,Toured,David Park,,2952,74
+LEAD01332,2024-08-15,Google Ads,PROP007,Toured,David Park,,2409,36
+LEAD01333,2024-08-15,Facebook Ads,PROP007,Contacted,Emily Rodriguez,,1630,85
+LEAD01334,2024-08-15,Property Portals,PROP022,Application,Sarah Johnson,2024-09-01,1394,30
+LEAD01335,2024-08-15,Website Organic,PROP020,Contacted,Sarah Johnson,,2234,72
+LEAD01336,2024-08-15,Walk-in,PROP016,Lease Signed,Lisa Thompson,2024-08-24,2030,61
+LEAD01337,2024-08-15,Email Campaign,PROP006,Lease Signed,David Park,2024-08-30,2608,53
+LEAD01338,2024-08-15,Referral,PROP003,Qualified,Lisa Thompson,,1893,8
+LEAD01339,2024-08-15,Referral,PROP020,Lease Signed,Emily Rodriguez,2024-09-04,3072,73
+LEAD01340,2024-08-16,Email Campaign,PROP017,Lease Signed,David Park,2024-08-30,2165,7
+LEAD01341,2024-08-16,Google Ads,PROP017,Qualified,Lisa Thompson,,1727,92
+LEAD01342,2024-08-16,AI Receptionist,PROP008,Application,Emily Rodriguez,2024-09-01,2260,9
+LEAD01343,2024-08-16,Website Organic,PROP010,Application,Sarah Johnson,2024-08-24,1364,13
+LEAD01344,2024-08-16,Referral,PROP001,Application,Emily Rodriguez,2024-08-30,3152,93
+LEAD01345,2024-08-16,Website Organic,PROP014,Qualified,Emily Rodriguez,,3272,67
+LEAD01346,2024-08-16,Website Organic,PROP021,Contacted,Mike Chen,,3422,91
+LEAD01347,2024-08-16,Email Campaign,PROP006,Lease Signed,Mike Chen,2024-09-04,1789,74
+LEAD01348,2024-08-17,AI Receptionist,PROP022,Contacted,Lisa Thompson,,1378,69
+LEAD01349,2024-08-17,Facebook Ads,PROP013,Toured,David Park,,2392,81
+LEAD01350,2024-08-17,Website Organic,PROP012,Qualified,Emily Rodriguez,,3344,51
+LEAD01351,2024-08-18,Property Portals,PROP007,Toured,Emily Rodriguez,,2347,40
+LEAD01352,2024-08-18,Google Ads,PROP014,Contacted,Sarah Johnson,,2885,16
+LEAD01353,2024-08-18,AI Receptionist,PROP018,Qualified,Mike Chen,,2700,56
+LEAD01354,2024-08-18,Facebook Ads,PROP012,Toured,Sarah Johnson,,2239,81
+LEAD01355,2024-08-18,Google Ads,PROP022,Lost,Sarah Johnson,,2461,22
+LEAD01356,2024-08-18,Referral,PROP015,Lost,Emily Rodriguez,,1948,76
+LEAD01357,2024-08-18,AI Receptionist,PROP020,Qualified,Lisa Thompson,,2770,5
+LEAD01358,2024-08-18,AI Receptionist,PROP007,Lost,David Park,,2037,91
+LEAD01359,2024-08-19,Google Ads,PROP009,Lease Signed,Sarah Johnson,2024-08-29,3497,80
+LEAD01360,2024-08-19,Facebook Ads,PROP011,Toured,David Park,,2439,59
+LEAD01361,2024-08-19,Facebook Ads,PROP015,New,Mike Chen,,2117,29
+LEAD01362,2024-08-19,Property Portals,PROP020,Qualified,David Park,,2652,94
+LEAD01363,2024-08-19,Property Portals,PROP022,Lost,Sarah Johnson,,1988,1
+LEAD01364,2024-08-20,Google Ads,PROP007,Contacted,Lisa Thompson,,2371,76
+LEAD01365,2024-08-20,AI Receptionist,PROP018,Contacted,Emily Rodriguez,,3303,79
+LEAD01366,2024-08-20,Email Campaign,PROP017,Contacted,Sarah Johnson,,3022,81
+LEAD01367,2024-08-20,Google Ads,PROP023,Lease Signed,Mike Chen,2024-09-01,1580,26
+LEAD01368,2024-08-20,Referral,PROP014,Toured,Sarah Johnson,,1991,47
+LEAD01369,2024-08-20,AI Receptionist,PROP005,Lease Signed,Lisa Thompson,2024-09-01,3413,68
+LEAD01370,2024-08-20,Facebook Ads,PROP007,Lost,Lisa Thompson,,1424,66
+LEAD01371,2024-08-21,Facebook Ads,PROP025,Contacted,David Park,,2603,2
+LEAD01372,2024-08-21,Facebook Ads,PROP015,Lease Signed,David Park,2024-09-09,3251,23
+LEAD01373,2024-08-21,Property Portals,PROP021,New,Sarah Johnson,,1682,69
+LEAD01374,2024-08-21,Website Organic,PROP007,Contacted,Sarah Johnson,,1479,88
+LEAD01375,2024-08-21,Google Ads,PROP019,Contacted,Emily Rodriguez,,2453,25
+LEAD01376,2024-08-21,Website Organic,PROP011,New,Emily Rodriguez,,2334,16
+LEAD01377,2024-08-22,Google Ads,PROP010,Toured,Sarah Johnson,,1548,77
+LEAD01378,2024-08-22,AI Receptionist,PROP002,Qualified,Lisa Thompson,,3170,23
+LEAD01379,2024-08-22,Facebook Ads,PROP010,Lost,Mike Chen,,2286,14
+LEAD01380,2024-08-22,Website Organic,PROP011,Lost,Lisa Thompson,,1695,52
+LEAD01381,2024-08-22,Facebook Ads,PROP005,Lost,Emily Rodriguez,,2203,25
+LEAD01382,2024-08-23,Facebook Ads,PROP019,Lost,Emily Rodriguez,,2571,39
+LEAD01383,2024-08-23,Property Portals,PROP022,Toured,David Park,,2899,41
+LEAD01384,2024-08-23,Website Organic,PROP011,Lost,David Park,,1309,58
+LEAD01385,2024-08-23,Google Ads,PROP024,Qualified,Lisa Thompson,,3437,68
+LEAD01386,2024-08-23,Google Ads,PROP012,Lost,Lisa Thompson,,1209,30
+LEAD01387,2024-08-23,AI Receptionist,PROP023,Toured,Lisa Thompson,,1650,93
+LEAD01388,2024-08-23,Referral,PROP023,Lease Signed,Mike Chen,2024-09-11,2386,50
+LEAD01389,2024-08-23,Email Campaign,PROP024,Toured,Lisa Thompson,,2314,1
+LEAD01390,2024-08-23,Email Campaign,PROP022,Lost,Sarah Johnson,,2263,98
+LEAD01391,2024-08-23,Facebook Ads,PROP011,New,Sarah Johnson,,1824,50
+LEAD01392,2024-08-24,Website Organic,PROP009,Lost,Emily Rodriguez,,1687,67
+LEAD01393,2024-08-24,Facebook Ads,PROP013,Lost,Lisa Thompson,,1447,48
+LEAD01394,2024-08-24,Google Ads,PROP013,Lost,Sarah Johnson,,3044,24
+LEAD01395,2024-08-24,Facebook Ads,PROP009,Contacted,Mike Chen,,2259,79
+LEAD01396,2024-08-24,Property Portals,PROP018,New,Sarah Johnson,,1286,26
+LEAD01397,2024-08-24,Google Ads,PROP002,Lease Signed,Mike Chen,2024-09-13,2328,94
+LEAD01398,2024-08-24,Referral,PROP021,Toured,David Park,,1480,7
+LEAD01399,2024-08-25,Walk-in,PROP005,Qualified,Emily Rodriguez,,2333,65
+LEAD01400,2024-08-25,Website Organic,PROP008,Lost,David Park,,2839,30
+LEAD01401,2024-08-25,Property Portals,PROP002,New,Lisa Thompson,,2308,13
+LEAD01402,2024-08-25,Google Ads,PROP009,Contacted,Mike Chen,,2157,19
+LEAD01403,2024-08-26,Property Portals,PROP023,Contacted,Lisa Thompson,,2087,17
+LEAD01404,2024-08-26,AI Receptionist,PROP017,Toured,Lisa Thompson,,1756,46
+LEAD01405,2024-08-26,Google Ads,PROP014,Qualified,David Park,,2300,68
+LEAD01406,2024-08-26,Referral,PROP020,Lost,David Park,,3495,86
+LEAD01407,2024-08-26,Website Organic,PROP010,Lease Signed,Emily Rodriguez,2024-09-11,1723,54
+LEAD01408,2024-08-26,Google Ads,PROP015,Lease Signed,Lisa Thompson,2024-09-13,2864,93
+LEAD01409,2024-08-26,AI Receptionist,PROP007,Lease Signed,Sarah Johnson,2024-08-29,2462,11
+LEAD01410,2024-08-26,Referral,PROP025,Lease Signed,David Park,2024-09-01,2729,89
+LEAD01411,2024-08-26,Google Ads,PROP009,Contacted,Sarah Johnson,,3236,76
+LEAD01412,2024-08-26,Facebook Ads,PROP018,Toured,Sarah Johnson,,2677,54
+LEAD01413,2024-08-27,Google Ads,PROP006,Lease Signed,Lisa Thompson,2024-09-10,2756,88
+LEAD01414,2024-08-27,Google Ads,PROP013,Toured,David Park,,2799,48
+LEAD01415,2024-08-27,Referral,PROP023,Contacted,Lisa Thompson,,2995,65
+LEAD01416,2024-08-27,Property Portals,PROP002,Qualified,Sarah Johnson,,3278,71
+LEAD01417,2024-08-27,AI Receptionist,PROP002,Lease Signed,David Park,2024-09-06,3034,59
+LEAD01418,2024-08-27,Google Ads,PROP009,Toured,Emily Rodriguez,,2926,22
+LEAD01419,2024-08-27,Google Ads,PROP012,Toured,Mike Chen,,1398,93
+LEAD01420,2024-08-27,Facebook Ads,PROP025,Lease Signed,Emily Rodriguez,2024-09-11,2383,64
+LEAD01421,2024-08-27,Google Ads,PROP002,Lease Signed,Lisa Thompson,2024-09-13,3493,67
+LEAD01422,2024-08-28,Google Ads,PROP019,Toured,Mike Chen,,1629,66
+LEAD01423,2024-08-28,Property Portals,PROP003,Lost,Lisa Thompson,,2885,68
+LEAD01424,2024-08-28,Google Ads,PROP005,Qualified,Lisa Thompson,,2215,30
+LEAD01425,2024-08-28,Google Ads,PROP017,New,Emily Rodriguez,,3239,34
+LEAD01426,2024-08-28,Google Ads,PROP019,Contacted,Sarah Johnson,,1265,10
+LEAD01427,2024-08-29,Website Organic,PROP023,Qualified,Emily Rodriguez,,2187,97
+LEAD01428,2024-08-29,Google Ads,PROP025,Contacted,Lisa Thompson,,2581,99
+LEAD01429,2024-08-29,AI Receptionist,PROP012,Lease Signed,David Park,2024-09-15,3331,57
+LEAD01430,2024-08-29,AI Receptionist,PROP012,Toured,Sarah Johnson,,1738,17
+LEAD01431,2024-08-29,Email Campaign,PROP023,Qualified,Lisa Thompson,,2268,88
+LEAD01432,2024-08-29,Website Organic,PROP017,Qualified,Sarah Johnson,,3069,45
+LEAD01433,2024-08-29,AI Receptionist,PROP012,Qualified,Mike Chen,,1282,45
+LEAD01434,2024-08-30,Property Portals,PROP006,Toured,Lisa Thompson,,3310,13
+LEAD01435,2024-08-30,Google Ads,PROP013,Toured,David Park,,2752,9
+LEAD01436,2024-08-30,Walk-in,PROP025,Application,Sarah Johnson,2024-09-15,2038,88
+LEAD01437,2024-08-30,Referral,PROP010,Lost,Sarah Johnson,,3337,1
+LEAD01438,2024-08-30,AI Receptionist,PROP005,Lease Signed,Emily Rodriguez,2024-09-07,2857,53
+LEAD01439,2024-08-30,Google Ads,PROP004,Application,Sarah Johnson,2024-09-19,1215,48
+LEAD01440,2024-08-30,Google Ads,PROP019,Contacted,David Park,,1625,98
+LEAD01441,2024-08-30,Google Ads,PROP006,Contacted,Sarah Johnson,,1243,27
+LEAD01442,2024-08-30,Google Ads,PROP020,Contacted,Emily Rodriguez,,1347,2
+LEAD01443,2024-08-31,Google Ads,PROP025,Lost,Sarah Johnson,,2509,5
+LEAD01444,2024-08-31,Property Portals,PROP006,Application,David Park,2024-09-15,2590,95
+LEAD01445,2024-08-31,Property Portals,PROP021,Qualified,Sarah Johnson,,2500,60
+LEAD01446,2024-08-31,AI Receptionist,PROP023,Qualified,Sarah Johnson,,1484,1
+LEAD01447,2024-08-31,Website Organic,PROP022,Contacted,Mike Chen,,2523,48
+LEAD01448,2024-08-31,AI Receptionist,PROP011,Qualified,Lisa Thompson,,1291,13
+LEAD01449,2024-09-01,Google Ads,PROP012,Toured,Lisa Thompson,,2379,3
+LEAD01450,2024-09-01,Google Ads,PROP019,Contacted,Mike Chen,,2187,20
+LEAD01451,2024-09-01,AI Receptionist,PROP008,Lease Signed,Sarah Johnson,2024-09-21,3251,41
+LEAD01452,2024-09-02,Google Ads,PROP009,Lost,Sarah Johnson,,1407,4
+LEAD01453,2024-09-02,Property Portals,PROP015,Qualified,Emily Rodriguez,,3213,52
+LEAD01454,2024-09-03,Website Organic,PROP007,Lost,Lisa Thompson,,2635,3
+LEAD01455,2024-09-03,Google Ads,PROP018,New,David Park,,1500,32
+LEAD01456,2024-09-04,Website Organic,PROP023,Lease Signed,Mike Chen,2024-09-11,3005,98
+LEAD01457,2024-09-04,Email Campaign,PROP016,Qualified,David Park,,2616,17
+LEAD01458,2024-09-04,Website Organic,PROP020,New,Lisa Thompson,,1216,47
+LEAD01459,2024-09-05,Website Organic,PROP004,Qualified,Lisa Thompson,,1483,45
+LEAD01460,2024-09-05,Facebook Ads,PROP001,Qualified,Emily Rodriguez,,2563,33
+LEAD01461,2024-09-05,Facebook Ads,PROP011,Lost,Sarah Johnson,,1959,67
+LEAD01462,2024-09-05,AI Receptionist,PROP001,New,Emily Rodriguez,,1572,84
+LEAD01463,2024-09-05,Google Ads,PROP022,Application,Mike Chen,2024-09-15,2022,94
+LEAD01464,2024-09-05,Google Ads,PROP024,Contacted,Sarah Johnson,,2404,71
+LEAD01465,2024-09-05,AI Receptionist,PROP022,New,Emily Rodriguez,,3250,94
+LEAD01466,2024-09-06,Facebook Ads,PROP001,New,Mike Chen,,2280,95
+LEAD01467,2024-09-06,Google Ads,PROP012,Toured,David Park,,2947,41
+LEAD01468,2024-09-06,AI Receptionist,PROP007,Toured,Mike Chen,,3290,81
+LEAD01469,2024-09-06,Property Portals,PROP014,Application,Emily Rodriguez,2024-09-17,3324,95
+LEAD01470,2024-09-06,AI Receptionist,PROP018,Toured,David Park,,3204,36
+LEAD01471,2024-09-06,AI Receptionist,PROP018,Lease Signed,David Park,2024-09-20,1850,48
+LEAD01472,2024-09-06,Website Organic,PROP003,Lease Signed,Emily Rodriguez,2024-09-15,3022,76
+LEAD01473,2024-09-07,Google Ads,PROP018,Contacted,Lisa Thompson,,3209,55
+LEAD01474,2024-09-07,Referral,PROP014,Contacted,Lisa Thompson,,2166,23
+LEAD01475,2024-09-08,Referral,PROP019,Toured,Lisa Thompson,,2593,29
+LEAD01476,2024-09-08,AI Receptionist,PROP021,New,Mike Chen,,2565,66
+LEAD01477,2024-09-09,Walk-in,PROP007,Contacted,Sarah Johnson,,2584,32
+LEAD01478,2024-09-09,Google Ads,PROP006,New,Emily Rodriguez,,3405,46
+LEAD01479,2024-09-09,Facebook Ads,PROP019,Toured,Mike Chen,,2220,78
+LEAD01480,2024-09-09,AI Receptionist,PROP008,Lease Signed,Mike Chen,2024-09-22,1345,36
+LEAD01481,2024-09-09,Website Organic,PROP008,New,Sarah Johnson,,2799,77
+LEAD01482,2024-09-10,AI Receptionist,PROP003,Toured,David Park,,3484,13
+LEAD01483,2024-09-10,Referral,PROP016,Lost,Mike Chen,,2947,2
+LEAD01484,2024-09-10,Referral,PROP011,Contacted,Mike Chen,,2642,19
+LEAD01485,2024-09-10,Property Portals,PROP025,Qualified,Sarah Johnson,,3242,6
+LEAD01486,2024-09-10,Google Ads,PROP007,Toured,Lisa Thompson,,1884,85
+LEAD01487,2024-09-10,Facebook Ads,PROP019,New,Lisa Thompson,,1426,84
+LEAD01488,2024-09-11,Google Ads,PROP001,Lost,Emily Rodriguez,,2414,99
+LEAD01489,2024-09-11,AI Receptionist,PROP013,Toured,Lisa Thompson,,2267,7
+LEAD01490,2024-09-11,Facebook Ads,PROP002,Qualified,David Park,,3236,97
+LEAD01491,2024-09-11,Google Ads,PROP011,Lost,Sarah Johnson,,2510,54
+LEAD01492,2024-09-11,Property Portals,PROP019,Lost,Lisa Thompson,,1602,85
+LEAD01493,2024-09-12,Facebook Ads,PROP007,Qualified,Lisa Thompson,,3010,75
+LEAD01494,2024-09-12,Property Portals,PROP006,Lease Signed,Sarah Johnson,2024-09-23,3437,27
+LEAD01495,2024-09-12,Walk-in,PROP020,Contacted,Emily Rodriguez,,3199,54
+LEAD01496,2024-09-12,Property Portals,PROP009,Toured,David Park,,1792,84
+LEAD01497,2024-09-12,Facebook Ads,PROP025,New,Lisa Thompson,,1397,3
+LEAD01498,2024-09-12,AI Receptionist,PROP024,Application,Sarah Johnson,2024-09-18,1493,44
+LEAD01499,2024-09-12,Google Ads,PROP015,Application,Lisa Thompson,2024-09-27,1825,22
+LEAD01500,2024-09-13,Property Portals,PROP005,Application,Sarah Johnson,2024-10-02,1424,39
+LEAD01501,2024-09-13,AI Receptionist,PROP016,Qualified,Lisa Thompson,,2300,27
+LEAD01502,2024-09-13,Google Ads,PROP008,New,Mike Chen,,2582,21
+LEAD01503,2024-09-13,Google Ads,PROP009,Lease Signed,Emily Rodriguez,2024-09-29,3447,33
+LEAD01504,2024-09-14,Email Campaign,PROP016,Lost,Sarah Johnson,,2948,94
+LEAD01505,2024-09-14,Google Ads,PROP008,Lease Signed,David Park,2024-09-18,1679,72
+LEAD01506,2024-09-14,Walk-in,PROP011,Qualified,Mike Chen,,1331,11
+LEAD01507,2024-09-14,Facebook Ads,PROP022,New,David Park,,1732,69
+LEAD01508,2024-09-14,Facebook Ads,PROP004,Qualified,David Park,,2693,93
+LEAD01509,2024-09-15,Property Portals,PROP012,Contacted,David Park,,1853,93
+LEAD01510,2024-09-15,Website Organic,PROP009,Lost,Sarah Johnson,,2291,60
+LEAD01511,2024-09-15,Referral,PROP003,Contacted,Sarah Johnson,,1200,45
+LEAD01512,2024-09-15,Facebook Ads,PROP007,Lease Signed,Lisa Thompson,2024-09-28,2054,13
+LEAD01513,2024-09-15,Facebook Ads,PROP017,Toured,David Park,,2819,20
+LEAD01514,2024-09-16,AI Receptionist,PROP010,Qualified,Emily Rodriguez,,2061,37
+LEAD01515,2024-09-16,AI Receptionist,PROP004,Qualified,David Park,,2929,86
+LEAD01516,2024-09-16,AI Receptionist,PROP008,Lease Signed,Sarah Johnson,2024-09-29,2711,83
+LEAD01517,2024-09-16,Referral,PROP023,Lease Signed,Lisa Thompson,2024-09-22,2770,34
+LEAD01518,2024-09-17,Facebook Ads,PROP018,Qualified,Lisa Thompson,,1985,71
+LEAD01519,2024-09-17,Property Portals,PROP024,Lease Signed,Mike Chen,2024-09-29,3070,38
+LEAD01520,2024-09-17,Website Organic,PROP023,Qualified,David Park,,2667,62
+LEAD01521,2024-09-18,Facebook Ads,PROP018,Qualified,Sarah Johnson,,3304,79
+LEAD01522,2024-09-18,Google Ads,PROP015,Contacted,Mike Chen,,2416,22
+LEAD01523,2024-09-18,AI Receptionist,PROP006,Qualified,Emily Rodriguez,,1847,51
+LEAD01524,2024-09-18,Facebook Ads,PROP012,Toured,Lisa Thompson,,2998,11
+LEAD01525,2024-09-18,AI Receptionist,PROP007,Application,Lisa Thompson,2024-09-25,1407,16
+LEAD01526,2024-09-18,AI Receptionist,PROP011,Lost,Mike Chen,,2882,51
+LEAD01527,2024-09-18,Website Organic,PROP014,Lease Signed,David Park,2024-10-07,3285,28
+LEAD01528,2024-09-19,Google Ads,PROP007,Qualified,Mike Chen,,2361,70
+LEAD01529,2024-09-19,Google Ads,PROP013,Qualified,Mike Chen,,3024,15
+LEAD01530,2024-09-19,Website Organic,PROP018,Contacted,Emily Rodriguez,,1303,63
+LEAD01531,2024-09-19,AI Receptionist,PROP006,Lease Signed,Emily Rodriguez,2024-10-05,1827,85
+LEAD01532,2024-09-20,Website Organic,PROP003,New,Emily Rodriguez,,3026,25
+LEAD01533,2024-09-20,Google Ads,PROP022,Toured,Mike Chen,,1803,28
+LEAD01534,2024-09-20,Referral,PROP023,Lease Signed,Sarah Johnson,2024-09-26,2822,13
+LEAD01535,2024-09-20,Google Ads,PROP023,New,Lisa Thompson,,1375,29
+LEAD01536,2024-09-20,AI Receptionist,PROP006,Lease Signed,Emily Rodriguez,2024-09-30,1533,2
+LEAD01537,2024-09-21,Google Ads,PROP003,Application,Lisa Thompson,2024-09-27,1546,37
+LEAD01538,2024-09-21,Google Ads,PROP017,New,Lisa Thompson,,2929,24
+LEAD01539,2024-09-21,Google Ads,PROP024,Contacted,Emily Rodriguez,,1839,4
+LEAD01540,2024-09-21,Referral,PROP012,Application,David Park,2024-09-27,3460,67
+LEAD01541,2024-09-22,Google Ads,PROP015,Lost,Lisa Thompson,,2118,52
+LEAD01542,2024-09-22,AI Receptionist,PROP010,Contacted,Mike Chen,,3020,19
+LEAD01543,2024-09-23,Facebook Ads,PROP012,New,David Park,,1229,23
+LEAD01544,2024-09-23,AI Receptionist,PROP018,New,Sarah Johnson,,2220,81
+LEAD01545,2024-09-23,Facebook Ads,PROP007,Toured,Lisa Thompson,,2207,72
+LEAD01546,2024-09-23,Google Ads,PROP004,Qualified,David Park,,2578,39
+LEAD01547,2024-09-24,AI Receptionist,PROP016,Toured,Mike Chen,,1278,46
+LEAD01548,2024-09-24,Website Organic,PROP019,Application,David Park,2024-10-01,2028,46
+LEAD01549,2024-09-24,AI Receptionist,PROP023,Lease Signed,Mike Chen,2024-10-13,1736,16
+LEAD01550,2024-09-25,Facebook Ads,PROP012,Toured,David Park,,1791,76
+LEAD01551,2024-09-25,Property Portals,PROP022,Lost,David Park,,2949,34
+LEAD01552,2024-09-25,Website Organic,PROP006,Toured,Emily Rodriguez,,2071,91
+LEAD01553,2024-09-25,Facebook Ads,PROP002,Toured,Mike Chen,,1230,61
+LEAD01554,2024-09-25,Referral,PROP022,Application,Mike Chen,2024-10-11,2636,81
+LEAD01555,2024-09-25,Property Portals,PROP005,Contacted,Emily Rodriguez,,3005,83
+LEAD01556,2024-09-26,Walk-in,PROP018,Contacted,Emily Rodriguez,,2619,27
+LEAD01557,2024-09-26,Walk-in,PROP025,Qualified,Sarah Johnson,,2011,59
+LEAD01558,2024-09-26,AI Receptionist,PROP014,Application,Lisa Thompson,2024-10-08,1636,62
+LEAD01559,2024-09-26,Facebook Ads,PROP015,Toured,Mike Chen,,3051,59
+LEAD01560,2024-09-27,Google Ads,PROP018,New,Emily Rodriguez,,1536,97
+LEAD01561,2024-09-27,Google Ads,PROP007,Lease Signed,Emily Rodriguez,2024-10-03,2008,49
+LEAD01562,2024-09-27,AI Receptionist,PROP014,Toured,David Park,,1375,37
+LEAD01563,2024-09-27,Referral,PROP013,Qualified,Emily Rodriguez,,2394,58
+LEAD01564,2024-09-27,Facebook Ads,PROP014,Lost,Emily Rodriguez,,2961,21
+LEAD01565,2024-09-27,Referral,PROP006,Qualified,Emily Rodriguez,,1340,22
+LEAD01566,2024-09-28,Email Campaign,PROP011,Qualified,David Park,,1310,68
+LEAD01567,2024-09-28,Facebook Ads,PROP004,Toured,David Park,,3021,27
+LEAD01568,2024-09-28,Email Campaign,PROP007,Lease Signed,Lisa Thompson,2024-10-06,2670,6
+LEAD01569,2024-09-28,AI Receptionist,PROP003,Application,Sarah Johnson,2024-10-16,1217,77
+LEAD01570,2024-09-28,Google Ads,PROP010,Lost,Sarah Johnson,,2971,4
+LEAD01571,2024-09-28,Google Ads,PROP019,Application,Mike Chen,2024-10-12,1641,60
+LEAD01572,2024-09-29,Email Campaign,PROP023,Qualified,David Park,,1279,44
+LEAD01573,2024-09-29,AI Receptionist,PROP024,Toured,Sarah Johnson,,3483,15
+LEAD01574,2024-09-29,Google Ads,PROP021,Toured,Sarah Johnson,,2476,58
+LEAD01575,2024-09-30,Facebook Ads,PROP001,Lease Signed,David Park,2024-10-17,1219,81
+LEAD01576,2024-09-30,Google Ads,PROP019,Toured,Emily Rodriguez,,2088,92
+LEAD01577,2024-10-01,Google Ads,PROP021,Qualified,Lisa Thompson,,2510,53
+LEAD01578,2024-10-01,Website Organic,PROP002,Qualified,Emily Rodriguez,,3087,72
+LEAD01579,2024-10-01,AI Receptionist,PROP025,Lost,Emily Rodriguez,,2245,47
+LEAD01580,2024-10-01,AI Receptionist,PROP016,Contacted,Emily Rodriguez,,2250,85
+LEAD01581,2024-10-01,Google Ads,PROP017,Contacted,Sarah Johnson,,2685,37
+LEAD01582,2024-10-01,Facebook Ads,PROP001,Contacted,Sarah Johnson,,1829,55
+LEAD01583,2024-10-01,Facebook Ads,PROP018,Contacted,Lisa Thompson,,2749,21
+LEAD01584,2024-10-02,Google Ads,PROP014,Lost,Mike Chen,,1813,92
+LEAD01585,2024-10-02,Google Ads,PROP024,New,Emily Rodriguez,,1489,7
+LEAD01586,2024-10-03,Facebook Ads,PROP021,New,Lisa Thompson,,1664,72
+LEAD01587,2024-10-03,Facebook Ads,PROP008,Lost,Sarah Johnson,,3221,5
+LEAD01588,2024-10-04,Walk-in,PROP001,Toured,Emily Rodriguez,,3319,30
+LEAD01589,2024-10-04,Email Campaign,PROP021,Contacted,David Park,,1482,2
+LEAD01590,2024-10-05,Email Campaign,PROP004,Contacted,Sarah Johnson,,2091,79
+LEAD01591,2024-10-05,AI Receptionist,PROP012,Contacted,Mike Chen,,2678,9
+LEAD01592,2024-10-05,AI Receptionist,PROP002,Contacted,Sarah Johnson,,3356,37
+LEAD01593,2024-10-06,Google Ads,PROP004,Contacted,David Park,,2401,41
+LEAD01594,2024-10-06,Referral,PROP017,Application,David Park,2024-10-22,1601,65
+LEAD01595,2024-10-06,Google Ads,PROP022,Qualified,Mike Chen,,3456,83
+LEAD01596,2024-10-06,Property Portals,PROP007,New,Mike Chen,,2487,88
+LEAD01597,2024-10-07,Referral,PROP012,Qualified,Emily Rodriguez,,2269,7
+LEAD01598,2024-10-07,Google Ads,PROP013,Qualified,Emily Rodriguez,,2880,72
+LEAD01599,2024-10-08,Referral,PROP002,Lease Signed,Emily Rodriguez,2024-10-24,2141,77
+LEAD01600,2024-10-08,Google Ads,PROP004,Contacted,Lisa Thompson,,1208,20
+LEAD01601,2024-10-08,Email Campaign,PROP017,Qualified,Lisa Thompson,,3179,53
+LEAD01602,2024-10-08,AI Receptionist,PROP016,New,Mike Chen,,2803,35
+LEAD01603,2024-10-09,Google Ads,PROP015,New,David Park,,1398,33
+LEAD01604,2024-10-09,Google Ads,PROP023,Qualified,Mike Chen,,1367,28
+LEAD01605,2024-10-10,Google Ads,PROP015,Qualified,Emily Rodriguez,,2443,66
+LEAD01606,2024-10-10,Facebook Ads,PROP023,New,Mike Chen,,2094,87
+LEAD01607,2024-10-10,Google Ads,PROP021,New,Mike Chen,,1239,90
+LEAD01608,2024-10-10,AI Receptionist,PROP023,Lost,Sarah Johnson,,1696,85
+LEAD01609,2024-10-10,Facebook Ads,PROP013,New,Mike Chen,,1518,43
+LEAD01610,2024-10-10,Google Ads,PROP009,Lost,Mike Chen,,2710,49
+LEAD01611,2024-10-10,Facebook Ads,PROP011,New,Mike Chen,,2659,96
+LEAD01612,2024-10-11,Google Ads,PROP002,Lease Signed,Emily Rodriguez,2024-10-21,1919,63
+LEAD01613,2024-10-11,Website Organic,PROP016,Qualified,Mike Chen,,2953,78
+LEAD01614,2024-10-11,Google Ads,PROP003,Toured,Emily Rodriguez,,2875,79
+LEAD01615,2024-10-11,Email Campaign,PROP024,Application,Mike Chen,2024-10-20,2673,40
+LEAD01616,2024-10-11,Facebook Ads,PROP001,Qualified,Sarah Johnson,,2916,91
+LEAD01617,2024-10-12,Google Ads,PROP003,Lease Signed,David Park,2024-10-17,2467,44
+LEAD01618,2024-10-12,Walk-in,PROP015,Toured,Emily Rodriguez,,2510,44
+LEAD01619,2024-10-13,Facebook Ads,PROP016,Qualified,Emily Rodriguez,,1428,10
+LEAD01620,2024-10-13,Property Portals,PROP008,New,Emily Rodriguez,,1335,90
+LEAD01621,2024-10-13,Google Ads,PROP023,Lease Signed,Mike Chen,2024-10-22,1722,10
+LEAD01622,2024-10-13,Google Ads,PROP007,Qualified,Lisa Thompson,,1746,54
+LEAD01623,2024-10-13,Email Campaign,PROP004,Qualified,Mike Chen,,2774,26
+LEAD01624,2024-10-14,Website Organic,PROP019,Qualified,Emily Rodriguez,,1369,56
+LEAD01625,2024-10-14,Property Portals,PROP018,Lost,David Park,,1603,20
+LEAD01626,2024-10-14,Google Ads,PROP010,Lease Signed,Lisa Thompson,2024-10-26,3157,46
+LEAD01627,2024-10-14,Website Organic,PROP023,Contacted,David Park,,1310,15
+LEAD01628,2024-10-14,AI Receptionist,PROP012,Application,Emily Rodriguez,2024-10-21,2968,37
+LEAD01629,2024-10-14,AI Receptionist,PROP016,Toured,David Park,,3396,31
+LEAD01630,2024-10-15,Property Portals,PROP004,Qualified,Emily Rodriguez,,2124,85
+LEAD01631,2024-10-15,Google Ads,PROP022,Contacted,Mike Chen,,3049,12
+LEAD01632,2024-10-16,AI Receptionist,PROP009,Lease Signed,Emily Rodriguez,2024-10-24,1227,5
+LEAD01633,2024-10-16,AI Receptionist,PROP016,Toured,Sarah Johnson,,2006,99
+LEAD01634,2024-10-16,Website Organic,PROP012,Qualified,Mike Chen,,3117,98
+LEAD01635,2024-10-16,Website Organic,PROP024,Contacted,Lisa Thompson,,3281,87
+LEAD01636,2024-10-16,AI Receptionist,PROP017,Qualified,David Park,,3223,98
+LEAD01637,2024-10-16,Google Ads,PROP014,Qualified,Mike Chen,,2636,54
+LEAD01638,2024-10-17,Facebook Ads,PROP003,Lost,David Park,,1356,87
+LEAD01639,2024-10-17,AI Receptionist,PROP020,Qualified,Sarah Johnson,,2157,86
+LEAD01640,2024-10-17,Google Ads,PROP002,Toured,Lisa Thompson,,1749,15
+LEAD01641,2024-10-17,Google Ads,PROP009,Lease Signed,David Park,2024-10-21,2079,97
+LEAD01642,2024-10-17,Property Portals,PROP016,New,Mike Chen,,2629,86
+LEAD01643,2024-10-17,Facebook Ads,PROP003,Qualified,Lisa Thompson,,2164,25
+LEAD01644,2024-10-17,Email Campaign,PROP015,New,Mike Chen,,3261,56
+LEAD01645,2024-10-18,Facebook Ads,PROP007,Lost,Mike Chen,,2664,78
+LEAD01646,2024-10-18,Walk-in,PROP023,Lease Signed,David Park,2024-10-31,3347,95
+LEAD01647,2024-10-18,Email Campaign,PROP013,Qualified,Mike Chen,,2081,96
+LEAD01648,2024-10-18,Facebook Ads,PROP006,Lost,Lisa Thompson,,2073,41
+LEAD01649,2024-10-19,Google Ads,PROP014,Toured,Sarah Johnson,,2168,86
+LEAD01650,2024-10-19,Referral,PROP016,Qualified,David Park,,1584,53
+LEAD01651,2024-10-19,Facebook Ads,PROP017,Qualified,David Park,,3255,72
+LEAD01652,2024-10-19,AI Receptionist,PROP023,Application,Lisa Thompson,2024-10-22,3443,7
+LEAD01653,2024-10-20,Facebook Ads,PROP014,Lost,Sarah Johnson,,2275,12
+LEAD01654,2024-10-20,Facebook Ads,PROP021,Contacted,Sarah Johnson,,1220,15
+LEAD01655,2024-10-21,Facebook Ads,PROP023,Qualified,Mike Chen,,1265,39
+LEAD01656,2024-10-21,Property Portals,PROP007,New,Lisa Thompson,,2894,66
+LEAD01657,2024-10-21,Google Ads,PROP015,Lost,Emily Rodriguez,,2255,30
+LEAD01658,2024-10-21,Facebook Ads,PROP014,Contacted,Sarah Johnson,,2218,39
+LEAD01659,2024-10-22,Google Ads,PROP012,New,Emily Rodriguez,,1524,35
+LEAD01660,2024-10-22,Walk-in,PROP005,Application,Sarah Johnson,2024-10-25,2394,30
+LEAD01661,2024-10-22,Google Ads,PROP004,Lost,Sarah Johnson,,2323,69
+LEAD01662,2024-10-22,Google Ads,PROP018,Contacted,Emily Rodriguez,,2130,63
+LEAD01663,2024-10-22,Email Campaign,PROP006,Toured,Sarah Johnson,,1616,53
+LEAD01664,2024-10-23,Facebook Ads,PROP014,Contacted,David Park,,1660,7
+LEAD01665,2024-10-23,AI Receptionist,PROP009,Lost,Emily Rodriguez,,2260,14
+LEAD01666,2024-10-23,Google Ads,PROP007,Contacted,Emily Rodriguez,,2546,18
+LEAD01667,2024-10-23,Website Organic,PROP005,Toured,Lisa Thompson,,3137,49
+LEAD01668,2024-10-23,Google Ads,PROP019,Toured,Mike Chen,,1964,55
+LEAD01669,2024-10-24,Referral,PROP019,Lease Signed,Mike Chen,2024-10-31,1979,42
+LEAD01670,2024-10-24,Google Ads,PROP011,Contacted,Lisa Thompson,,2359,50
+LEAD01671,2024-10-24,Google Ads,PROP011,Toured,Lisa Thompson,,2888,6
+LEAD01672,2024-10-24,Google Ads,PROP015,Lease Signed,Mike Chen,2024-11-01,2692,75
+LEAD01673,2024-10-25,Google Ads,PROP002,Contacted,Mike Chen,,3490,79
+LEAD01674,2024-10-25,AI Receptionist,PROP018,Qualified,Emily Rodriguez,,1724,63
+LEAD01675,2024-10-26,Google Ads,PROP018,Lease Signed,David Park,2024-11-04,3044,28
+LEAD01676,2024-10-26,Walk-in,PROP001,Lease Signed,David Park,2024-11-06,2790,12
+LEAD01677,2024-10-26,Property Portals,PROP024,Lost,Lisa Thompson,,1912,51
+LEAD01678,2024-10-26,Google Ads,PROP017,Lease Signed,Mike Chen,2024-11-08,2675,64
+LEAD01679,2024-10-26,Facebook Ads,PROP011,New,David Park,,2728,80
+LEAD01680,2024-10-26,Property Portals,PROP005,Contacted,Mike Chen,,3017,6
+LEAD01681,2024-10-26,Google Ads,PROP022,New,Mike Chen,,2783,27
+LEAD01682,2024-10-27,Email Campaign,PROP003,Qualified,David Park,,2600,52
+LEAD01683,2024-10-27,AI Receptionist,PROP004,Qualified,Emily Rodriguez,,2202,97
+LEAD01684,2024-10-27,Google Ads,PROP017,Qualified,Sarah Johnson,,2735,45
+LEAD01685,2024-10-27,Website Organic,PROP013,Lease Signed,David Park,2024-11-04,1977,83
+LEAD01686,2024-10-27,Referral,PROP007,Lease Signed,Emily Rodriguez,2024-11-02,2827,67
+LEAD01687,2024-10-28,AI Receptionist,PROP019,Lost,Lisa Thompson,,1883,4
+LEAD01688,2024-10-28,Website Organic,PROP009,Lost,David Park,,3217,29
+LEAD01689,2024-10-28,Property Portals,PROP004,Qualified,Lisa Thompson,,1340,20
+LEAD01690,2024-10-28,Google Ads,PROP023,Lease Signed,Emily Rodriguez,2024-11-02,1565,12
+LEAD01691,2024-10-28,Google Ads,PROP020,Contacted,Lisa Thompson,,2534,32
+LEAD01692,2024-10-28,Google Ads,PROP025,Lost,Emily Rodriguez,,2668,97
+LEAD01693,2024-10-29,AI Receptionist,PROP014,Lease Signed,Emily Rodriguez,2024-11-09,1233,65
+LEAD01694,2024-10-29,Google Ads,PROP023,Lost,Emily Rodriguez,,3437,54
+LEAD01695,2024-10-29,Google Ads,PROP008,Lease Signed,Mike Chen,2024-11-08,3032,19
+LEAD01696,2024-10-30,AI Receptionist,PROP019,Qualified,David Park,,2023,65
+LEAD01697,2024-10-30,AI Receptionist,PROP002,Lease Signed,Mike Chen,2024-11-16,2584,22
+LEAD01698,2024-10-31,Website Organic,PROP004,Toured,David Park,,1546,59
+LEAD01699,2024-10-31,AI Receptionist,PROP003,Application,Lisa Thompson,2024-11-10,2146,16
+LEAD01700,2024-11-01,Facebook Ads,PROP018,Contacted,Lisa Thompson,,2416,60
+LEAD01701,2024-11-01,Referral,PROP011,Lease Signed,Emily Rodriguez,2024-11-08,1611,90
+LEAD01702,2024-11-01,Google Ads,PROP008,Lease Signed,Sarah Johnson,2024-11-17,2068,71
+LEAD01703,2024-11-02,Google Ads,PROP008,Lease Signed,David Park,2024-11-14,2819,92
+LEAD01704,2024-11-02,Walk-in,PROP014,Qualified,Sarah Johnson,,2370,57
+LEAD01705,2024-11-02,Property Portals,PROP008,New,Mike Chen,,2211,26
+LEAD01706,2024-11-02,Walk-in,PROP020,Application,Sarah Johnson,2024-11-08,1997,82
+LEAD01707,2024-11-02,Email Campaign,PROP011,Qualified,David Park,,1708,15
+LEAD01708,2024-11-02,Google Ads,PROP007,Lease Signed,Mike Chen,2024-11-13,3390,36
+LEAD01709,2024-11-02,Google Ads,PROP015,Lease Signed,Mike Chen,2024-11-13,2068,10
+LEAD01710,2024-11-03,Google Ads,PROP025,Lost,Lisa Thompson,,3334,55
+LEAD01711,2024-11-03,Property Portals,PROP008,Lease Signed,Emily Rodriguez,2024-11-17,1661,82
+LEAD01712,2024-11-03,Property Portals,PROP015,Application,Sarah Johnson,2024-11-18,1471,8
+LEAD01713,2024-11-03,Facebook Ads,PROP019,Contacted,Emily Rodriguez,,1594,22
+LEAD01714,2024-11-03,Walk-in,PROP018,Lost,Emily Rodriguez,,3230,33
+LEAD01715,2024-11-03,Referral,PROP002,Lease Signed,Mike Chen,2024-11-18,1413,29
+LEAD01716,2024-11-03,Google Ads,PROP014,Lease Signed,Emily Rodriguez,2024-11-20,2865,54
+LEAD01717,2024-11-04,Referral,PROP022,Lost,David Park,,1532,2
+LEAD01718,2024-11-04,Property Portals,PROP003,Lease Signed,Lisa Thompson,2024-11-19,1600,92
+LEAD01719,2024-11-04,Walk-in,PROP005,Lost,Mike Chen,,1241,33
+LEAD01720,2024-11-04,Email Campaign,PROP014,Lease Signed,David Park,2024-11-12,1910,99
+LEAD01721,2024-11-05,AI Receptionist,PROP019,Qualified,Emily Rodriguez,,2922,85
+LEAD01722,2024-11-05,Google Ads,PROP007,Qualified,Emily Rodriguez,,2415,23
+LEAD01723,2024-11-06,AI Receptionist,PROP021,Application,David Park,2024-11-10,2331,24
+LEAD01724,2024-11-06,Google Ads,PROP022,Contacted,David Park,,1700,95
+LEAD01725,2024-11-06,Property Portals,PROP010,Contacted,Mike Chen,,1583,11
+LEAD01726,2024-11-06,Property Portals,PROP024,Contacted,Sarah Johnson,,2983,58
+LEAD01727,2024-11-06,Google Ads,PROP007,Toured,Lisa Thompson,,1462,72
+LEAD01728,2024-11-06,Referral,PROP006,Application,Sarah Johnson,2024-11-12,2599,41
+LEAD01729,2024-11-06,Facebook Ads,PROP006,Qualified,Mike Chen,,1289,6
+LEAD01730,2024-11-07,Property Portals,PROP023,Lease Signed,Sarah Johnson,2024-11-23,2713,69
+LEAD01731,2024-11-07,Facebook Ads,PROP004,Toured,Lisa Thompson,,3481,62
+LEAD01732,2024-11-08,Google Ads,PROP015,Contacted,Emily Rodriguez,,1918,14
+LEAD01733,2024-11-08,Facebook Ads,PROP017,Toured,Emily Rodriguez,,1259,91
+LEAD01734,2024-11-08,Google Ads,PROP021,Lost,David Park,,1284,87
+LEAD01735,2024-11-09,Website Organic,PROP020,Lease Signed,David Park,2024-11-26,2717,95
+LEAD01736,2024-11-09,Google Ads,PROP021,Lost,David Park,,2509,35
+LEAD01737,2024-11-09,AI Receptionist,PROP008,Qualified,Sarah Johnson,,1955,18
+LEAD01738,2024-11-09,Facebook Ads,PROP023,New,Sarah Johnson,,1456,75
+LEAD01739,2024-11-10,Walk-in,PROP020,Toured,David Park,,2242,13
+LEAD01740,2024-11-10,Referral,PROP004,Qualified,Lisa Thompson,,1998,31
+LEAD01741,2024-11-10,Property Portals,PROP019,Qualified,Emily Rodriguez,,2992,85
+LEAD01742,2024-11-10,AI Receptionist,PROP012,Lost,Mike Chen,,3047,90
+LEAD01743,2024-11-10,Property Portals,PROP009,Application,Sarah Johnson,2024-11-30,3248,82
+LEAD01744,2024-11-10,Google Ads,PROP010,New,Sarah Johnson,,2525,72
+LEAD01745,2024-11-10,Facebook Ads,PROP009,Lost,Lisa Thompson,,3205,40
+LEAD01746,2024-11-11,Email Campaign,PROP009,New,Mike Chen,,1609,38
+LEAD01747,2024-11-11,Facebook Ads,PROP006,New,Sarah Johnson,,2091,64
+LEAD01748,2024-11-11,Google Ads,PROP018,Qualified,David Park,,1664,82
+LEAD01749,2024-11-11,AI Receptionist,PROP002,Qualified,David Park,,1992,74
+LEAD01750,2024-11-12,Walk-in,PROP011,New,Emily Rodriguez,,3005,84
+LEAD01751,2024-11-12,Google Ads,PROP016,New,David Park,,2242,69
+LEAD01752,2024-11-12,Website Organic,PROP005,Lost,Mike Chen,,2947,16
+LEAD01753,2024-11-12,Facebook Ads,PROP010,Contacted,David Park,,2908,68
+LEAD01754,2024-11-12,Facebook Ads,PROP019,Toured,Lisa Thompson,,3265,12
+LEAD01755,2024-11-12,Website Organic,PROP018,Qualified,Emily Rodriguez,,2594,33
+LEAD01756,2024-11-12,Google Ads,PROP016,Lost,Lisa Thompson,,3044,13
+LEAD01757,2024-11-13,Facebook Ads,PROP003,Toured,Mike Chen,,2459,45
+LEAD01758,2024-11-13,Google Ads,PROP004,Contacted,Mike Chen,,3098,18
+LEAD01759,2024-11-13,Google Ads,PROP001,Contacted,David Park,,3393,16
+LEAD01760,2024-11-14,Property Portals,PROP004,Lease Signed,Mike Chen,2024-11-25,3172,89
+LEAD01761,2024-11-14,Website Organic,PROP005,Qualified,Sarah Johnson,,3223,66
+LEAD01762,2024-11-15,Facebook Ads,PROP021,Toured,Emily Rodriguez,,2719,90
+LEAD01763,2024-11-15,Website Organic,PROP017,Application,David Park,2024-11-18,3079,4
+LEAD01764,2024-11-15,Website Organic,PROP014,Lost,Mike Chen,,1350,34
+LEAD01765,2024-11-16,Property Portals,PROP016,Contacted,David Park,,1789,76
+LEAD01766,2024-11-16,Property Portals,PROP016,New,Lisa Thompson,,2808,54
+LEAD01767,2024-11-16,Google Ads,PROP012,Lease Signed,David Park,2024-11-30,2747,97
+LEAD01768,2024-11-16,Google Ads,PROP019,New,Mike Chen,,2460,54
+LEAD01769,2024-11-16,Facebook Ads,PROP005,Qualified,David Park,,1817,80
+LEAD01770,2024-11-17,Website Organic,PROP002,Lease Signed,Emily Rodriguez,2024-11-30,2347,11
+LEAD01771,2024-11-17,Email Campaign,PROP025,Lost,Emily Rodriguez,,3278,88
+LEAD01772,2024-11-17,Property Portals,PROP008,Qualified,Lisa Thompson,,3146,50
+LEAD01773,2024-11-17,AI Receptionist,PROP002,Lease Signed,David Park,2024-12-04,3207,50
+LEAD01774,2024-11-17,AI Receptionist,PROP005,New,Sarah Johnson,,2944,40
+LEAD01775,2024-11-17,Referral,PROP011,Lease Signed,Sarah Johnson,2024-12-04,1206,18
+LEAD01776,2024-11-17,Email Campaign,PROP018,Toured,Emily Rodriguez,,1723,84
+LEAD01777,2024-11-18,Google Ads,PROP009,Qualified,David Park,,1255,10
+LEAD01778,2024-11-18,Facebook Ads,PROP012,Toured,Sarah Johnson,,2476,59
+LEAD01779,2024-11-19,Referral,PROP016,Lease Signed,Lisa Thompson,2024-12-03,3174,61
+LEAD01780,2024-11-19,Walk-in,PROP004,Qualified,David Park,,1831,14
+LEAD01781,2024-11-19,Google Ads,PROP018,Qualified,Emily Rodriguez,,3047,91
+LEAD01782,2024-11-19,Facebook Ads,PROP017,Lease Signed,Mike Chen,2024-11-30,2534,91
+LEAD01783,2024-11-19,Property Portals,PROP015,Lost,Sarah Johnson,,2688,21
+LEAD01784,2024-11-20,AI Receptionist,PROP011,Lease Signed,Lisa Thompson,2024-11-28,1281,86
+LEAD01785,2024-11-20,Property Portals,PROP002,Contacted,Sarah Johnson,,2195,58
+LEAD01786,2024-11-20,Website Organic,PROP023,New,Mike Chen,,1555,90
+LEAD01787,2024-11-21,Email Campaign,PROP017,Lost,Emily Rodriguez,,2683,9
+LEAD01788,2024-11-21,AI Receptionist,PROP005,Lost,Emily Rodriguez,,2721,27
+LEAD01789,2024-11-21,Facebook Ads,PROP012,Qualified,David Park,,2467,77
+LEAD01790,2024-11-22,Google Ads,PROP022,Lease Signed,Lisa Thompson,2024-11-30,1750,15
+LEAD01791,2024-11-22,Facebook Ads,PROP019,Qualified,Lisa Thompson,,1361,73
+LEAD01792,2024-11-22,Website Organic,PROP005,Lease Signed,Sarah Johnson,2024-12-11,1304,28
+LEAD01793,2024-11-22,Google Ads,PROP006,Lost,Lisa Thompson,,2550,23
+LEAD01794,2024-11-23,Website Organic,PROP021,New,Emily Rodriguez,,2685,97
+LEAD01795,2024-11-23,Google Ads,PROP011,Contacted,Mike Chen,,2176,27
+LEAD01796,2024-11-24,Google Ads,PROP025,Qualified,David Park,,3342,11
+LEAD01797,2024-11-24,AI Receptionist,PROP021,Toured,Mike Chen,,1971,72
+LEAD01798,2024-11-24,AI Receptionist,PROP020,Lost,Emily Rodriguez,,3243,46
+LEAD01799,2024-11-25,Referral,PROP013,Lease Signed,Sarah Johnson,2024-12-04,2164,86
+LEAD01800,2024-11-25,AI Receptionist,PROP013,Qualified,Emily Rodriguez,,1874,45
+LEAD01801,2024-11-25,Facebook Ads,PROP022,Lost,Emily Rodriguez,,2582,23
+LEAD01802,2024-11-25,Google Ads,PROP013,Lost,Lisa Thompson,,2757,28
+LEAD01803,2024-11-25,Website Organic,PROP022,Application,Mike Chen,2024-12-10,2955,68
+LEAD01804,2024-11-26,Website Organic,PROP020,Qualified,David Park,,1742,39
+LEAD01805,2024-11-26,Facebook Ads,PROP022,Qualified,Emily Rodriguez,,1688,70
+LEAD01806,2024-11-26,Email Campaign,PROP014,Qualified,Sarah Johnson,,3324,32
+LEAD01807,2024-11-26,Google Ads,PROP013,Toured,Mike Chen,,2789,63
+LEAD01808,2024-11-27,Google Ads,PROP004,Qualified,David Park,,2825,74
+LEAD01809,2024-11-27,AI Receptionist,PROP003,Application,Emily Rodriguez,2024-11-30,2747,58
+LEAD01810,2024-11-28,Google Ads,PROP016,Lease Signed,Lisa Thompson,2024-12-16,2295,49
+LEAD01811,2024-11-28,Facebook Ads,PROP007,Lease Signed,Mike Chen,2024-12-04,2878,62
+LEAD01812,2024-11-28,Google Ads,PROP005,New,Emily Rodriguez,,2266,44
+LEAD01813,2024-11-28,AI Receptionist,PROP023,New,David Park,,3134,91
+LEAD01814,2024-11-29,AI Receptionist,PROP018,Application,Mike Chen,2024-12-06,2623,70
+LEAD01815,2024-11-29,Google Ads,PROP018,New,Sarah Johnson,,1439,36
+LEAD01816,2024-11-30,Facebook Ads,PROP001,Qualified,David Park,,3357,84
+LEAD01817,2024-11-30,Facebook Ads,PROP002,Qualified,David Park,,3090,74
+LEAD01818,2024-12-01,Google Ads,PROP001,Lost,Mike Chen,,3269,50
+LEAD01819,2024-12-01,AI Receptionist,PROP009,New,Mike Chen,,3095,91
+LEAD01820,2024-12-01,Facebook Ads,PROP002,Qualified,Lisa Thompson,,2725,34
+LEAD01821,2024-12-01,Referral,PROP018,Application,Mike Chen,2024-12-09,3245,63
+LEAD01822,2024-12-01,AI Receptionist,PROP002,Contacted,David Park,,2672,52
+LEAD01823,2024-12-02,Email Campaign,PROP013,Qualified,Sarah Johnson,,3223,33
+LEAD01824,2024-12-02,Property Portals,PROP012,Qualified,David Park,,1395,29
+LEAD01825,2024-12-02,Website Organic,PROP017,Application,Lisa Thompson,2024-12-21,1505,55
+LEAD01826,2024-12-02,Website Organic,PROP024,Lease Signed,Lisa Thompson,2024-12-08,1378,32
+LEAD01827,2024-12-03,Facebook Ads,PROP009,Qualified,Sarah Johnson,,2595,58
+LEAD01828,2024-12-03,Email Campaign,PROP004,Lost,David Park,,2863,30
+LEAD01829,2024-12-03,Google Ads,PROP004,Lease Signed,David Park,2024-12-20,1819,26
+LEAD01830,2024-12-03,Google Ads,PROP013,Lost,Lisa Thompson,,2830,16
+LEAD01831,2024-12-03,Facebook Ads,PROP009,Toured,David Park,,1266,91
+LEAD01832,2024-12-03,AI Receptionist,PROP011,New,Mike Chen,,2422,80
+LEAD01833,2024-12-04,AI Receptionist,PROP011,Qualified,David Park,,1693,29
+LEAD01834,2024-12-04,Facebook Ads,PROP011,Qualified,Sarah Johnson,,1342,96
+LEAD01835,2024-12-05,Facebook Ads,PROP025,Toured,Mike Chen,,2141,80
+LEAD01836,2024-12-05,Facebook Ads,PROP017,Application,Lisa Thompson,2024-12-10,2206,69
+LEAD01837,2024-12-05,AI Receptionist,PROP006,Contacted,Mike Chen,,1621,56
+LEAD01838,2024-12-05,Google Ads,PROP017,Lost,David Park,,3291,90
+LEAD01839,2024-12-05,Walk-in,PROP024,Lease Signed,Sarah Johnson,2024-12-08,2092,33
+LEAD01840,2024-12-05,Google Ads,PROP007,New,Mike Chen,,2958,1
+LEAD01841,2024-12-05,Property Portals,PROP014,Qualified,David Park,,2030,24
+LEAD01842,2024-12-06,AI Receptionist,PROP004,Toured,David Park,,3083,40
+LEAD01843,2024-12-06,Property Portals,PROP010,Qualified,Sarah Johnson,,1772,55
+LEAD01844,2024-12-06,Google Ads,PROP015,Lease Signed,Mike Chen,2024-12-16,1876,49
+LEAD01845,2024-12-06,Walk-in,PROP018,Application,Lisa Thompson,2024-12-12,3231,87
+LEAD01846,2024-12-07,AI Receptionist,PROP011,Lost,Mike Chen,,2950,24
+LEAD01847,2024-12-07,AI Receptionist,PROP005,Lease Signed,Lisa Thompson,2024-12-14,2359,71
+LEAD01848,2024-12-07,Google Ads,PROP005,Contacted,Sarah Johnson,,2865,16
+LEAD01849,2024-12-08,Google Ads,PROP006,Contacted,David Park,,1263,6
+LEAD01850,2024-12-08,Email Campaign,PROP006,Contacted,David Park,,2380,27
+LEAD01851,2024-12-08,Facebook Ads,PROP007,Toured,Lisa Thompson,,3282,36
+LEAD01852,2024-12-08,Facebook Ads,PROP002,Contacted,Sarah Johnson,,3086,32
+LEAD01853,2024-12-08,AI Receptionist,PROP010,Application,Mike Chen,2024-12-22,2966,55
+LEAD01854,2024-12-08,Google Ads,PROP022,Contacted,Mike Chen,,2668,60
+LEAD01855,2024-12-08,Referral,PROP011,Lost,Sarah Johnson,,2345,13
+LEAD01856,2024-12-09,Facebook Ads,PROP025,Toured,Lisa Thompson,,2519,75
+LEAD01857,2024-12-09,Walk-in,PROP021,Application,David Park,2024-12-27,3221,8
+LEAD01858,2024-12-09,Google Ads,PROP017,Lease Signed,Lisa Thompson,2024-12-21,2582,24
+LEAD01859,2024-12-09,Property Portals,PROP010,Contacted,Sarah Johnson,,1595,79
+LEAD01860,2024-12-09,AI Receptionist,PROP013,New,David Park,,2490,99
+LEAD01861,2024-12-10,Google Ads,PROP012,Lease Signed,Mike Chen,2024-12-16,2371,85
+LEAD01862,2024-12-10,Google Ads,PROP008,Toured,David Park,,2842,28
+LEAD01863,2024-12-11,Referral,PROP005,New,David Park,,1492,15
+LEAD01864,2024-12-11,Google Ads,PROP021,Lease Signed,Sarah Johnson,2024-12-20,1966,50
+LEAD01865,2024-12-11,AI Receptionist,PROP019,Contacted,Mike Chen,,2179,60
+LEAD01866,2024-12-11,AI Receptionist,PROP005,Contacted,Emily Rodriguez,,1650,54
+LEAD01867,2024-12-11,AI Receptionist,PROP015,Toured,Emily Rodriguez,,2869,51
+LEAD01868,2024-12-12,Google Ads,PROP015,Lease Signed,David Park,2024-12-23,1550,59
+LEAD01869,2024-12-12,Website Organic,PROP025,Lost,David Park,,1508,49
+LEAD01870,2024-12-12,AI Receptionist,PROP019,Toured,Sarah Johnson,,1637,1
+LEAD01871,2024-12-13,Referral,PROP015,New,Lisa Thompson,,1265,46
+LEAD01872,2024-12-13,Website Organic,PROP009,Qualified,Sarah Johnson,,2129,69
+LEAD01873,2024-12-13,Facebook Ads,PROP016,Lost,Lisa Thompson,,2605,52
+LEAD01874,2024-12-14,AI Receptionist,PROP025,Lease Signed,Emily Rodriguez,2025-01-01,3127,12
+LEAD01875,2024-12-14,Google Ads,PROP002,Toured,Lisa Thompson,,3288,75
+LEAD01876,2024-12-15,Walk-in,PROP003,Application,David Park,2024-12-28,1986,27
+LEAD01877,2024-12-15,Google Ads,PROP011,Lease Signed,Lisa Thompson,2024-12-30,2594,51
+LEAD01878,2024-12-15,AI Receptionist,PROP023,Lost,Mike Chen,,1415,93
+LEAD01879,2024-12-15,AI Receptionist,PROP018,Qualified,Emily Rodriguez,,2317,59
+LEAD01880,2024-12-15,Website Organic,PROP018,Toured,Mike Chen,,2087,76
+LEAD01881,2024-12-15,Google Ads,PROP008,Qualified,Lisa Thompson,,1720,90
+LEAD01882,2024-12-15,Facebook Ads,PROP024,Toured,Mike Chen,,1649,18
+LEAD01883,2024-12-16,Google Ads,PROP014,Application,Sarah Johnson,2025-01-01,3032,71
+LEAD01884,2024-12-16,Property Portals,PROP023,Contacted,Sarah Johnson,,2123,16
+LEAD01885,2024-12-16,Google Ads,PROP004,Lease Signed,Sarah Johnson,2024-12-26,1625,55
+LEAD01886,2024-12-16,Email Campaign,PROP025,Qualified,David Park,,1963,46
+LEAD01887,2024-12-16,Email Campaign,PROP011,Lost,Lisa Thompson,,3372,43
+LEAD01888,2024-12-16,Referral,PROP004,Qualified,Emily Rodriguez,,2684,21
+LEAD01889,2024-12-17,Google Ads,PROP005,New,Emily Rodriguez,,1436,98
+LEAD01890,2024-12-17,Google Ads,PROP005,Toured,Lisa Thompson,,2968,12
+LEAD01891,2024-12-17,Property Portals,PROP015,Lost,Sarah Johnson,,2154,73
+LEAD01892,2024-12-17,Google Ads,PROP016,Contacted,Emily Rodriguez,,3176,32
+LEAD01893,2024-12-17,Facebook Ads,PROP021,Lost,Sarah Johnson,,3023,75
+LEAD01894,2024-12-17,Google Ads,PROP004,Application,Sarah Johnson,2024-12-23,2671,78
+LEAD01895,2024-12-18,Website Organic,PROP010,Toured,Mike Chen,,1784,41
+LEAD01896,2024-12-18,Email Campaign,PROP003,Qualified,Lisa Thompson,,1990,85
+LEAD01897,2024-12-18,Property Portals,PROP009,Lost,David Park,,1865,29
+LEAD01898,2024-12-19,Website Organic,PROP001,Contacted,Mike Chen,,1550,16
+LEAD01899,2024-12-19,Google Ads,PROP005,Contacted,David Park,,3044,97
+LEAD01900,2024-12-19,Walk-in,PROP014,Lost,Mike Chen,,2236,85
+LEAD01901,2024-12-19,Google Ads,PROP023,Application,Mike Chen,2024-12-28,2738,24
+LEAD01902,2024-12-19,Facebook Ads,PROP002,Contacted,David Park,,2817,20
+LEAD01903,2024-12-19,AI Receptionist,PROP025,Lease Signed,Emily Rodriguez,2024-12-30,2906,46
+LEAD01904,2024-12-20,Facebook Ads,PROP019,Contacted,David Park,,2518,70
+LEAD01905,2024-12-20,AI Receptionist,PROP007,Lost,Lisa Thompson,,2188,31
+LEAD01906,2024-12-21,Google Ads,PROP013,New,Lisa Thompson,,3129,21
+LEAD01907,2024-12-21,Email Campaign,PROP007,Contacted,Emily Rodriguez,,2300,30
+LEAD01908,2024-12-21,Website Organic,PROP007,Toured,Sarah Johnson,,3468,29
+LEAD01909,2024-12-21,Email Campaign,PROP001,Toured,Lisa Thompson,,1362,59
+LEAD01910,2024-12-21,Facebook Ads,PROP001,Toured,Sarah Johnson,,1964,54
+LEAD01911,2024-12-21,Google Ads,PROP017,Lease Signed,David Park,2024-12-29,1310,61
+LEAD01912,2024-12-22,Property Portals,PROP023,Lost,Lisa Thompson,,2170,66
+LEAD01913,2024-12-22,Facebook Ads,PROP019,Qualified,Emily Rodriguez,,2203,4
+LEAD01914,2024-12-22,Facebook Ads,PROP016,Lease Signed,Sarah Johnson,2024-12-29,2810,34
+LEAD01915,2024-12-22,Facebook Ads,PROP018,Qualified,Lisa Thompson,,2255,20
+LEAD01916,2024-12-22,Google Ads,PROP003,Toured,Mike Chen,,1200,39
+LEAD01917,2024-12-22,Facebook Ads,PROP005,Qualified,Lisa Thompson,,2099,73
+LEAD01918,2024-12-22,Google Ads,PROP011,Application,Lisa Thompson,2024-12-28,1559,51
+LEAD01919,2024-12-23,Referral,PROP014,Lost,Mike Chen,,2617,88
+LEAD01920,2024-12-23,Facebook Ads,PROP016,New,Sarah Johnson,,2586,22
+LEAD01921,2024-12-23,Email Campaign,PROP004,Qualified,Emily Rodriguez,,2399,76
+LEAD01922,2024-12-23,AI Receptionist,PROP003,Lost,Lisa Thompson,,1747,40
+LEAD01923,2024-12-23,Facebook Ads,PROP021,Contacted,Lisa Thompson,,2759,97
+LEAD01924,2024-12-23,Property Portals,PROP009,Qualified,Lisa Thompson,,3390,42
+LEAD01925,2024-12-24,Google Ads,PROP020,Application,Lisa Thompson,2025-01-07,1540,85
+LEAD01926,2024-12-24,Email Campaign,PROP022,New,Emily Rodriguez,,3429,60
+LEAD01927,2024-12-24,Referral,PROP015,Toured,Mike Chen,,3339,80
+LEAD01928,2024-12-24,Website Organic,PROP021,New,Lisa Thompson,,3408,2
+LEAD01929,2024-12-25,Google Ads,PROP015,Toured,Emily Rodriguez,,1423,28
+LEAD01930,2024-12-25,AI Receptionist,PROP004,Lost,Mike Chen,,3286,25
+LEAD01931,2024-12-25,Facebook Ads,PROP021,Lost,Mike Chen,,2668,84
+LEAD01932,2024-12-25,Google Ads,PROP007,Application,Mike Chen,2025-01-13,2275,93
+LEAD01933,2024-12-25,Website Organic,PROP024,Lease Signed,Sarah Johnson,2025-01-04,2516,7
+LEAD01934,2024-12-25,Facebook Ads,PROP018,Lease Signed,Sarah Johnson,2024-12-30,2006,36
+LEAD01935,2024-12-26,Referral,PROP008,New,Sarah Johnson,,1297,66
+LEAD01936,2024-12-26,Property Portals,PROP011,Lease Signed,David Park,2025-01-02,1314,12
+LEAD01937,2024-12-26,Walk-in,PROP024,Qualified,David Park,,2145,3
+LEAD01938,2024-12-26,Property Portals,PROP024,Toured,Mike Chen,,2086,10
+LEAD01939,2024-12-26,AI Receptionist,PROP025,Qualified,David Park,,2353,66
+LEAD01940,2024-12-26,Facebook Ads,PROP025,Toured,Sarah Johnson,,2472,49
+LEAD01941,2024-12-27,Google Ads,PROP003,New,David Park,,1906,72
+LEAD01942,2024-12-27,Google Ads,PROP022,Qualified,Lisa Thompson,,2525,25
+LEAD01943,2024-12-27,AI Receptionist,PROP003,Lease Signed,Emily Rodriguez,2025-01-08,2773,69
+LEAD01944,2024-12-27,Google Ads,PROP014,Lost,Sarah Johnson,,3233,36
+LEAD01945,2024-12-27,Google Ads,PROP024,Qualified,Sarah Johnson,,2958,56
+LEAD01946,2024-12-27,Google Ads,PROP006,Contacted,David Park,,2068,11
+LEAD01947,2024-12-28,Google Ads,PROP002,Qualified,David Park,,1213,7
+LEAD01948,2024-12-28,Google Ads,PROP016,Lease Signed,Emily Rodriguez,2025-01-03,2025,56
+LEAD01949,2024-12-28,Google Ads,PROP022,Lost,Sarah Johnson,,3103,60
+LEAD01950,2024-12-28,Google Ads,PROP016,Qualified,Mike Chen,,3422,15
+LEAD01951,2024-12-29,Facebook Ads,PROP001,Lease Signed,Lisa Thompson,2025-01-04,2263,30
+LEAD01952,2024-12-29,AI Receptionist,PROP025,Lease Signed,Sarah Johnson,2025-01-01,1820,79
+LEAD01953,2024-12-29,AI Receptionist,PROP016,Toured,David Park,,1707,21
+LEAD01954,2024-12-29,Google Ads,PROP010,Qualified,Mike Chen,,2608,94
+LEAD01955,2024-12-29,Property Portals,PROP018,New,Mike Chen,,2483,25
+LEAD01956,2024-12-30,AI Receptionist,PROP012,Qualified,Lisa Thompson,,1864,41
+LEAD01957,2024-12-30,Google Ads,PROP015,Contacted,Lisa Thompson,,2520,20
+LEAD01958,2024-12-30,Referral,PROP008,Toured,Sarah Johnson,,2774,37
+LEAD01959,2024-12-30,Website Organic,PROP005,Contacted,David Park,,3045,22
+LEAD01960,2024-12-30,Property Portals,PROP013,Toured,Sarah Johnson,,2495,68
+LEAD01961,2024-12-31,Referral,PROP006,Lease Signed,Lisa Thompson,2025-01-10,1285,15
+LEAD01962,2024-12-31,Facebook Ads,PROP020,Lease Signed,Emily Rodriguez,2025-01-04,2976,64
+LEAD01963,2024-12-31,Email Campaign,PROP009,Contacted,Mike Chen,,1518,1
+LEAD01964,2024-12-31,Google Ads,PROP014,New,Lisa Thompson,,1562,10
+LEAD01965,2024-12-31,AI Receptionist,PROP001,Qualified,Mike Chen,,1965,1
+LEAD01966,2024-12-31,AI Receptionist,PROP004,Qualified,Sarah Johnson,,3122,76
+LEAD01967,2025-01-01,Google Ads,PROP013,Qualified,David Park,,2128,6
+LEAD01968,2025-01-01,Referral,PROP024,Lost,Emily Rodriguez,,2208,75
+LEAD01969,2025-01-01,Facebook Ads,PROP020,Qualified,Emily Rodriguez,,2885,95
+LEAD01970,2025-01-01,AI Receptionist,PROP004,Application,Mike Chen,2025-01-21,2357,64
+LEAD01971,2025-01-01,Walk-in,PROP019,Qualified,David Park,,2699,34
+LEAD01972,2025-01-01,Facebook Ads,PROP025,Lease Signed,Emily Rodriguez,2025-01-07,3398,81
+LEAD01973,2025-01-01,Google Ads,PROP012,Qualified,Mike Chen,,3412,84
+LEAD01974,2025-01-02,Referral,PROP002,Lost,David Park,,1329,89
+LEAD01975,2025-01-02,AI Receptionist,PROP010,Qualified,Emily Rodriguez,,2622,55
+LEAD01976,2025-01-02,AI Receptionist,PROP017,Toured,Emily Rodriguez,,1893,66
+LEAD01977,2025-01-02,Facebook Ads,PROP019,New,Mike Chen,,2819,83
+LEAD01978,2025-01-02,Website Organic,PROP006,Application,Lisa Thompson,2025-01-10,2708,93
+LEAD01979,2025-01-03,Facebook Ads,PROP012,Lease Signed,Emily Rodriguez,2025-01-10,2355,72
+LEAD01980,2025-01-03,Facebook Ads,PROP017,Qualified,Emily Rodriguez,,2275,34
+LEAD01981,2025-01-03,Google Ads,PROP021,Toured,Sarah Johnson,,3148,6
+LEAD01982,2025-01-03,Property Portals,PROP018,New,Lisa Thompson,,1607,37
+LEAD01983,2025-01-03,AI Receptionist,PROP012,Lease Signed,Lisa Thompson,2025-01-19,1824,15
+LEAD01984,2025-01-03,Email Campaign,PROP017,Qualified,Emily Rodriguez,,2139,43
+LEAD01985,2025-01-04,Google Ads,PROP012,Toured,Lisa Thompson,,2990,85
+LEAD01986,2025-01-04,Email Campaign,PROP016,Qualified,David Park,,1598,85
+LEAD01987,2025-01-04,Google Ads,PROP012,Lease Signed,Lisa Thompson,2025-01-15,2804,90
+LEAD01988,2025-01-04,Google Ads,PROP011,Toured,Mike Chen,,2619,16
+LEAD01989,2025-01-05,Referral,PROP017,Contacted,Lisa Thompson,,2762,87
+LEAD01990,2025-01-05,AI Receptionist,PROP011,New,Sarah Johnson,,2550,37
+LEAD01991,2025-01-05,Property Portals,PROP007,Qualified,Sarah Johnson,,2944,19
+LEAD01992,2025-01-05,Google Ads,PROP014,Application,Sarah Johnson,2025-01-18,2095,83
+LEAD01993,2025-01-06,AI Receptionist,PROP015,Contacted,Lisa Thompson,,1410,88
+LEAD01994,2025-01-06,AI Receptionist,PROP005,Application,Lisa Thompson,2025-01-25,3327,17
+LEAD01995,2025-01-06,Email Campaign,PROP018,Lost,Sarah Johnson,,1404,99
+LEAD01996,2025-01-06,Walk-in,PROP008,Contacted,Mike Chen,,2185,14
+LEAD01997,2025-01-06,AI Receptionist,PROP017,Toured,David Park,,2545,71
+LEAD01998,2025-01-06,AI Receptionist,PROP019,Toured,Sarah Johnson,,2408,82
+LEAD01999,2025-01-07,Google Ads,PROP023,Lease Signed,Lisa Thompson,2025-01-19,1517,14
+LEAD02000,2025-01-07,Website Organic,PROP011,New,David Park,,1354,60
+LEAD02001,2025-01-08,Property Portals,PROP013,Qualified,Emily Rodriguez,,3481,32
+LEAD02002,2025-01-08,AI Receptionist,PROP007,Contacted,David Park,,2665,54
+LEAD02003,2025-01-08,AI Receptionist,PROP012,Qualified,Lisa Thompson,,1652,57
+LEAD02004,2025-01-08,AI Receptionist,PROP002,Qualified,Emily Rodriguez,,2699,84
+LEAD02005,2025-01-09,AI Receptionist,PROP011,New,David Park,,1310,25
+LEAD02006,2025-01-09,AI Receptionist,PROP018,Qualified,Emily Rodriguez,,2848,24
+LEAD02007,2025-01-09,AI Receptionist,PROP007,Qualified,Emily Rodriguez,,2541,73
+LEAD02008,2025-01-09,Referral,PROP020,Lost,David Park,,2761,48
+LEAD02009,2025-01-09,AI Receptionist,PROP017,Toured,Lisa Thompson,,1646,15
+LEAD02010,2025-01-09,Facebook Ads,PROP016,Lease Signed,Lisa Thompson,2025-01-13,3304,44
+LEAD02011,2025-01-10,AI Receptionist,PROP012,Application,Sarah Johnson,2025-01-16,1962,94
+LEAD02012,2025-01-10,Facebook Ads,PROP007,Contacted,Sarah Johnson,,3449,84
+LEAD02013,2025-01-10,Walk-in,PROP005,Qualified,Sarah Johnson,,2302,39
+LEAD02014,2025-01-10,Google Ads,PROP021,Contacted,Lisa Thompson,,3299,48
+LEAD02015,2025-01-10,Google Ads,PROP009,Qualified,Mike Chen,,2682,76
+LEAD02016,2025-01-11,Google Ads,PROP015,Contacted,David Park,,1254,36
+LEAD02017,2025-01-11,Website Organic,PROP017,Contacted,Emily Rodriguez,,2192,75
+LEAD02018,2025-01-11,AI Receptionist,PROP001,Lost,Mike Chen,,2271,97
+LEAD02019,2025-01-11,Email Campaign,PROP006,Qualified,Sarah Johnson,,2815,13
+LEAD02020,2025-01-12,AI Receptionist,PROP020,Lease Signed,Emily Rodriguez,2025-01-30,2381,57
+LEAD02021,2025-01-12,Property Portals,PROP003,Toured,Lisa Thompson,,1207,88
+LEAD02022,2025-01-12,Google Ads,PROP002,Lost,Mike Chen,,3173,44
+LEAD02023,2025-01-12,AI Receptionist,PROP017,New,Sarah Johnson,,2360,14
+LEAD02024,2025-01-13,Google Ads,PROP020,Qualified,Lisa Thompson,,3113,73
+LEAD02025,2025-01-13,Google Ads,PROP006,Contacted,Mike Chen,,1705,27
+LEAD02026,2025-01-13,Walk-in,PROP015,Contacted,Mike Chen,,3402,11
+LEAD02027,2025-01-13,Facebook Ads,PROP025,Contacted,Lisa Thompson,,2685,82
+LEAD02028,2025-01-14,Walk-in,PROP013,Lost,Sarah Johnson,,2612,24
+LEAD02029,2025-01-14,Facebook Ads,PROP021,Qualified,Emily Rodriguez,,3025,73
+LEAD02030,2025-01-14,Website Organic,PROP012,Contacted,Emily Rodriguez,,3260,42
+LEAD02031,2025-01-14,Website Organic,PROP015,Contacted,Lisa Thompson,,1666,17
+LEAD02032,2025-01-14,Google Ads,PROP013,Toured,Mike Chen,,2436,23
+LEAD02033,2025-01-15,Facebook Ads,PROP020,Qualified,Sarah Johnson,,1962,26
+LEAD02034,2025-01-15,Property Portals,PROP024,Lost,Lisa Thompson,,1836,24
+LEAD02035,2025-01-16,Facebook Ads,PROP010,Toured,Emily Rodriguez,,1638,16
+LEAD02036,2025-01-16,Website Organic,PROP025,New,Lisa Thompson,,1223,26
+LEAD02037,2025-01-16,AI Receptionist,PROP019,Lost,Lisa Thompson,,1683,5
+LEAD02038,2025-01-16,Google Ads,PROP019,Qualified,Sarah Johnson,,3040,41
+LEAD02039,2025-01-16,AI Receptionist,PROP002,Qualified,David Park,,1728,96
+LEAD02040,2025-01-16,Google Ads,PROP025,Toured,David Park,,2499,50
+LEAD02041,2025-01-17,Google Ads,PROP007,New,David Park,,2688,84
+LEAD02042,2025-01-17,Facebook Ads,PROP013,Contacted,Sarah Johnson,,2281,73
+LEAD02043,2025-01-17,AI Receptionist,PROP013,Lost,Emily Rodriguez,,3343,17
+LEAD02044,2025-01-17,Email Campaign,PROP001,Lost,Lisa Thompson,,1204,87
+LEAD02045,2025-01-18,Google Ads,PROP023,Application,David Park,2025-02-01,1397,13
+LEAD02046,2025-01-18,Google Ads,PROP017,Toured,Sarah Johnson,,2798,82
+LEAD02047,2025-01-18,Email Campaign,PROP011,Toured,David Park,,2269,77
+LEAD02048,2025-01-18,Referral,PROP014,Lease Signed,Lisa Thompson,2025-02-01,2973,73
+LEAD02049,2025-01-18,Website Organic,PROP003,Lost,Lisa Thompson,,1629,84
+LEAD02050,2025-01-19,AI Receptionist,PROP010,New,David Park,,3013,65
+LEAD02051,2025-01-19,Google Ads,PROP016,Application,Sarah Johnson,2025-02-08,2901,67
+LEAD02052,2025-01-19,Facebook Ads,PROP012,Contacted,Emily Rodriguez,,1609,65
+LEAD02053,2025-01-20,Walk-in,PROP009,New,Lisa Thompson,,2960,63
+LEAD02054,2025-01-20,Website Organic,PROP021,Toured,Emily Rodriguez,,1921,63
+LEAD02055,2025-01-21,Email Campaign,PROP012,Toured,David Park,,3381,37
+LEAD02056,2025-01-21,Walk-in,PROP020,Lost,Emily Rodriguez,,1406,77
+LEAD02057,2025-01-21,Property Portals,PROP013,Lost,David Park,,1472,24
+LEAD02058,2025-01-21,Property Portals,PROP014,Qualified,David Park,,3246,86
+LEAD02059,2025-01-21,Google Ads,PROP011,Contacted,Lisa Thompson,,2040,77
+LEAD02060,2025-01-21,Google Ads,PROP017,Toured,Mike Chen,,1220,51
+LEAD02061,2025-01-21,Referral,PROP010,Toured,Emily Rodriguez,,3008,87
+LEAD02062,2025-01-22,AI Receptionist,PROP024,New,Lisa Thompson,,2265,48
+LEAD02063,2025-01-22,Facebook Ads,PROP018,Lost,Lisa Thompson,,1875,83
+LEAD02064,2025-01-23,Google Ads,PROP019,Qualified,Sarah Johnson,,2477,23
+LEAD02065,2025-01-23,Google Ads,PROP024,Contacted,Sarah Johnson,,2738,28
+LEAD02066,2025-01-23,Google Ads,PROP017,Qualified,David Park,,2621,67
+LEAD02067,2025-01-23,Website Organic,PROP021,Lease Signed,Emily Rodriguez,2025-02-07,2805,99
+LEAD02068,2025-01-23,Google Ads,PROP008,Qualified,Lisa Thompson,,1538,37
+LEAD02069,2025-01-23,Referral,PROP020,New,Sarah Johnson,,1313,6
+LEAD02070,2025-01-24,Email Campaign,PROP022,Lost,David Park,,2338,13
+LEAD02071,2025-01-24,Website Organic,PROP019,Toured,Lisa Thompson,,3468,9
+LEAD02072,2025-01-24,AI Receptionist,PROP006,Toured,Mike Chen,,2605,95
+LEAD02073,2025-01-24,Facebook Ads,PROP008,Contacted,Mike Chen,,3395,81
+LEAD02074,2025-01-24,Property Portals,PROP010,Toured,Sarah Johnson,,2416,52
+LEAD02075,2025-01-25,Google Ads,PROP007,Toured,Mike Chen,,1298,20
+LEAD02076,2025-01-25,Google Ads,PROP010,Qualified,David Park,,3354,75
+LEAD02077,2025-01-25,Email Campaign,PROP023,Lease Signed,Emily Rodriguez,2025-02-13,2391,18
+LEAD02078,2025-01-25,AI Receptionist,PROP015,New,Lisa Thompson,,2276,20
+LEAD02079,2025-01-26,Property Portals,PROP009,Lost,David Park,,1650,83
+LEAD02080,2025-01-26,Referral,PROP005,New,Mike Chen,,1640,90
+LEAD02081,2025-01-26,Email Campaign,PROP014,Lost,Lisa Thompson,,2587,18
+LEAD02082,2025-01-26,AI Receptionist,PROP007,Application,David Park,2025-02-08,3419,18
+LEAD02083,2025-01-27,Google Ads,PROP013,Contacted,Sarah Johnson,,2891,9
+LEAD02084,2025-01-27,Google Ads,PROP024,Lease Signed,Emily Rodriguez,2025-02-15,1487,88
+LEAD02085,2025-01-28,Property Portals,PROP024,Lease Signed,Mike Chen,2025-02-06,2040,50
+LEAD02086,2025-01-28,Facebook Ads,PROP023,Lease Signed,David Park,2025-02-16,1552,5
+LEAD02087,2025-01-28,Referral,PROP014,Qualified,Emily Rodriguez,,1694,88
+LEAD02088,2025-01-28,Email Campaign,PROP003,New,Sarah Johnson,,2510,49
+LEAD02089,2025-01-29,Property Portals,PROP009,Toured,David Park,,2543,19
+LEAD02090,2025-01-29,Email Campaign,PROP018,Qualified,Emily Rodriguez,,2057,3
+LEAD02091,2025-01-29,Google Ads,PROP020,Qualified,David Park,,2080,37
+LEAD02092,2025-01-29,Property Portals,PROP021,Lease Signed,Emily Rodriguez,2025-02-04,2428,11
+LEAD02093,2025-01-29,Email Campaign,PROP019,Qualified,David Park,,3308,67
+LEAD02094,2025-01-29,Facebook Ads,PROP003,Lost,Emily Rodriguez,,2495,45
+LEAD02095,2025-01-30,Google Ads,PROP021,Contacted,Mike Chen,,2093,75
+LEAD02096,2025-01-30,Google Ads,PROP021,Lost,Mike Chen,,2876,35
+LEAD02097,2025-01-30,Website Organic,PROP024,New,Mike Chen,,1225,29
+LEAD02098,2025-01-31,Website Organic,PROP001,Application,David Park,2025-02-19,2300,81
+LEAD02099,2025-01-31,Website Organic,PROP002,Lease Signed,Emily Rodriguez,2025-02-14,3469,37
+LEAD02100,2025-01-31,Referral,PROP003,Qualified,David Park,,1907,19
+LEAD02101,2025-01-31,Facebook Ads,PROP025,New,Emily Rodriguez,,2284,5
+LEAD02102,2025-01-31,Facebook Ads,PROP025,New,Mike Chen,,1795,96

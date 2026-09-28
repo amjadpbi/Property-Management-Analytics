@@ -1,0 +1,83 @@
+relationship 137ca953-4add-4571-b4ca-90a6946ed4ab
+	joinOnDateBehavior: datePartOnly
+	fromColumn: AIReceptionistCalls.CallTime
+	toColumn: LocalDateTable_843c8c72-aea9-4d26-9922-b951641af9ea.Date
+
+relationship e9b47b65-ed4d-49c4-abe5-a42a6dfb84b0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: LeadsPipeline.ConversionDate
+	toColumn: LocalDateTable_bb46c336-8276-4ddf-856e-73b0fefcc1de.Date
+
+relationship a27d5775-b340-4ad3-a287-f1915303f928
+	joinOnDateBehavior: datePartOnly
+	fromColumn: LeaseData.LeaseStartDate
+	toColumn: LocalDateTable_74cde856-9ed3-4750-b359-d6486dcf3bf1.Date
+
+relationship 827613a3-8659-4bbf-a91f-752402672bb9
+	joinOnDateBehavior: datePartOnly
+	fromColumn: LeaseData.LeaseEndDate
+	toColumn: LocalDateTable_e19e89ee-faea-413d-9ccd-14ebb44895f4.Date
+
+relationship 22e64e24-6c04-42ac-9245-08e51f144ca8
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Properties.AcquisitionDate
+	toColumn: LocalDateTable_ddce059b-e90d-4809-8f1a-b5d1a8bffbed.Date
+
+relationship 33dfc024-0c96-4113-94a4-a5d4ee0d3ab7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: MaintenanceTickets.ClosedDate
+	toColumn: LocalDateTable_8880a41e-71eb-43e9-83e5-5ba1ab4c1d07.Date
+
+relationship 490fa373-00a3-3d29-7f3c-3a56d41ce015
+	fromColumn: DailyOccupancy.PropertyID
+	toColumn: Properties.PropertyID
+
+relationship a572b4ea-c30c-eece-41d2-ddc4d6aca38d
+	fromColumn: LeadsPipeline.PropertyID
+	toColumn: Properties.PropertyID
+
+relationship fe2920ec-b9a5-e141-b901-8fcf48129ff2
+	fromColumn: FinancialData.PropertyID
+	toColumn: Properties.PropertyID
+
+relationship 02c80300-0dd8-ba6e-0486-43614e1650ea
+	fromColumn: MaintenanceTickets.PropertyID
+	toColumn: Properties.PropertyID
+
+relationship 9598504a-62ad-dbc6-914b-b2c89b7ce44a
+	fromColumn: AIReceptionistCalls.PropertyInquired
+	toColumn: Properties.PropertyID
+
+relationship c52d3571-6762-48fa-a41c-b3b09cbb20fd
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DateTable.Date
+	toColumn: LocalDateTable_2e143aa5-9bbc-4196-ba0e-e5d2737a3acb.Date
+
+relationship c51794d5-982a-2599-cc04-7ad8a701c354
+	fromColumn: DailyOccupancy.Date
+	toColumn: DateTable.Date
+
+relationship f23c2d94-0a43-2836-b117-5ab43ec4193a
+	fromColumn: LeadsPipeline.LeadDate
+	toColumn: DateTable.Date
+
+relationship b5d7c4dd-a6f9-d8d2-d54b-2887dd9bbd25
+	fromColumn: MaintenanceTickets.OpenDate
+	toColumn: DateTable.Date
+
+relationship f7d734f2-9b83-b014-af05-07266f47ac28
+	fromColumn: AIReceptionistCalls.CallDate
+	toColumn: DateTable.Date
+
+relationship 07704d38-7fc8-fecf-b5e7-bcc4b04ee1c6
+	fromColumn: FinancialData.Month
+	toColumn: DateTable.Date
+
+relationship 4327dafe-bc0e-7423-ddce-aaf85f39d37e
+	fromColumn: MarketingCampaigns.Month
+	toColumn: DateTable.Date
+
+relationship 6477a449-f4ff-8ea4-2cbf-b5a9c9e6001a
+	fromColumn: LeaseData.PropertyID
+	toColumn: Properties.PropertyID
+

@@ -1,0 +1,26 @@
+PropertyID,PropertyName,PropertyType,TotalUnits,Region,AcquisitionDate
+PROP001,Sunset Apartments,Apartment,70,South,2020-01-31
+PROP002,Oak Ridge Complex,Single Family,127,West,2020-04-30
+PROP003,Pine Valley Homes,Townhome,74,Central,2020-07-31
+PROP004,Maple Street Residences,Apartment,83,South,2020-10-31
+PROP005,Harbor View Towers,Apartment,70,South,2021-01-31
+PROP006,Downtown Lofts,Apartment,40,West,2021-04-30
+PROP007,Garden Terrace,Apartment,92,South,2021-07-31
+PROP008,Riverside Plaza,Single Family,37,South,2021-10-31
+PROP009,Heritage Square,Townhome,108,West,2022-01-31
+PROP010,Liberty Commons,Townhome,79,West,2022-04-30
+PROP011,Parkside Manor,Apartment,33,North,2022-07-31
+PROP012,Summit Place,Single Family,28,Central,2022-10-31
+PROP013,Lakewood Estates,Townhome,109,Central,2023-01-31
+PROP014,Vista Heights,Apartment,72,South,2023-04-30
+PROP015,Cornerstone Apartments,Apartment,149,Central,2023-07-31
+PROP016,Skyline Towers,Apartment,103,South,2023-10-31
+PROP017,Meadow Creek Homes,Apartment,111,North,2024-01-31
+PROP018,Woodland Park,Apartment,130,West,2024-04-30
+PROP019,Canyon View,Apartment,27,West,2024-07-31
+PROP020,Hillside Terrace,Apartment,54,West,2024-10-31
+PROP021,Bayshore Residences,Townhome,100,Central,2025-01-31
+PROP022,Crown Point,Apartment,69,North,2025-04-30
+PROP023,Evergreen Apartments,Apartment,123,Central,2025-07-31
+PROP024,Crystal Lake,Apartment,21,Central,2025-10-31
+PROP025,Mountain Ridge,Apartment,73,North,2026-01-31

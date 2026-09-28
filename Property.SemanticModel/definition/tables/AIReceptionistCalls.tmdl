@@ -1,0 +1,135 @@
+table AIReceptionistCalls
+	lineageTag: 2d7afb4f-a7bf-42b2-8458-71c785c097ba
+
+	column CallID
+		dataType: string
+		lineageTag: 2f54f13e-ae4f-45ba-af3b-f00ce89791b5
+		summarizeBy: none
+		sourceColumn: CallID
+
+		annotation SummarizationSetBy = Automatic
+
+	column CallDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: dc293ff2-4e49-4403-8e7e-4dd9888864bd
+		summarizeBy: none
+		sourceColumn: CallDate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CallTime
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: bfff469c-3f9a-4652-b22b-e54729f1e04b
+		summarizeBy: none
+		sourceColumn: CallTime
+
+		variation Variation
+			isDefault
+			relationship: 137ca953-4add-4571-b4ca-90a6946ed4ab
+			defaultHierarchy: LocalDateTable_843c8c72-aea9-4d26-9922-b951641af9ea.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column CallType
+		dataType: string
+		lineageTag: 0a1c3e33-74d9-4420-af8e-b707d8d19249
+		summarizeBy: none
+		sourceColumn: CallType
+
+		annotation SummarizationSetBy = Automatic
+
+	column DurationSeconds
+		dataType: int64
+		formatString: 0
+		lineageTag: 03cc582a-ec95-4d8d-8f3e-99de336891df
+		summarizeBy: sum
+		sourceColumn: DurationSeconds
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsQualifiedLead
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 49a84932-932f-4e10-b503-81c9ec9a6e37
+		summarizeBy: none
+		sourceColumn: IsQualifiedLead
+
+		annotation SummarizationSetBy = Automatic
+
+	column AppointmentBooked
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 216bfa74-2a4c-494d-a4bb-096d2c0214ca
+		summarizeBy: none
+		sourceColumn: AppointmentBooked
+
+		annotation SummarizationSetBy = Automatic
+
+	column Resolved
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: e5a2ee13-487c-4d0f-8ba8-3a1557be54ba
+		summarizeBy: none
+		sourceColumn: Resolved
+
+		annotation SummarizationSetBy = Automatic
+
+	column SentimentScore
+		dataType: int64
+		formatString: 0
+		lineageTag: ffc1fb84-315a-485a-9edf-c4e04835705f
+		summarizeBy: sum
+		sourceColumn: SentimentScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column PropertyInquired
+		dataType: string
+		lineageTag: 6b217b6d-87bb-4720-9a1e-97d0553f396f
+		summarizeBy: none
+		sourceColumn: PropertyInquired
+
+		annotation SummarizationSetBy = Automatic
+
+	column CallHour = HOUR(AIReceptionistCalls[CallTime])
+		formatString: 0
+		lineageTag: dd43456a-325f-4f2e-b78e-8160fa8dd967
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column CallDurationMinutes = AIReceptionistCalls[DurationSeconds] / 60
+		formatString: 0
+		lineageTag: 13473ef2-efc3-425a-aca9-362239bb3c02
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column IsBusinessHours =
+			
+			VAR Hour = HOUR(AIReceptionistCalls[CallTime])
+			RETURN IF(Hour >= 8 && Hour < 18, TRUE, FALSE)
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 17040a13-d1c7-4279-a15c-ab1c55fc6035
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AIReceptionistCalls = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\AIReceptionistCalls.csv"),[Delimiter=",", Columns=10, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"CallID", type text}, {"CallDate", type date}, {"CallTime", type datetime}, {"CallType", type text}, {"DurationSeconds", Int64.Type}, {"IsQualifiedLead", type logical}, {"AppointmentBooked", type logical}, {"Resolved", type logical}, {"SentimentScore", Int64.Type}, {"PropertyInquired", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

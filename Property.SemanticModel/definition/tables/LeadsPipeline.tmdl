@@ -1,0 +1,141 @@
+table LeadsPipeline
+	lineageTag: d5a08e43-99a4-46df-8b37-6df4f26066cd
+
+	column LeadID
+		dataType: string
+		lineageTag: 70a74382-6ede-47be-8b1c-bf8acc130876
+		summarizeBy: none
+		sourceColumn: LeadID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LeadDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: acf4e0f5-2975-4129-9906-5778c072c9d3
+		summarizeBy: none
+		sourceColumn: LeadDate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Source
+		dataType: string
+		lineageTag: 57b9ce43-f9e5-4cf9-a4d5-4e4f3b162e45
+		summarizeBy: none
+		sourceColumn: Source
+
+		annotation SummarizationSetBy = Automatic
+
+	column PropertyID
+		dataType: string
+		lineageTag: 2881501e-23e6-428d-936a-f1f86405a11a
+		summarizeBy: none
+		sourceColumn: PropertyID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 0b0df71b-a8c0-4609-9904-6de957a198f3
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column SalesRep
+		dataType: string
+		lineageTag: 3c95e8ea-908d-40f5-adb5-7165bc68e6a0
+		summarizeBy: none
+		sourceColumn: SalesRep
+
+		annotation SummarizationSetBy = Automatic
+
+	column ConversionDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6bba6e7c-e07e-4506-a667-a0450ae9d8ec
+		summarizeBy: none
+		sourceColumn: ConversionDate
+
+		variation Variation
+			isDefault
+			relationship: e9b47b65-ed4d-49c4-abe5-a42a6dfb84b0
+			defaultHierarchy: LocalDateTable_bb46c336-8276-4ddf-856e-73b0fefcc1de.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column EstimatedMonthlyRent
+		dataType: int64
+		formatString: 0
+		lineageTag: 670f371f-8527-473a-af2d-487883b1d90f
+		summarizeBy: sum
+		sourceColumn: EstimatedMonthlyRent
+
+		annotation SummarizationSetBy = Automatic
+
+	column LeadScore
+		dataType: int64
+		formatString: 0
+		lineageTag: 02eac55c-af43-4e3b-978f-4f0f7ed22ec7
+		summarizeBy: sum
+		sourceColumn: LeadScore
+
+		annotation SummarizationSetBy = Automatic
+
+	column DaysInPipeline =
+			
+			IF(
+			    ISBLANK(LeadsPipeline[ConversionDate]),
+			    DATEDIFF(LeadsPipeline[LeadDate], TODAY(), DAY),
+			    DATEDIFF(LeadsPipeline[LeadDate], LeadsPipeline[ConversionDate], DAY)
+			)
+		formatString: 0
+		lineageTag: 59a3b048-dcc8-4dc7-b034-69eb1ad942c2
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column LeadSourceCategory =
+			
+			SWITCH(
+			    LeadsPipeline[Source],
+			    "Google Ads", "Paid Digital",
+			    "Facebook Ads", "Paid Digital",
+			    "Website Organic", "Organic",
+			    "Referral", "Referral",
+			    "Walk-in", "Direct",
+			    "AI Receptionist", "Direct",
+			    "Property Portals", "Paid Listings",
+			    "Email Campaign", "Email",
+			    "Other"
+			)
+		lineageTag: 4a801d98-c5c8-4f00-9fc2-8da63e119943
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column IsConverted =
+			
+			IF(LeadsPipeline[Status] = "Lease Signed", TRUE, FALSE)
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: b1654685-8213-4b87-803b-90ae2d4c6a34
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition LeadsPipeline = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\LeadsPipeline.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"LeadID", type text}, {"LeadDate", type date}, {"Source", type text}, {"PropertyID", type text}, {"Status", type text}, {"SalesRep", type text}, {"ConversionDate", type date}, {"EstimatedMonthlyRent", Int64.Type}, {"LeadScore", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

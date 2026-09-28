@@ -1,0 +1,72 @@
+table Properties
+	lineageTag: b02823fe-89f5-4e8d-8161-8dbdcd82a897
+
+	column PropertyID
+		dataType: string
+		lineageTag: 67633bba-f776-45b9-a6a5-0212944e4cd7
+		summarizeBy: none
+		sourceColumn: PropertyID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PropertyName
+		dataType: string
+		lineageTag: a8475b2e-96cc-44b7-a15f-46ed92745846
+		summarizeBy: none
+		sourceColumn: PropertyName
+
+		annotation SummarizationSetBy = Automatic
+
+	column PropertyType
+		dataType: string
+		lineageTag: 73499085-813d-4af1-8503-70651caec880
+		summarizeBy: none
+		sourceColumn: PropertyType
+
+		annotation SummarizationSetBy = Automatic
+
+	column TotalUnits
+		dataType: int64
+		formatString: 0
+		lineageTag: 362f838e-3673-4e01-bf41-030971e166d0
+		summarizeBy: sum
+		sourceColumn: TotalUnits
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 0699fe6e-06c6-4ca1-b084-ac43f442f021
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column AcquisitionDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 9fa107d0-47ec-40ed-98d1-8b095b2e9a7e
+		summarizeBy: none
+		sourceColumn: AcquisitionDate
+
+		variation Variation
+			isDefault
+			relationship: 22e64e24-6c04-42ac-9245-08e51f144ca8
+			defaultHierarchy: LocalDateTable_ddce059b-e90d-4809-8f1a-b5d1a8bffbed.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition Properties = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\Properties.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"PropertyID", type text}, {"PropertyName", type text}, {"PropertyType", type text}, {"TotalUnits", Int64.Type}, {"Region", type text}, {"AcquisitionDate", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

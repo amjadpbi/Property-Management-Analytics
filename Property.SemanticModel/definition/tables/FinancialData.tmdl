@@ -1,0 +1,153 @@
+table FinancialData
+	lineageTag: c677b1e5-6efe-4535-973a-ad135ec48854
+
+	column Month
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 50c46116-7f79-45fc-a34b-23e493109ee4
+		summarizeBy: none
+		sourceColumn: Month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column PropertyID
+		dataType: string
+		lineageTag: 23e49634-a026-472d-b512-26666e9117d6
+		summarizeBy: none
+		sourceColumn: PropertyID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PotentialRevenue
+		dataType: int64
+		formatString: 0
+		lineageTag: e05b68d6-cf45-4450-a98e-edcc5af93e9f
+		summarizeBy: sum
+		sourceColumn: PotentialRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualRevenue
+		dataType: double
+		lineageTag: f32562bd-1383-4acc-8abd-37cbb2fa75d4
+		summarizeBy: sum
+		sourceColumn: ActualRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CollectedRevenue
+		dataType: double
+		lineageTag: a467e58a-a27c-4f8b-bc57-88554923150f
+		summarizeBy: sum
+		sourceColumn: CollectedRevenue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CollectionRate
+		dataType: double
+		lineageTag: 064d27f5-e638-42e4-9d6b-0577a5cb6c56
+		summarizeBy: sum
+		sourceColumn: CollectionRate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MaintenanceCost
+		dataType: double
+		lineageTag: fa2f1cbe-59e3-424e-b4c8-82d9f075ef53
+		summarizeBy: sum
+		sourceColumn: MaintenanceCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column UtilitiesCost
+		dataType: double
+		lineageTag: cc6f4c73-ab31-4f8d-bdc8-701ff8fb6f61
+		summarizeBy: sum
+		sourceColumn: UtilitiesCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column StaffCost
+		dataType: double
+		lineageTag: fabb0970-4118-4cd8-bf66-46c6813d9c61
+		summarizeBy: sum
+		sourceColumn: StaffCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MarketingCost
+		dataType: double
+		lineageTag: 5d7edaf9-f54e-4d50-aeac-35b5460473d1
+		summarizeBy: sum
+		sourceColumn: MarketingCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column OtherExpenses
+		dataType: double
+		lineageTag: 71e55f6d-e4fc-4935-9a8d-03250a484404
+		summarizeBy: sum
+		sourceColumn: OtherExpenses
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column TotalExpenses
+		dataType: double
+		lineageTag: 2cfbf20a-5a5a-43cf-b207-7194bcdccc34
+		summarizeBy: sum
+		sourceColumn: TotalExpenses
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NetOperatingIncome
+		dataType: double
+		lineageTag: 2afa914b-dc3c-42a4-99a2-c4f104597335
+		summarizeBy: sum
+		sourceColumn: NetOperatingIncome
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column RevenueTarget
+		dataType: double
+		lineageTag: b6c09ffe-8b4d-453d-8ec5-f22510a4ee1f
+		summarizeBy: sum
+		sourceColumn: RevenueTarget
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition FinancialData = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\FinancialData.csv"),[Delimiter=",", Columns=14, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Month", type date}, {"PropertyID", type text}, {"PotentialRevenue", Int64.Type}, {"ActualRevenue", type number}, {"CollectedRevenue", type number}, {"CollectionRate", type number}, {"MaintenanceCost", type number}, {"UtilitiesCost", type number}, {"StaffCost", type number}, {"MarketingCost", type number}, {"OtherExpenses", type number}, {"TotalExpenses", type number}, {"NetOperatingIncome", type number}, {"RevenueTarget", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

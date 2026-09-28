@@ -1,0 +1,36 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-PK
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["AIReceptionistCalls","DailyOccupancy","FinancialData","LeadsPipeline","LeaseData","MarketingCampaigns","Properties","MaintenanceTickets","_Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table AIReceptionistCalls
+ref table DateTableTemplate_e6f63a97-686c-4cf0-b4b8-efa1ff485036
+ref table LocalDateTable_843c8c72-aea9-4d26-9922-b951641af9ea
+ref table DailyOccupancy
+ref table FinancialData
+ref table LeadsPipeline
+ref table LocalDateTable_bb46c336-8276-4ddf-856e-73b0fefcc1de
+ref table LeaseData
+ref table LocalDateTable_74cde856-9ed3-4750-b359-d6486dcf3bf1
+ref table LocalDateTable_e19e89ee-faea-413d-9ccd-14ebb44895f4
+ref table MarketingCampaigns
+ref table Properties
+ref table LocalDateTable_ddce059b-e90d-4809-8f1a-b5d1a8bffbed
+ref table MaintenanceTickets
+ref table LocalDateTable_8880a41e-71eb-43e9-83e5-5ba1ab4c1d07
+ref table DateTable
+ref table LocalDateTable_2e143aa5-9bbc-4196-ba0e-e5d2737a3acb
+ref table _Measures
+ref table 'Expense Breakdown Table'
+
+ref cultureInfo en-US
+

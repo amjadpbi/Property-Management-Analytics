@@ -1,0 +1,71 @@
+table DailyOccupancy
+	lineageTag: 58bfe31a-dde5-48fd-971a-6979eb8a93d3
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 5f1eb563-559a-45ba-85d5-245005480287
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column PropertyID
+		dataType: string
+		lineageTag: 894e31ea-5320-43c5-aebc-3fa0539dfd9c
+		summarizeBy: none
+		sourceColumn: PropertyID
+
+		annotation SummarizationSetBy = Automatic
+
+	column TotalUnits
+		dataType: int64
+		formatString: 0
+		lineageTag: 9840a607-76cb-4c4b-92c5-dec548a2b7a9
+		summarizeBy: sum
+		sourceColumn: TotalUnits
+
+		annotation SummarizationSetBy = Automatic
+
+	column OccupiedUnits
+		dataType: int64
+		formatString: 0
+		lineageTag: f7e56ca4-6937-4a42-a053-729037030c3e
+		summarizeBy: sum
+		sourceColumn: OccupiedUnits
+
+		annotation SummarizationSetBy = Automatic
+
+	column VacantUnits
+		dataType: int64
+		formatString: 0
+		lineageTag: f403e03b-9910-4791-a420-9050db9c5976
+		summarizeBy: sum
+		sourceColumn: VacantUnits
+
+		annotation SummarizationSetBy = Automatic
+
+	column OccupancyRate
+		dataType: double
+		lineageTag: 0e841140-65cc-48ae-801a-a6e2291c3a9d
+		summarizeBy: sum
+		sourceColumn: OccupancyRate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition DailyOccupancy = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\DailyOccupancy.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Date", type date}, {"PropertyID", type text}, {"TotalUnits", Int64.Type}, {"OccupiedUnits", Int64.Type}, {"VacantUnits", Int64.Type}, {"OccupancyRate", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

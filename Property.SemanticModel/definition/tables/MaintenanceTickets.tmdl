@@ -1,0 +1,144 @@
+table MaintenanceTickets
+	lineageTag: eb04246d-c998-4ea7-9904-f13d7b9c914f
+
+	column TicketID
+		dataType: string
+		lineageTag: 1fb08ca8-2494-44f0-9ef1-90d1446b6847
+		summarizeBy: none
+		sourceColumn: TicketID
+
+		annotation SummarizationSetBy = Automatic
+
+	column OpenDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 7dd7ce72-121f-489e-88cc-12a9766b1564
+		summarizeBy: none
+		sourceColumn: OpenDate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column PropertyID
+		dataType: string
+		lineageTag: 9701340d-be36-42f4-81b0-62d57efc24d3
+		summarizeBy: none
+		sourceColumn: PropertyID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Category
+		dataType: string
+		lineageTag: 5daa3c01-8b8d-46c2-bd44-ac665bc98a15
+		summarizeBy: none
+		sourceColumn: Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column Priority
+		dataType: string
+		lineageTag: e2697c03-616f-4140-9aba-9a17753bbc0b
+		summarizeBy: none
+		sourceColumn: Priority
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 97f0ee9f-c8b1-41c7-ad5f-fb8135d7d82d
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column ClosedDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 82135f2d-ca11-4c62-81bd-e5af3ce45021
+		summarizeBy: none
+		sourceColumn: ClosedDate
+
+		variation Variation
+			isDefault
+			relationship: 33dfc024-0c96-4113-94a4-a5d4ee0d3ab7
+			defaultHierarchy: LocalDateTable_8880a41e-71eb-43e9-83e5-5ba1ab4c1d07.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column DaysToResolve
+		dataType: int64
+		formatString: 0
+		lineageTag: ef88dbfd-bae0-4fba-9d42-bc64ead06f76
+		summarizeBy: sum
+		sourceColumn: DaysToResolve
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cost
+		dataType: double
+		lineageTag: 29136687-6930-4f6f-9958-7bd73913107f
+		summarizeBy: sum
+		sourceColumn: Cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column IsOverdue = ```
+			
+			VAR SLADays = 
+			    SWITCH(
+			        MaintenanceTickets[Priority],
+			        "Emergency", 1,
+			        "High", 3,
+			        "Medium", 7,
+			        "Low", 14,
+			        14
+			    )
+			VAR DaysOpen = 
+			    IF(
+			        MaintenanceTickets[Status] = "Closed",
+			        MaintenanceTickets[DaysToResolve],
+			        DATEDIFF(MaintenanceTickets[OpenDate], TODAY(), DAY)
+			    )
+			RETURN
+			    IF(DaysOpen > SLADays, TRUE, FALSE)
+			```
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 9e325ddb-b2c0-46ac-87c7-dc94785657e9
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column TicketAgeCategory =
+			
+			VAR DaysOpen = MaintenanceTickets[DaysToResolve]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        DaysOpen <= 3, "0-3 days",
+			        DaysOpen <= 7, "4-7 days",
+			        DaysOpen <= 14, "8-14 days",
+			        DaysOpen <= 30, "15-30 days",
+			        "30+ days"
+			    )
+		lineageTag: 6eb4a783-0a37-42a9-a15c-f549c35f6e5a
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MaintenanceTickets = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("D:\Power BI\Upwork Project\MaintenanceTickets.csv"),[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"TicketID", type text}, {"OpenDate", type date}, {"PropertyID", type text}, {"Category", type text}, {"Priority", type text}, {"Status", type text}, {"ClosedDate", type date}, {"DaysToResolve", Int64.Type}, {"Cost", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
